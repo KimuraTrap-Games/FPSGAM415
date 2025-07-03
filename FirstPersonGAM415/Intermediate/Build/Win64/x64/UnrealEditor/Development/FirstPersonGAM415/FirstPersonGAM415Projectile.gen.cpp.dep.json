@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\scott\\desktop\\firstpersongam415\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpersongam415\\uht\\firstpersongam415projectile.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\scott\\desktop\\firstpersongam415\\intermediate\\build\\win64\\x64\\firstpersongam415editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\scott\\desktop\\firstpersongam415\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\firstpersongam415\\definitions.firstpersongam415.h",
+            "c:\\users\\scott\\desktop\\firstpersongam415\\source\\firstpersongam415\\firstpersongam415projectile.h",
+            "c:\\users\\scott\\desktop\\firstpersongam415\\intermediate\\build\\win64\\unrealeditor\\inc\\firstpersongam415\\uht\\firstpersongam415projectile.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
