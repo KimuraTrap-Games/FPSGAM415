@@ -252,6 +252,7 @@
     <None Include="..\..\FirstPersonGAM415.uproject"/>
     <None Include="..\..\Source\FirstPersonGAM415.Target.cs"/>
     <None Include="..\..\Source\FirstPersonGAM415Editor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>

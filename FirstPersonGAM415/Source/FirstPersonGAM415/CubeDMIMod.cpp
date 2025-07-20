@@ -12,14 +12,14 @@ ACubeDMIMod::ACubeDMIMod()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	boxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
-	cubeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("CubeMesh"));
+	boxComp = CreateDefaultSubobject<UBoxComponent>("Box Component");
+	cubeMesh = CreateDefaultSubobject<UStaticMeshComponent>("Cube Mesh");
 
 	// Set the root component to the box component
 	RootComponent = boxComp;
 
 	// Attach the cube mesh to the box component
-	cubeMesh->SetupAttachment(RootComponent);
+	cubeMesh->SetupAttachment(boxComp);
 }
 
 // Called when the game starts or when spawned
