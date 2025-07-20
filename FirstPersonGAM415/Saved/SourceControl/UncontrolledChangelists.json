@@ -5,15 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Materials/Basic_MAT.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/AJ/2XZ3RUK0LFB63FVNQE7P5R.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/8K/0OLPBOSZCPU1X7E3PCLCGF.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Materials/Basic_MAT_Inst.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/P8/0GJ9TLQE2YKOIFZ6YHG33H.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/OJ/9MHHMH0XHVZ04YDZ7NPC32.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Q2/TOKV0KMMZ7RIQ78R0UEDQL.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/3M/4ATOKH0ZGPCVBS85MPKAXK.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/W4/MXSOOLN47B2MJB5ZNQINHQ.uasset"
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Materials/MyCubeDMIMod.uasset",
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BT/65IM42CWZ1SC5WVCDUSONL.uasset"
 			]
 		}
 	]
