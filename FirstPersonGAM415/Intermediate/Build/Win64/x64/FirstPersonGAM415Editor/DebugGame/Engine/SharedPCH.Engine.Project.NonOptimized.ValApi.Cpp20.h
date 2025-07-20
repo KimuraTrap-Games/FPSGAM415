@@ -1,0 +1,3 @@
+// PCH for Runtime/Engine/Public/EngineSharedPCH.h
+#include "C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/FirstPersonGAM415Editor/DebugGame/Engine/SharedDefinitions.Engine.Project.NonOptimized.ValApi.Cpp20.h"
+#include "Runtime/Engine/Public/EngineSharedPCH.h"
