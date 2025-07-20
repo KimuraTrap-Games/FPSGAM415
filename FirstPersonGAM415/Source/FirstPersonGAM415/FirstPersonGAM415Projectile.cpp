@@ -7,16 +7,13 @@
 #include "Components/DecalComponent.h"
 #include "Kismet/GameplayStatics.h"
 
-
-
-
-AFirstPersonGAM415Projectile::AFirstPersonGAM415Projectile() 
+AFirstPersonGAM415Projectile::AFirstPersonGAM415Projectile()
 {
 	// Use a sphere as a simple collision representation
 	CollisionComp = CreateDefaultSubobject<USphereComponent>(TEXT("SphereComp"));
 	CollisionComp->InitSphereRadius(5.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
-	CollisionComp->OnComponentHit.AddDynamic(this, &AFirstPersonGAM415Projectile::OnHit);		// set up a notification for when this component hits something blocking
+	CollisionComp->OnComponentHit.AddDynamic(this, &AFirstPersonGAM415Projectile::OnHit); // set up a notification for when this component hits something blocking
 
 	// Players can't walk on it
 	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
@@ -51,21 +48,24 @@ void AFirstPersonGAM415Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* O
 		Destroy();
 	}
 
-	if (OtherActor != nullptr)
+	if (OtherActor != nullptr && baseMat != nullptr)
 	{
 		float ranNumX = UKismetMathLibrary::RandomFloatInRange(0.f, 1.f);
 		float ranNumY = UKismetMathLibrary::RandomFloatInRange(0.f, 1.f);
 		float ranNumZ = UKismetMathLibrary::RandomFloatInRange(0.f, 1.f);
-		float frameNum = UKismetMathLibrary::RandomFloatInRange(0.f,3.f);
+		float frameNum = UKismetMathLibrary::RandomFloatInRange(0.f, 3.f);
 
 		FVector4 randColor = FVector4(ranNumX, ranNumY, ranNumZ, 1.f);
 
 		auto Decal = UGameplayStatics::SpawnDecalAtLocation(GetWorld(), baseMat, FVector(UKismetMathLibrary::RandomFloatInRange(20.f, 40.f)), Hit.Location, Hit.Normal.Rotation(), 0.f);
-		auto MatInstance = Decal->CreateDynamicMaterialInstance();
-
-		MatInstance->SetVectorParameterValue("Color", randColor);
-		MatInstance->SetScalarParameterValue("Frame", frameNum);
-
-
+		if (Decal)
+		{
+			auto MatInstance = Decal->CreateDynamicMaterialInstance();
+			if (MatInstance)
+			{
+				MatInstance->SetVectorParameterValue("Color", randColor);
+				MatInstance->SetScalarParameterValue("Frame", frameNum);
+			}
+		}
 	}
 }
