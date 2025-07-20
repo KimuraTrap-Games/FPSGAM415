@@ -48,7 +48,7 @@ void AFirstPersonGAM415Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* O
 		Destroy();
 	}
 
-	if (OtherActor != nullptr && baseMat != nullptr)
+	if (OtherActor != nullptr)
 	{
 		float ranNumX = UKismetMathLibrary::RandomFloatInRange(0.f, 1.f);
 		float ranNumY = UKismetMathLibrary::RandomFloatInRange(0.f, 1.f);
@@ -58,14 +58,9 @@ void AFirstPersonGAM415Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* O
 		FVector4 randColor = FVector4(ranNumX, ranNumY, ranNumZ, 1.f);
 
 		auto Decal = UGameplayStatics::SpawnDecalAtLocation(GetWorld(), baseMat, FVector(UKismetMathLibrary::RandomFloatInRange(20.f, 40.f)), Hit.Location, Hit.Normal.Rotation(), 0.f);
-		if (Decal)
-		{
-			auto MatInstance = Decal->CreateDynamicMaterialInstance();
-			if (MatInstance)
-			{
-				MatInstance->SetVectorParameterValue("Color", randColor);
-				MatInstance->SetScalarParameterValue("Frame", frameNum);
-			}
-		}
+		auto MatInstance = Decal->CreateDynamicMaterialInstance();
+
+		MatInstance->SetVectorParameterValue("Color", randColor);
+		MatInstance->SetScalarParameterValue("Frame", frameNum);
 	}
 }
