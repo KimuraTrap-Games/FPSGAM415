@@ -6,9 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Materials/MyCubeDMIMod.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BT/65IM42CWZ1SC5WVCDUSONL.uasset",
 				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Materials/DMI1_MAT.uasset",
-				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/HK/2MB30Y8QR82ACJMWK2G1FC.uasset"
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/HK/2MB30Y8QR82ACJMWK2G1FC.uasset",
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Splatter/Splat1_MAT.uasset",
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Splatter/Splatter.uasset",
+				"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/BT/65IM42CWZ1SC5WVCDUSONL.uasset"
 			]
 		}
 	]
