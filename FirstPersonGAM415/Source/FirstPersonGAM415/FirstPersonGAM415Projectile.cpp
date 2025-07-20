@@ -40,11 +40,10 @@ AFirstPersonGAM415Projectile::AFirstPersonGAM415Projectile()
 
 void AFirstPersonGAM415Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	// Only add impulse and destroy projectile if we hit a physics
+	// Only add impulse and destroy projectile if we hit a physics object
 	if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr) && OtherComp->IsSimulatingPhysics())
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
-
 		Destroy();
 	}
 
@@ -57,10 +56,31 @@ void AFirstPersonGAM415Projectile::OnHit(UPrimitiveComponent* HitComp, AActor* O
 
 		FVector4 randColor = FVector4(ranNumX, ranNumY, ranNumZ, 1.f);
 
-		auto Decal = UGameplayStatics::SpawnDecalAtLocation(GetWorld(), baseMat, FVector(UKismetMathLibrary::RandomFloatInRange(20.f, 40.f)), Hit.Location, Hit.Normal.Rotation(), 0.f);
-		auto MatInstance = Decal->CreateDynamicMaterialInstance();
+		if (baseMat)
+		{
+			auto Decal = UGameplayStatics::SpawnDecalAtLocation(
+				GetWorld(),
+				baseMat,
+				FVector(UKismetMathLibrary::RandomFloatInRange(20.f, 40.f)),
+				Hit.Location,
+				Hit.Normal.Rotation(),
+				0.f // Lifespan 0 = forever; adjust as needed
+			);
 
-		MatInstance->SetVectorParameterValue("Color", randColor);
-		MatInstance->SetScalarParameterValue("Frame", frameNum);
+			if (Decal)
+			{
+				auto MatInstance = Decal->CreateDynamicMaterialInstance();
+				if (MatInstance)
+				{
+					MatInstance->SetVectorParameterValue("Color", randColor);
+					MatInstance->SetScalarParameterValue("Frame", frameNum);
+				}
+			}
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("baseMat is nullptr! Please assign a Material Instance in the Class Defaults."));
+		}
 	}
 }
+
