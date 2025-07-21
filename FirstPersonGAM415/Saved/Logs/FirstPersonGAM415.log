@@ -4352,3 +4352,296 @@ Sampler Limit: 32
 [2025.07.21-00.10.47:447][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
 [2025.07.21-00.10.47:454][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
 [2025.07.21-00.10.47:528][675]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 0 (Found bundle for host: 0x7252f8404e0 [serially])
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 5 (Closing connection)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.07.21-00.13.12:701][ 37]LogHttp: Warning: 00000725C0717000: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE9E8E93-4C9C-C24C-A7EF-CC9AA4E6A116%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 8 (  Trying 3.217.182.39:443...)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (3.217.182.39) port 443)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 11 (SSL reusing session ID)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 22 (Server certificate:)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.07.21-00.13.12:701][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 29 (using HTTP/1.1)
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 31 (Closing connection)
+[2025.07.21-00.13.12:702][ 38]LogHttp: Warning: 00000725C0717000: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.07.21-00.14.03:043][188]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 18089.246094
+[2025.07.21-00.14.04:044][191]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.07.21-00.14.04:044][192]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 18089.914062, Update Interval: 330.735199
+[2025.07.21-00.14.09:040][206]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.07.21-00.15.17:797][420]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.07.21-00.15.17:802][420]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.07.21-00.15.17:802][420]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.07.21-00.15.17:803][420]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.667 ms (total: 30.032 ms)
+[2025.07.21-00.15.17:803][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.07.21-00.15.17:825][420]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.07.21-00.15.17:828][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003157s)
+[2025.07.21-00.15.17:828][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003196s)
+[2025.07.21-00.15.17:843][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.07.21-00.15.17:845][420]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.07.21-00.15.17:847][420]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.07.21-00.15.17:847][420]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.07.21-00.15.17:847][420]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.07.21-00.15.17:847][420]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.07.21-00.15.17:848][420]LogWorldPartition: Display: WorldPartition initialize took 1.276 ms (total: 79.469 ms)
+[2025.07.21-00.15.17:848][420]LogPlayLevel: PIE: World Init took: (0.002606s)
+[2025.07.21-00.15.17:849][420]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.07.21-00.15.17:849][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.07.21-00.15.17:849][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.07.21-00.15.17:849][420]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.07.21-00.15.17:849][420]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.07.21-00.15.17:849][420]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.07.21-00.15.17:851][420]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.07.21-00.15.17:943][420]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.07.21-00.15.17:943][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.07.21-00.15.17:943][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.07.21-00.15.17:943][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.07.21-00.15.17:944][420]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.07.21-00.15.17:944][420]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.07.21-00.15.17:945][420]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.07.21-00.15.17:945][420]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.07.21-00.15.17:945][420]LogInit: FAudioDevice initialized with ID 18.
+[2025.07.21-00.15.17:945][420]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2025.07.21-00.15.17:945][420]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.07.21-00.15.17:948][420]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.07.21-00.15.17:951][420]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.07.20-19.15.17
+[2025.07.21-00.15.17:951][420]LogWorld: Bringing up level for play took: 0.001747
+[2025.07.21-00.15.17:953][420]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.07.21-00.15.17:955][420]PIE: Server logged in
+[2025.07.21-00.15.17:956][420]PIE: Play in editor total start time 0.155 seconds.
+[2025.07.21-00.17.04:775][201]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/DMI1_MAT.DMI1_MAT
+[2025.07.21-00.17.04:778][201]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.07.21-00.17.04:945][201]MaterialEditorStats: Texture samplers: 0/16
+[2025.07.21-00.17.04:945][201]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.07.21-00.17.04:945][201]MaterialEditorStats: Shader Count: 0
+[2025.07.21-00.17.04:945][201]MaterialEditorStats: Preshaders: 5  (6 param fetches, 10 ops)
+[2025.07.21-00.17.05:058][204]MaterialEditorStats: Base pass vertex shader: 341 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.07.21-00.17.05:058][204]MaterialEditorStats: Texture samplers: 2/16
+[2025.07.21-00.17.05:058][204]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.07.21-00.17.05:058][204]MaterialEditorStats: Shader Count: 5
+[2025.07.21-00.17.05:058][204]MaterialEditorStats: Preshaders: 5  (6 param fetches, 10 ops)
+[2025.07.21-00.17.09:540][724]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Materials/MyCubeDMIMod.MyCubeDMIMod
+[2025.07.21-00.17.09:540][724]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.07.21-00.17.11:216][894]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.17.11:216][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.17.11:230][894]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Materials/MyCubeDMIMod.MyCubeDMIMod
+[2025.07.21-00.17.11:230][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.07.21-00.17.11:475][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 0 (Found bundle for host: 0x7252f840750 [serially])
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.07.21-00.17.12:451][997]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 5 (Closing connection)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE9E8E93-4C9C-C24C-A7EF-CC9AA4E6A116%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 8 (  Trying 52.200.122.144:443...)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.200.122.144) port 443)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 11 (SSL reusing session ID)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 16 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 18 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 19 (ALPN: server accepted http/1.1)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 20 (Server certificate:)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 21 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 22 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 23 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 24 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 25 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 26 ( SSL certificate verify ok.)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 27 (using HTTP/1.1)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 28 (necessary data rewind wasn't possible)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 29 (Closing connection)
+[2025.07.21-00.17.12:451][998]LogHttp: Warning: 00000725C01F7700: libcurl info message cache 30 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.07.21-00.17.23:810][242]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Splatter/Projectile_Color.Projectile_Color
+[2025.07.21-00.17.23:813][242]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.07.21-00.17.24:004][242]MaterialEditorStats: Texture samplers: 0/16
+[2025.07.21-00.17.24:004][242]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.07.21-00.17.24:004][242]MaterialEditorStats: Shader Count: 0
+[2025.07.21-00.17.24:004][242]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Base pass shader: 170 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Texture samplers: 1/16
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Shader Count: 5
+[2025.07.21-00.17.24:055][244]MaterialEditorStats: Preshaders: 3  (3 param fetches, 6 ops)
+[2025.07.21-00.17.26:560][505]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Splatter/Splat1_MAT.Splat1_MAT
+[2025.07.21-00.17.26:575][505]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.07.21-00.17.26:772][505]MaterialEditorStats: Texture samplers: 0/16
+[2025.07.21-00.17.26:772][505]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2025.07.21-00.17.26:772][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.21-00.17.26:772][505]MaterialEditorStats: Shader Count: 0
+[2025.07.21-00.17.26:772][505]MaterialEditorStats: Preshaders: 7  (13 param fetches, 47 ops)
+[2025.07.21-00.17.26:839][507]MaterialEditorStats: Texture samplers: 1/16
+[2025.07.21-00.17.26:839][507]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2025.07.21-00.17.26:839][507]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.07.21-00.17.26:839][507]MaterialEditorStats: Shader Count: 3
+[2025.07.21-00.17.26:839][507]MaterialEditorStats: Preshaders: 7  (13 param fetches, 47 ops)
+[2025.07.21-00.18.44:451][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.07.21-00.18.44:480][626]LogStall: Shutdown...
+[2025.07.21-00.18.44:480][626]LogStall: Shutdown complete.
+[2025.07.21-00.18.44:584][626]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:584][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:620][626]LogSlate: Window 'FirstPersonGAM415 - Unreal Editor' being destroyed
+[2025.07.21-00.18.44:661][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.21-00.18.44:661][626]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.07.21-00.18.44:661][626]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:662][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:662][626]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.07.21-00.18.44:665][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.07.21-00.18.44:671][626]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:690][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.07.21-00.18.44:690][626]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.07.21-00.18.44:690][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.07.21-00.18.44:692][626]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.07.21-00.18.44:701][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.07.21-00.18.44:784][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.07.21-00.18.44:798][626]Cmd: QUIT_EDITOR
+[2025.07.21-00.18.44:798][627]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.07.21-00.18.44:802][627]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.07.21-00.18.44:803][627]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.07.21-00.18.44:803][627]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.07.21-00.18.44:804][627]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:804][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:804][627]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2025.07.21-00.18.44:808][627]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.07.21-00.18.44:808][627]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.07.21-00.18.44:826][627]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:826][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:829][627]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:829][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:831][627]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:831][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:834][627]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:834][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:836][627]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:836][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:837][627]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:837][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:839][627]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:839][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:841][627]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:841][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:843][627]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:843][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:845][627]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:845][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:846][627]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:846][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:848][627]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:848][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:850][627]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:850][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:851][627]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:851][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:853][627]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.07.21-00.18.44:853][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.07.21-00.18.44:854][627]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.07.21-00.18.44:860][627]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.07.21-00.18.44:860][627]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.07.21-00.18.44:860][627]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.07.21-00.18.44:995][627]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.07.21-00.18.44:995][627]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.07.21-00.18.44:995][627]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2025.07.21-00.18.44:995][627]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.07.21-00.18.44:995][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.07.21-00.18.44:997][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.07.21-00.18.45:010][627]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.07.21-00.18.45:010][627]LogAudio: Display: Audio Device Manager Shutdown
+[2025.07.21-00.18.45:011][627]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.07.21-00.18.45:012][627]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.07.21-00.18.45:012][627]LogExit: Preparing to exit.
+[2025.07.21-00.18.45:036][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:040][627]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.07.21-00.18.45:590][627]LogEditorDataStorage: Deinitializing
+[2025.07.21-00.18.45:705][627]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.07.21-00.18.45:716][627]LogExit: Editor shut down
+[2025.07.21-00.18.45:718][627]LogExit: Transaction tracking system shut down
+[2025.07.21-00.18.45:837][627]LogExit: Object subsystem successfully closed.
+[2025.07.21-00.18.45:940][627]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.07.21-00.18.46:879][627]LogMemoryProfiler: Shutdown
+[2025.07.21-00.18.46:879][627]LogNetworkingProfiler: Shutdown
+[2025.07.21-00.18.46:879][627]LoadingProfiler: Shutdown
+[2025.07.21-00.18.46:879][627]LogTimingProfiler: Shutdown
+[2025.07.21-00.18.47:209][627]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.07.21-00.18.47:209][627]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.07.21-00.18.47:209][627]LogNFORDenoise: NFORDenoise function shutting down
+[2025.07.21-00.18.47:209][627]RenderDocPlugin: plugin has been unloaded.
+[2025.07.21-00.18.47:226][627]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.07.21-00.18.47:226][627]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEE9E8E93-4C9C-C24C-A7EF-CC9AA4E6A116%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.07.21-00.18.47:784][627]LogEOSSDK: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.07.21-00.18.47:785][627]LogXGEController: Cleaning working directory: C:/Users/scott/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.07.21-00.18.47:787][627]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.07.21-00.18.47:787][627]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.07.21-00.18.47:787][627]LogPakFile: Destroying PakPlatformFile
+[2025.07.21-00.18.47:997][627]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.07.21-00.18.48:039][627]LogExit: Exiting.
+[2025.07.21-00.18.48:052][627]Log file closed, 07/20/25 19:18:48
