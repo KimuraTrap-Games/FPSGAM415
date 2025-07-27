@@ -36,6 +36,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 /NOIMPLIB
+/NATVIS:"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\Niagara.natvis"
 "C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\FirstPersonGAM415Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
 "C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FirstPersonGAM415\CubeDMIMod.gen.cpp.obj"
 "C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\FirstPersonGAM415\FirstPersonGAM415.init.gen.cpp.obj"
@@ -58,6 +59,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
+"..\Plugins\FX\Niagara\Intermediate\Build\Win64\x64\UnrealEditor\Development\Niagara\UnrealEditor-Niagara.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"

@@ -25,6 +25,7 @@ ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile_NoRegister();
+NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
 // End Cross Module References
 
@@ -168,6 +169,10 @@ struct Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_dmiMat_MetaData[] = {
 		{ "ModuleRelativePath", "FirstPersonGAM415Projectile.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_colorP_MetaData[] = {
+		{ "Category", "FirstPersonGAM415Projectile" },
+		{ "ModuleRelativePath", "FirstPersonGAM415Projectile.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CollisionComp;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
@@ -176,6 +181,7 @@ struct Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics
 	static const UECodeGen_Private::FStructPropertyParams NewProp_randColor;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_projMat;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_dmiMat;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_colorP;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -194,6 +200,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGA
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_randColor = { "randColor", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Projectile, randColor), Z_Construct_UScriptStruct_FLinearColor, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_randColor_MetaData), NewProp_randColor_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_projMat = { "projMat", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Projectile, projMat), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_projMat_MetaData), NewProp_projMat_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_dmiMat = { "dmiMat", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Projectile, dmiMat), Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_dmiMat_MetaData), NewProp_dmiMat_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_colorP = { "colorP", nullptr, (EPropertyFlags)0x0040000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Projectile, colorP), Z_Construct_UClass_UNiagaraSystem_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_colorP_MetaData), NewProp_colorP_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_CollisionComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_ProjectileMovement,
@@ -202,6 +209,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPer
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_randColor,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_projMat,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_dmiMat,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::NewProp_colorP,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::DependentSingletons[])() = {
@@ -244,10 +252,10 @@ AFirstPersonGAM415Projectile::~AFirstPersonGAM415Projectile() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonGAM415Projectile, AFirstPersonGAM415Projectile::StaticClass, TEXT("AFirstPersonGAM415Projectile"), &Z_Registration_Info_UClass_AFirstPersonGAM415Projectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Projectile), 39991947U) },
+		{ Z_Construct_UClass_AFirstPersonGAM415Projectile, AFirstPersonGAM415Projectile::StaticClass, TEXT("AFirstPersonGAM415Projectile"), &Z_Registration_Info_UClass_AFirstPersonGAM415Projectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Projectile), 3189585893U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_1457057988(TEXT("/Script/FirstPersonGAM415"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_2704618706(TEXT("/Script/FirstPersonGAM415"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
