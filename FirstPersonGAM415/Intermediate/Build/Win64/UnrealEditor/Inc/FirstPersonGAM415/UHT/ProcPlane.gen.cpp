@@ -11,7 +11,9 @@ void EmptyLinkFunctionForGeneratedCodeProcPlane() {}
 
 // Begin Cross Module References
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
+ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcPlane();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcPlane_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
@@ -81,11 +83,22 @@ struct Z_Construct_UClass_AProcPlane_Statics
 		{ "Category", "ProcPlane" },
 		{ "ModuleRelativePath", "ProcPlane.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_UV0_MetaData[] = {
+		{ "Category", "ProcPlane" },
+		{ "ModuleRelativePath", "ProcPlane.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PlaneMat_MetaData[] = {
+		{ "Category", "ProcPlane" },
+		{ "ModuleRelativePath", "ProcPlane.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_Vertices_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_Vertices;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_Triangles_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_Triangles;
+	static const UECodeGen_Private::FStructPropertyParams NewProp_UV0_Inner;
+	static const UECodeGen_Private::FArrayPropertyParams NewProp_UV0;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_PlaneMat;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
@@ -101,11 +114,17 @@ const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AProcPlane_Sta
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_Vertices = { "Vertices", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProcPlane, Vertices), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Vertices_MetaData), NewProp_Vertices_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_Triangles_Inner = { "Triangles", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_Triangles = { "Triangles", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProcPlane, Triangles), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Triangles_MetaData), NewProp_Triangles_MetaData) };
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_UV0_Inner = { "UV0", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_UV0 = { "UV0", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProcPlane, UV0), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_UV0_MetaData), NewProp_UV0_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProcPlane_Statics::NewProp_PlaneMat = { "PlaneMat", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AProcPlane, PlaneMat), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PlaneMat_MetaData), NewProp_PlaneMat_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProcPlane_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_Vertices_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_Vertices,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_Triangles_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_Triangles,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_UV0_Inner,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_UV0,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProcPlane_Statics::NewProp_PlaneMat,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AProcPlane_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AProcPlane_Statics::DependentSingletons[])() = {
@@ -148,10 +167,10 @@ AProcPlane::~AProcPlane() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProcPlane, AProcPlane::StaticClass, TEXT("AProcPlane"), &Z_Registration_Info_UClass_AProcPlane, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcPlane), 308319868U) },
+		{ Z_Construct_UClass_AProcPlane, AProcPlane::StaticClass, TEXT("AProcPlane"), &Z_Registration_Info_UClass_AProcPlane, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcPlane), 973133246U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_3040454761(TEXT("/Script/FirstPersonGAM415"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_2585562313(TEXT("/Script/FirstPersonGAM415"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

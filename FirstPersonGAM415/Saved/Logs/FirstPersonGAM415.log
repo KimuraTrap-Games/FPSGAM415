@@ -2043,3 +2043,1067 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.04-01.57.54:413][778]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.08.04-01.57.54:413][778]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
 [2025.08.04-01.57.54:435][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.08.04-01.59.38:792][207]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2052.148682
+[2025.08.04-01.59.39:792][210]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-01.59.39:792][210]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2052.815430, Update Interval: 313.511780
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 0 (Found bundle for host: 0x721d1890ed0 [serially])
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 8 (  Trying 52.203.46.115:443...)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.203.46.115) port 443)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.00.27:799][354]LogHttp: Warning: 000007224F266900: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.00.27:799][355]LogHttp: Warning: 000007224F266900: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.05.44:177][303]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2417.531250
+[2025.08.04-02.05.45:177][306]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.05.45:177][306]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2418.197754, Update Interval: 302.320007
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 0 (Found bundle for host: 0x721d1890cc0 [serially])
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 8 (  Trying 54.210.48.38:443...)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (54.210.48.38) port 443)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.07.27:862][614]LogHttp: Warning: 000007224F269A00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.07.27:862][615]LogHttp: Warning: 000007224F269A00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.08.04:701][819]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.08.10:793][543]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_5.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_5.exp
+[2025.08.04-02.08.10:958][548]LogClass: UPackage /Script/FirstPersonGAM415 Reload.
+[2025.08.04-02.08.10:960][548]LogClass: UClass ProcPlane Reload.
+[2025.08.04-02.08.10:961][548]LogClass: Could not find existing class ProcPlane in package /Script/FirstPersonGAM415 for reload, assuming new or modified class
+[2025.08.04-02.08.10:961][548]LogClass: Function CreateMesh is new or belongs to a modified class.
+[2025.08.04-02.08.10:979][548]Re-instancing ProcPlane after reload.
+[2025.08.04-02.08.10:987][548]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.08.10:988][548]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECD8102_2086773801 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.08.11:149][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.08.04-02.08.11:572][549]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 6 functions remapped
+[2025.08.04-02.08.11:572][549]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.08.04-02.08.23:743][321]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.08.04-02.08.23:748][321]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.08.04-02.08.23:757][322]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.08.04-02.08.26:776][685]LogContentBrowser: Attempting asset rename: NewMaterial -> PlaneMat
+[2025.08.04-02.08.26:778][685]LogContentBrowser: End creating deferred item NewMaterial
+[2025.08.04-02.08.29:318][970]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Procedural/PlaneMat.PlaneMat
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float4_RGBA.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_SinglePixel.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_XYZ.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Right.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png' error.
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float_Any.png
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Top.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float1.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopLeftBottom.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Bool.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RGB.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_TopRightBottom.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftTopRight.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Left.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_LeftBottomRight.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Images/Borders/Border_Bottom.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float3_RPY.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Float2.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaskToggle_16x.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/BaseToggle_16x.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/Texture.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/WhiteBall.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeDefaultLit.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/MaterialTypeUnlit.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Remove_16px.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerRemove.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/Duplicate_40x.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/EditorIcons/LayerAdd.png
+[2025.08.04-02.08.29:319][970]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png' error.
+[2025.08.04-02.08.29:319][970]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ValueTypes/None.png
+[2025.08.04-02.08.29:323][970]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.08.04-02.08.29:327][970]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.04-02.08.29:660][970]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.08.29:660][970]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.04-02.08.29:660][970]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.08.29:660][970]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.08.29:734][972]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.32:452][275]LogSlate: Window 'PlaneMat' being destroyed
+[2025.08.04-02.08.46:702][574]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.08.46:702][574]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.04-02.08.46:702][574]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.08.46:702][574]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.46:756][576]MaterialEditorStats: Base pass shader: 164 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.04-02.08.46:756][576]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.08.46:756][576]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.08.46:757][576]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.04-02.08.46:757][576]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.08.46:757][576]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.52:176][214]LogMaterial: Warning: [AssetLog] /Engine/Transient.PlaneMat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.08.04-02.08.52:178][214]MaterialEditorStats: Error: [SM6] (Node TextureSample) Texture Sample> Missing input texture
+[2025.08.04-02.08.56:236][300]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.04-02.08.57:456][438]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.08.57:456][438]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.08.57:456][438]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.08.57:456][438]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.08.57:456][438]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: Shader Count: 3
+[2025.08.04-02.08.58:673][580]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Shader Count: 4
+[2025.08.04-02.08.58:778][589]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.09.01:235][864]LogMaterialEditor: Applying material PlaneMat
+[2025.08.04-02.09.01:371][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.08.04-02.09.02:338][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.08.04-02.09.03:642][  6]LogMaterialEditor: Saving and Compiling material PlaneMat
+[2025.08.04-02.09.03:643][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.09.03:678][  6]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural/PlaneMat] ([1] browsable assets)...
+[2025.08.04-02.09.03:729][  6]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural/PlaneMat.PlaneMat]
+[2025.08.04-02.09.03:729][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/PlaneMat]
+[2025.08.04-02.09.03:729][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/PlaneMat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset" SILENT=true
+[2025.08.04-02.09.03:730][  6]LogSavePackage: Moving output files for package: /Game/Procedural/PlaneMat
+[2025.08.04-02.09.03:730][  6]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/PlaneMatBDB562BC42933B813325E494D9A68876.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset'
+[2025.08.04-02.09.03:738][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 95.231 ms (total: 701.472 ms)
+[2025.08.04-02.09.03:795][  6]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.09.03:795][  6]LogContentValidation: Enabled validators:
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.09.03:795][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.09.03:795][  6]AssetCheck: /Game/Procedural/PlaneMat Validating asset
+[2025.08.04-02.09.07:035][390]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.08.04-02.09.07:035][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.04-02.09.07:081][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 0 (Found bundle for host: 0x721d1890fc0 [serially])
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 8 (  Trying 3.237.59.188:443...)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (3.237.59.188) port 443)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.09.27:760][645]LogHttp: Warning: 0000072270194600: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.09.27:760][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.09.27:761][646]LogHttp: Warning: 0000072270194600: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Total job queries 275, among them cache hits 57 (20.73%), DDC hits 201 (73.09%), Duplicates 5 (1.82%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Tracking 213 distinct input hashes that result in 182 distinct outputs (85.45%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: RAM used: 129.89 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Shaders Compiled: 12
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Average time worker was idle: 2.78 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Job execution time: average 0.87 s, max 1.44 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Job life time (pending + execution): average 0.93 s, max 1.50
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Shader code size: average 8.373 KiB, min 4.883 KiB, max 12.753 KiB
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.30 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Average processing rate: 5.22 jobs/sec
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Total thread time: 3.518 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Total thread preprocess time: 2.982 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Percentage time preprocessing: 84.77%
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Effective parallelization: 1.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                             FDebugViewModePS - 17.16% of total time (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.64% of total time (compiled    2 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.22% of total time (compiled    1 times, average 0.54 sec, max 0.54 sec, min 0.54 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 12.63% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.83% of total time (compiled    2 times, average 0.19 sec, max 0.19 sec, min 0.19 sec)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: === Material stats ===
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Materials Translated:    153
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Material Translation Only: 0.04 s (49%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: Material Cache Hits: 24 (16%)
+[2025.08.04-02.10.33:456][805]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.11.36:873][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.08.04-02.11.36:878][995]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/XO/OCXEAGIPHNPD1QAP9ED93F_Auto2
+[2025.08.04-02.11.36:878][995]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/OCXEAGIPHNPD1QAP9ED93F_Auto2195116A5447C579A8F53DCAD32E826D1.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/XO/OCXEAGIPHNPD1QAP9ED93F_Auto2.uasset'
+[2025.08.04-02.11.36:878][995]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.023
+[2025.08.04-02.11.36:878][995]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.023
+[2025.08.04-02.11.39:176][  3]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.11.40:100][105]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2773.453125
+[2025.08.04-02.11.40:206][117]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.11.40:206][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2773.551514, Update Interval: 351.410248
+[2025.08.04-02.11.44:864][676]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_6.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_6.exp
+[2025.08.04-02.11.45:010][681]LogClass: UPackage /Script/FirstPersonGAM415 Reload.
+[2025.08.04-02.11.45:012][681]LogClass: UClass ProcPlane Reload.
+[2025.08.04-02.11.45:012][681]LogClass: Could not find existing class ProcPlane in package /Script/FirstPersonGAM415 for reload, assuming new or modified class
+[2025.08.04-02.11.45:012][681]LogClass: Function CreateMesh is new or belongs to a modified class.
+[2025.08.04-02.11.45:028][681]Re-instancing ProcPlane after reload.
+[2025.08.04-02.11.45:035][681]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.11.45:036][681]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECD8102_2086773801 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.11.45:207][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.08.04-02.11.45:645][682]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 6 functions remapped
+[2025.08.04-02.11.45:645][682]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.08.04-02.13.39:610][ 33]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.13.39:611][ 33]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECD8102_2086773801 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.13.39:711][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.08.04-02.13.40:563][126]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.13.40:612][126]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.13.40:612][126]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.13.40:612][126]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.13.40:614][126]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.13.40:615][126]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP18B1288E45F6A3C8F828469F3A19C48C.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.13.40:620][126]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.632 ms (total: 759.105 ms)
+[2025.08.04-02.13.40:662][126]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.13.40:662][126]LogContentValidation: Enabled validators:
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.13.40:662][126]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.13.40:662][126]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.14.19:458][248]Cmd: DELETE
+[2025.08.04-02.14.19:458][248]Cmd: ACTOR DELETE
+[2025.08.04-02.14.19:459][248]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.14.19:499][248]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.04-02.14.19:513][248]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2025.08.04-02.14.22:485][569]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.14.22:485][569]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.14.22:485][569]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.14.22:485][569]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_1
+[2025.08.04-02.14.22:485][569]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_1
+[2025.08.04-02.14.23:389][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.14.23:395][672]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.08.04-02.14.23:400][672]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.14.23:400][672]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.14.23:401][672]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2007974978 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.14.23:404][672]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2007974978
+[2025.08.04-02.14.23:404][672]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2007974978
+[2025.08.04-02.14.35:063][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.14.37:089][  2]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-02.14.37:111][  2]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.14.37:172][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.14.37:188][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.14.37:205][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.14.37:208][  2]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/BP/YOCCO7L7TIV4S3YI9LUTI0
+[2025.08.04-02.14.37:208][  2]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/YOCCO7L7TIV4S3YI9LUTI0B4232A8340D5CCD3C52DAEB9B53D4750.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/BP/YOCCO7L7TIV4S3YI9LUTI0.uasset'
+[2025.08.04-02.14.37:216][  2]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.529 ms (total: 863.634 ms)
+[2025.08.04-02.14.37:270][  2]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.14.37:270][  2]LogContentValidation: Enabled validators:
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.14.37:270][  2]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.14.37:270][  2]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 0 (Found bundle for host: 0x721d1890930 [serially])
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 8 (  Trying 3.223.37.132:443...)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (3.223.37.132) port 443)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.15.27:627][116]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.15.27:627][117]LogHttp: Warning: 000007223FAEAF00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.15.57:315][355]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.16.03:290][ 70]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_7.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_7.exp
+[2025.08.04-02.16.03:586][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.04-02.16.03:994][ 76]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 7 functions remapped
+[2025.08.04-02.16.03:995][ 76]LogLiveCoding: Display: Live coding succeeded
+[2025.08.04-02.16.08:193][479]Cmd: DELETE
+[2025.08.04-02.16.08:193][479]Cmd: ACTOR DELETE
+[2025.08.04-02.16.08:195][479]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.16.08:270][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.08.04-02.16.08:281][479]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2025.08.04-02.16.11:287][809]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.11:287][809]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.11:287][809]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.16.11:287][809]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_2
+[2025.08.04-02.16.11:287][809]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_2
+[2025.08.04-02.16.12:158][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.08.04-02.16.12:171][903]LogEditorActor: Deleted 0 Actors (0.052 secs)
+[2025.08.04-02.16.12:175][903]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.12:175][903]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.12:176][903]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2116749979 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.16.12:178][903]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2116749979
+[2025.08.04-02.16.12:178][903]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECE8102_2116749979
+[2025.08.04-02.16.32:373][657]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.16.32:373][657]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.16.32:373][657]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.16.32:373][657]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.16.32:373][657]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: Shader Count: 3
+[2025.08.04-02.16.32:961][724]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Shader Count: 4
+[2025.08.04-02.16.33:065][733]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Total job queries 282, among them cache hits 57 (20.21%), DDC hits 201 (71.28%), Duplicates 5 (1.77%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Tracking 220 distinct input hashes that result in 182 distinct outputs (82.73%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: RAM used: 129.89 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Shaders Compiled: 19
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Jobs assigned 19, completed 19 (100%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Average time worker was idle: 264.50 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.12 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Job execution time: average 0.77 s, max 1.44 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Job life time (pending + execution): average 0.82 s, max 1.50
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Shader code size: average 8.068 KiB, min 4.883 KiB, max 12.753 KiB
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.28 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Jobs were issued in 19 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Average processing rate: 5.80 jobs/sec
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Total thread time: 5.414 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Total thread preprocess time: 3.035 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Percentage time preprocessing: 56.06%
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Effective parallelization: 1.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.55 sec, max 0.56 sec, min 0.54 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 0.29 sec, max 0.31 sec, min 0.27 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.68% of total time (compiled    4 times, average 0.29 sec, max 0.31 sec, min 0.27 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 20.28% of total time (compiled    2 times, average 0.55 sec, max 0.56 sec, min 0.54 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.84% of total time (compiled    4 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.15% of total time (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.20% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: === Material stats ===
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Materials Translated:    156
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Material Translation Only: 0.04 s (49%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: Material Cache Hits: 24 (15%)
+[2025.08.04-02.16.33:463][773]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.16.36:771][149]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.16.36:771][149]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.16.36:771][149]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.16.36:771][149]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.16.36:771][149]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.16.36:818][151]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.16.38:267][320]LogMaterialEditor: Applying material PlaneMat
+[2025.08.04-02.16.38:327][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.04-02.16.38:513][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.16.39:158][391]LogMaterialEditor: Saving and Compiling material PlaneMat
+[2025.08.04-02.16.39:160][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.16.39:192][391]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural/PlaneMat] ([1] browsable assets)...
+[2025.08.04-02.16.39:245][391]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural/PlaneMat.PlaneMat]
+[2025.08.04-02.16.39:245][391]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/PlaneMat]
+[2025.08.04-02.16.39:245][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/PlaneMat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset" SILENT=true
+[2025.08.04-02.16.39:246][391]LogSavePackage: Moving output files for package: /Game/Procedural/PlaneMat
+[2025.08.04-02.16.39:247][391]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/PlaneMatE969F4A541862CF60A3BAF8A1297888E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset'
+[2025.08.04-02.16.39:252][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.096 ms (total: 955.731 ms)
+[2025.08.04-02.16.39:292][391]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.16.39:292][391]LogContentValidation: Enabled validators:
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.16.39:292][391]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.16.39:292][391]AssetCheck: /Game/Procedural/PlaneMat Validating asset
+[2025.08.04-02.16.43:783][925]Cmd: DELETE
+[2025.08.04-02.16.43:783][925]Cmd: ACTOR DELETE
+[2025.08.04-02.16.43:785][925]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.16.43:802][925]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.16.43:804][925]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.08.04-02.16.46:064][167]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.46:064][167]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.46:065][167]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.16.46:065][167]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_3
+[2025.08.04-02.16.46:066][167]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_3
+[2025.08.04-02.16.46:884][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.04-02.16.46:887][259]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.08.04-02.16.46:892][259]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.46:892][259]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.16.46:893][259]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1077725156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.16.46:893][259]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1077725156
+[2025.08.04-02.16.46:895][259]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1077725156
+[2025.08.04-02.17.18:306][  0]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.17.18:307][  0]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1077725156 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.17.18:348][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.04-02.17.19:054][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.17.19:104][ 78]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.17.19:104][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.17.19:104][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.17.19:107][ 78]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.17.19:107][ 78]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP19CEDF92467854E9BB7007BC5DB02167.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.17.19:112][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.655 ms (total: 1.01 sec)
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: Enabled validators:
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.17.19:154][ 78]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.17.19:154][ 78]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.17.21:324][332]Cmd: DELETE
+[2025.08.04-02.17.21:324][332]Cmd: ACTOR DELETE
+[2025.08.04-02.17.21:325][332]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.17.21:342][332]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.08.04-02.17.21:348][332]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2025.08.04-02.17.23:639][573]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.17.23:639][573]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.17.23:640][573]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.17.23:640][573]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_4
+[2025.08.04-02.17.23:640][573]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_4
+[2025.08.04-02.17.24:510][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.17.24:514][674]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.08.04-02.17.24:520][674]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.17.24:520][674]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.17.24:521][674]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1115353157 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.17.24:523][674]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1115353157
+[2025.08.04-02.17.24:524][674]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1115353157
+[2025.08.04-02.18.12:878][ 21]LogMaterialEditor: Saving and Compiling material PlaneMat
+[2025.08.04-02.18.12:880][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.18.12:926][ 21]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/PlaneMat] ([1] browsable assets)...
+[2025.08.04-02.18.12:926][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/PlaneMat]
+[2025.08.04-02.18.12:926][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/PlaneMat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset" SILENT=true
+[2025.08.04-02.18.12:928][ 21]LogSavePackage: Moving output files for package: /Game/Procedural/PlaneMat
+[2025.08.04-02.18.12:928][ 21]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/PlaneMatF2BB0AE745340C78D884BEBF5D05A0D2.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/PlaneMat.uasset'
+[2025.08.04-02.18.12:933][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 52.370 ms (total: 1.06 sec)
+[2025.08.04-02.18.12:991][ 21]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: Enabled validators:
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.18.12:992][ 21]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.18.12:992][ 21]AssetCheck: /Game/Procedural/PlaneMat Validating asset
+[2025.08.04-02.18.15:495][315]Cmd: DELETE
+[2025.08.04-02.18.15:495][315]Cmd: ACTOR DELETE
+[2025.08.04-02.18.15:497][315]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.18.15:514][315]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.04-02.18.15:517][315]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2025.08.04-02.18.16:969][485]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3170.311768
+[2025.08.04-02.18.17:061][496]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.18.17:061][496]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3170.394287, Update Interval: 330.423889
+[2025.08.04-02.18.27:138][666]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.18.27:166][666]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.04-02.18.28:088][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.18.28:137][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.18.28:137][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.18.28:137][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.18.28:140][772]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.18.28:140][772]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP27C92FAD4E2BB40AF9B82AACA589C340.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.18.28:146][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.944 ms (total: 1.12 sec)
+[2025.08.04-02.18.28:204][772]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.18.28:204][772]LogContentValidation: Enabled validators:
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.18.28:204][772]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.18.28:204][772]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.18.30:442][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.18.30:488][ 34]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.18.30:488][ 34]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.18.30:488][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.18.30:491][ 34]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.18.30:491][ 34]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP306D94C0491482E0AA39FC8531310584.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.18.30:497][ 34]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.620 ms (total: 1.17 sec)
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: Enabled validators:
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.18.30:554][ 34]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.18.30:554][ 34]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.18.38:879][  3]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.18.38:906][  3]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.08.04-02.18.39:505][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.18.39:546][ 72]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.18.39:546][ 72]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.18.39:546][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.18.39:548][ 72]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.18.39:548][ 72]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP39B0BB3D4448C4FB9B5017B4D0A4623E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.18.39:554][ 72]LogFileHelpers: InternalPromptForCheckoutAndSave took 49.256 ms (total: 1.22 sec)
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: Enabled validators:
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.18.39:611][ 72]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.18.39:611][ 72]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.18.46:889][917]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.18.46:915][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.04-02.18.47:747][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.18.47:801][  8]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.18.47:801][  8]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.18.47:801][  8]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.18.47:804][  8]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.18.47:804][  8]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP810527D34C09ED72F10B6B8D0BF09F42.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.18.47:810][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.893 ms (total: 1.28 sec)
+[2025.08.04-02.18.47:868][  8]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.18.47:868][  8]LogContentValidation: Enabled validators:
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.18.47:868][  8]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.18.47:868][  8]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.18.51:564][412]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.18.51:564][412]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.18.51:564][412]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.18.51:564][412]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_5
+[2025.08.04-02.18.51:564][412]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_5
+[2025.08.04-02.18.52:356][503]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.08.04-02.18.52:359][503]LogEditorActor: Deleted 0 Actors (0.021 secs)
+[2025.08.04-02.18.52:364][503]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.18.52:364][503]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.18.52:365][503]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1203197158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.18.52:368][503]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1203197158
+[2025.08.04-02.18.52:368][503]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1203197158
+[2025.08.04-02.19.44:941][743]LogContentBrowser: Attempting asset rename: PlaneMat -> Plane_Mat
+[2025.08.04-02.19.45:012][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.19.45:012][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.19.45:012][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.19.45:012][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.19.45:014][743]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.19.45:015][743]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BP91F15FC64F5B97914272F5BF822D5023.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.19.45:016][743]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/Plane_Mat] ([1] browsable assets)...
+[2025.08.04-02.19.45:016][743]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/Plane_Mat]
+[2025.08.04-02.19.45:016][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/Plane_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset" SILENT=true
+[2025.08.04-02.19.45:017][743]LogSavePackage: Moving output files for package: /Game/Procedural/Plane_Mat
+[2025.08.04-02.19.45:017][743]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Plane_Mat8AEA79144F304DE377552ABA93B069EB.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset'
+[2025.08.04-02.19.45:018][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.383 ms (total: 1.29 sec)
+[2025.08.04-02.19.45:046][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2025.08.04-02.19.45:065][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.04-02.19.45:082][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.08.04-02.19.45:143][743]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.04-02.19.45:143][743]LogContentValidation: Enabled validators:
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.19.45:143][743]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.19.45:143][743]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.19.45:143][743]AssetCheck: /Game/Procedural/Plane_Mat Validating asset
+[2025.08.04-02.19.47:465][ 14]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Procedural/Plane_Mat.Plane_Mat
+[2025.08.04-02.19.47:468][ 14]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.04-02.19.47:747][ 14]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.19.47:747][ 14]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.19.47:747][ 14]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.19.47:747][ 14]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.19.47:747][ 14]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.19.47:794][ 16]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.19.50:949][358]LogSlate: Window 'Plane_Mat' being destroyed
+[2025.08.04-02.19.54:701][790]LogActor: Warning: ProcPlane_BP_C /Engine/Transient.World_8:PersistentLevel.ProcPlane_BP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.19.54:701][790]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1203197158 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.19.54:758][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.04-02.19.55:419][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.19.55:467][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/ProcPlane_BP] ([2] browsable assets)...
+[2025.08.04-02.19.55:467][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/ProcPlane_BP]
+[2025.08.04-02.19.55:467][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/ProcPlane_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset" SILENT=true
+[2025.08.04-02.19.55:471][861]LogSavePackage: Moving output files for package: /Game/Procedural/ProcPlane_BP
+[2025.08.04-02.19.55:471][861]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ProcPlane_BPCEAD9E6943410FE293FF00880C10524E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/ProcPlane_BP.uasset'
+[2025.08.04-02.19.55:476][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 57.342 ms (total: 1.35 sec)
+[2025.08.04-02.19.55:538][861]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.19.55:538][861]LogContentValidation: Enabled validators:
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.19.55:538][861]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.19.55:538][861]AssetCheck: /Game/Procedural/ProcPlane_BP Validating asset
+[2025.08.04-02.19.57:959][145]Cmd: DELETE
+[2025.08.04-02.19.57:959][145]Cmd: ACTOR DELETE
+[2025.08.04-02.19.57:961][145]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.19.57:979][145]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.08.04-02.19.57:985][145]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2025.08.04-02.20.01:114][480]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.20.01:114][480]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.20.01:114][480]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.20.01:115][480]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_6
+[2025.08.04-02.20.01:115][480]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_6
+[2025.08.04-02.20.02:020][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.20.02:023][584]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2025.08.04-02.20.02:029][584]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.20.02:029][584]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.20.02:029][584]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1272862159 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.20.02:032][584]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1272862159
+[2025.08.04-02.20.02:032][584]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1272862159
+[2025.08.04-02.20.42:436][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.20.44:033][511]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-02.20.44:050][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.20.44:121][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.20.44:137][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.20.44:154][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.20.44:157][511]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/7I/ZT08FK61GIRIXUOXOPXJOH
+[2025.08.04-02.20.44:157][511]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/ZT08FK61GIRIXUOXOPXJOHD13332C541E35608A8C02DADA7634A7E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/7I/ZT08FK61GIRIXUOXOPXJOH.uasset'
+[2025.08.04-02.20.44:164][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.743 ms (total: 1.46 sec)
+[2025.08.04-02.20.44:218][511]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.20.44:218][511]LogContentValidation: Enabled validators:
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.20.44:218][511]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.20.44:218][511]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.20.47:276][837]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.20.53:246][553]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_8.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_8.exp
+[2025.08.04-02.20.53:542][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.08.04-02.20.53:946][560]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 7 functions remapped
+[2025.08.04-02.20.53:946][560]LogLiveCoding: Display: Live coding succeeded
+[2025.08.04-02.20.57:882][933]Cmd: DELETE
+[2025.08.04-02.20.57:883][933]Cmd: ACTOR DELETE
+[2025.08.04-02.20.57:884][933]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.20.57:953][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.08.04-02.20.57:966][933]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2025.08.04-02.21.00:465][199]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.21.00:465][199]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.21.00:465][199]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.21.00:466][199]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_7
+[2025.08.04-02.21.00:466][199]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_7
+[2025.08.04-02.21.01:208][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.08.04-02.21.01:219][281]LogEditorActor: Deleted 0 Actors (0.046 secs)
+[2025.08.04-02.21.01:225][281]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.21.01:225][281]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.21.01:226][281]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1332058160 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.21.01:227][281]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1332058160
+[2025.08.04-02.21.01:227][281]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1332058160
+[2025.08.04-02.21.05:561][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.08.04-02.21.07:101][775]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-02.21.07:124][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.21.07:185][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.08.04-02.21.07:201][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.08.04-02.21.07:215][775]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.08.04-02.21.07:218][775]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/5J/CIZD8HYRVOLOHBN72UEOOW
+[2025.08.04-02.21.07:218][775]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/CIZD8HYRVOLOHBN72UEOOW23A219164DF6201BB29EAA9D2FCFBAF8.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/5J/CIZD8HYRVOLOHBN72UEOOW.uasset'
+[2025.08.04-02.21.07:226][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.386 ms (total: 1.57 sec)
+[2025.08.04-02.21.07:268][775]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.21.07:268][775]LogContentValidation: Enabled validators:
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.21.07:268][775]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.21.07:270][775]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.21.46:164][640]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.08.04-02.21.46:169][640]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.023
+[2025.08.04-02.22.23:200][501]LogMaterial: Warning: [AssetLog] /Engine/Transient.Plane_Mat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.08.04-02.22.23:201][501]LogMaterial: Warning: [AssetLog] /Engine/Transient.Plane_Mat: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2025.08.04-02.22.23:202][501]MaterialEditorStats: Error: [SM6] (Node TextureSample) Texture Sample> Missing input texture
+[2025.08.04-02.22.25:098][712]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.22.25:098][712]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.25:098][712]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.25:098][712]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.22.25:098][712]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.22.25:148][714]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.27:098][944]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.22.27:098][944]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.27:099][944]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.27:099][944]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.22.27:099][944]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.27:144][946]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.22.27:144][946]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.27:144][946]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.27:144][946]MaterialEditorStats: Shader Count: 2
+[2025.08.04-02.22.27:144][946]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.27:158][947]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.22.27:159][947]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.27:996][ 47]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.22.27:996][ 47]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.27:996][ 47]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.27:996][ 47]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.22.27:996][ 47]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.28:041][ 49]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.22.28:042][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.28:042][ 49]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.28:042][ 49]MaterialEditorStats: Shader Count: 2
+[2025.08.04-02.22.28:042][ 49]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Shader Count: 5
+[2025.08.04-02.22.28:057][ 50]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.22.29:763][252]LogMaterialEditor: Applying material Plane_Mat
+[2025.08.04-02.22.29:821][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.04-02.22.30:000][252]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.08.04-02.22.30:873][343]LogMaterialEditor: Saving and Compiling material Plane_Mat
+[2025.08.04-02.22.30:875][343]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.22.30:929][343]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural/Plane_Mat] ([1] browsable assets)...
+[2025.08.04-02.22.30:979][343]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural/Plane_Mat.Plane_Mat]
+[2025.08.04-02.22.30:979][343]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/Plane_Mat]
+[2025.08.04-02.22.30:979][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/Plane_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset" SILENT=true
+[2025.08.04-02.22.30:980][343]LogSavePackage: Moving output files for package: /Game/Procedural/Plane_Mat
+[2025.08.04-02.22.30:981][343]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Plane_Mat1EA25754448E5A5B43A33486665444BB.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset'
+[2025.08.04-02.22.30:987][343]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.315 ms (total: 1.68 sec)
+[2025.08.04-02.22.31:030][343]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.22.31:030][343]LogContentValidation: Enabled validators:
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.22.31:030][343]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.22.31:030][343]AssetCheck: /Game/Procedural/Plane_Mat Validating asset
+[2025.08.04-02.22.33:760][661]Cmd: DELETE
+[2025.08.04-02.22.33:761][661]Cmd: ACTOR DELETE
+[2025.08.04-02.22.33:762][661]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.22.33:778][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.22.33:780][661]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.08.04-02.22.36:618][930]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.22.36:618][930]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.22.36:618][930]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.22.36:619][930]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_8
+[2025.08.04-02.22.36:619][930]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_8
+[2025.08.04-02.22.37:373][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.08.04-02.22.37:377][ 16]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.08.04-02.22.37:382][ 16]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.22.37:382][ 16]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.22.37:382][ 16]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1428215161 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.22.37:383][ 16]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1428215161
+[2025.08.04-02.22.37:384][ 16]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1428215161
+[2025.08.04-02.23.56:653][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.08.04-02.23.57:858][811]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-02.23.57:883][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.23.57:965][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.23.57:982][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.04-02.23.58:002][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.04-02.23.58:004][811]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/YA/DG1IS68F2JYHNRRGB8P7ZO
+[2025.08.04-02.23.58:004][811]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/DG1IS68F2JYHNRRGB8P7ZO8CD74D774D2F0B7BDB53E3BDFEBB0EB8.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/YA/DG1IS68F2JYHNRRGB8P7ZO.uasset'
+[2025.08.04-02.23.58:013][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.683 ms (total: 1.81 sec)
+[2025.08.04-02.23.58:078][811]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.23.58:078][811]LogContentValidation: Enabled validators:
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.23.58:078][811]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.23.58:078][811]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.23.59:741][  7]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.24.05:944][749]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_9.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_9.exp
+[2025.08.04-02.24.06:257][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.08.04-02.24.06:677][756]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 7 functions remapped
+[2025.08.04-02.24.06:677][756]LogLiveCoding: Display: Live coding succeeded
+[2025.08.04-02.24.27:457][942]Cmd: DELETE
+[2025.08.04-02.24.27:457][942]Cmd: ACTOR DELETE
+[2025.08.04-02.24.27:458][942]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.24.27:529][942]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.08.04-02.24.27:540][942]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2025.08.04-02.24.29:891][175]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.24.29:891][175]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.24.29:891][175]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.24.29:892][175]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_9
+[2025.08.04-02.24.29:892][175]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_9
+[2025.08.04-02.24.30:658][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2025.08.04-02.24.30:672][261]LogEditorActor: Deleted 0 Actors (0.050 secs)
+[2025.08.04-02.24.30:677][261]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.24.30:677][261]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.24.30:678][261]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1541510162 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.24.30:679][261]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1541510162
+[2025.08.04-02.24.30:680][261]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1541510162
+[2025.08.04-02.24.33:968][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.08.04-02.24.35:086][633]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-02.24.35:109][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.24.35:167][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.24.35:182][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.08.04-02.24.35:193][633]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.08.04-02.24.35:196][633]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/06/U43V4UFV36LEF8U5VOT4IQ
+[2025.08.04-02.24.35:196][633]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/U43V4UFV36LEF8U5VOT4IQ8A5CAE994D35BAAE5B0A9C906B91554A.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/06/U43V4UFV36LEF8U5VOT4IQ.uasset'
+[2025.08.04-02.24.35:204][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 94.340 ms (total: 1.90 sec)
+[2025.08.04-02.24.35:252][633]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.24.35:252][633]LogContentValidation: Enabled validators:
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.24.35:252][633]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.24.35:252][633]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.24.46:291][940]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3559.626709
+[2025.08.04-02.24.47:291][943]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.24.47:291][943]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3560.293457, Update Interval: 317.443146
