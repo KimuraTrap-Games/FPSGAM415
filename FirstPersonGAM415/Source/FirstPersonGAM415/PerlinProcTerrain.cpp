@@ -42,7 +42,7 @@ void APerlinProcTerrain::AlterMesh(FVector impactPoint)
 
 		if (FVector(Vertices[i] - tempVector).Size() < radius)
 		{
-			Vertices[i] - Vertices[i] - Depth;
+			Vertices[i] = Vertices[i] - Depth;
 			ProcMesh->UpdateMeshSection(sectionID, Vertices, Normals, UV0, UpVertexColors, TArray<FProcMeshTangent>());
 		}
 		{
@@ -57,7 +57,7 @@ void APerlinProcTerrain::CreateVertices()
 	{
 		for (int y = 0; y < YSize; y++)
 		{
-			float z = FMath::PerlinNoise2D(FVector2D(x * NoiseScale + 0.1, y = NoiseScale + 0.1)) * ZMultiplier;
+			float z = FMath::PerlinNoise2D(FVector2D(x * NoiseScale + 0.1, y * NoiseScale + 0.1)) * ZMultiplier;
 			GEngine->AddOnScreenDebugMessage(-1, 999.0f, FColor::Yellow, FString::Printf(TEXT("Z: %f"), z));
 			Vertices.Add(FVector(x * Scale, y * Scale, z));
 			UV0.Add(FVector2D(x * UVScale, y * UVScale));
