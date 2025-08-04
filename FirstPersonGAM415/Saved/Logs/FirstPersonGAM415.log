@@ -3107,3 +3107,716 @@ Sampler Limit: 32
 [2025.08.04-02.24.46:291][940]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3559.626709
 [2025.08.04-02.24.47:291][943]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.04-02.24.47:291][943]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3560.293457, Update Interval: 317.443146
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 0 (Found bundle for host: 0x721d1890a80 [serially])
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 8 (  Trying 35.169.138.212:443...)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (35.169.138.212) port 443)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.25.27:630][ 64]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 16 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 18 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 19 (ALPN: server accepted http/1.1)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 20 (Server certificate:)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 21 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 22 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 23 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 24 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 25 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 26 ( SSL certificate verify ok.)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 27 (using HTTP/1.1)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 28 (necessary data rewind wasn't possible)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 29 (Closing connection)
+[2025.08.04-02.25.27:630][ 65]LogHttp: Warning: 000007224E6C5B00: libcurl info message cache 30 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.25.53:966][400]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.04-02.25.53:966][400]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.25.53:966][400]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.25.53:966][400]MaterialEditorStats: Shader Count: 0
+[2025.08.04-02.25.53:966][400]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: Shader Count: 3
+[2025.08.04-02.25.54:571][469]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Base pass shader: 169 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Shader Count: 4
+[2025.08.04-02.25.54:666][477]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.04-02.25.57:475][802]LogMaterialEditor: Applying material Plane_Mat
+[2025.08.04-02.25.57:535][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.08.04-02.25.58:476][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.25.59:064][865]LogMaterialEditor: Saving and Compiling material Plane_Mat
+[2025.08.04-02.25.59:065][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.25.59:113][865]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural/Plane_Mat] ([1] browsable assets)...
+[2025.08.04-02.25.59:162][865]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural/Plane_Mat.Plane_Mat]
+[2025.08.04-02.25.59:162][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/Plane_Mat]
+[2025.08.04-02.25.59:162][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/Plane_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset" SILENT=true
+[2025.08.04-02.25.59:163][865]LogSavePackage: Moving output files for package: /Game/Procedural/Plane_Mat
+[2025.08.04-02.25.59:165][865]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Plane_MatE7DC0B8642D90176A7F8899F4EBB44F1.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/Plane_Mat.uasset'
+[2025.08.04-02.25.59:170][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.631 ms (total: 2.01 sec)
+[2025.08.04-02.25.59:214][865]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.25.59:214][865]LogContentValidation: Enabled validators:
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.25.59:214][865]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.25.59:214][865]AssetCheck: /Game/Procedural/Plane_Mat Validating asset
+[2025.08.04-02.26.02:386][241]Cmd: DELETE
+[2025.08.04-02.26.02:386][241]Cmd: ACTOR DELETE
+[2025.08.04-02.26.02:387][241]LogEditorActor: Deleted Actor: ProcPlane_BP_C
+[2025.08.04-02.26.02:404][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.08.04-02.26.02:406][241]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2025.08.04-02.26.04:960][513]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.26.04:960][513]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.26.04:961][513]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.26.04:961][513]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_10
+[2025.08.04-02.26.04:962][513]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_10
+[2025.08.04-02.26.05:671][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.26.05:676][594]LogEditorActor: Deleted 0 Actors (0.019 secs)
+[2025.08.04-02.26.05:681][594]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.26.05:681][594]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/ProcPlane_BP.ProcPlane_BP_C
+[2025.08.04-02.26.05:681][594]LogActor: Warning: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1636514163 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2025.08.04-02.26.05:683][594]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1636514163
+[2025.08.04-02.26.05:683][594]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/ProcPlane_BP.ProcPlane_BP as actor: ProcPlane_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.ProcPlane_BP_C_UAID_107C6121B4FECF8102_1636514163
+[2025.08.04-02.26.11:707][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-02.26.11:774][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-02.26.11:790][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.08.04-02.26.11:807][306]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.08.04-02.26.11:810][306]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/08/MSZROK232KGIO17DG637C5
+[2025.08.04-02.26.11:810][306]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/MSZROK232KGIO17DG637C5EB5F7DA2431EB422656B17A09478C9A7.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/08/MSZROK232KGIO17DG637C5.uasset'
+[2025.08.04-02.26.11:816][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.759 ms (total: 2.11 sec)
+[2025.08.04-02.26.11:872][306]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-02.26.11:872][306]LogContentValidation: Enabled validators:
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-02.26.11:872][306]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-02.26.11:873][306]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-02.26.51:090][843]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/FirstPersonGAM415.uproject" -game -rocket -progress
+[2025.08.04-02.26.51:194][843]Using bundled DotNet SDK version: 8.0.300
+[2025.08.04-02.26.51:194][843]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/FirstPersonGAM415.uproject" -game -rocket -progress
+[2025.08.04-02.26.51:395][843]Log file: C:\Users\scott\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.08.04-02.26.51:596][843]
+[2025.08.04-02.26.51:596][843]Generating VisualStudio2022 project files:
+[2025.08.04-02.26.51:596][843]Discovering modules, targets and source code for project...
+[2025.08.04-02.26.53:705][843]Binding IntelliSense data...
+[2025.08.04-02.26.56:823][843]Binding IntelliSense data... 100%
+[2025.08.04-02.26.56:823][843]Writing project files...
+[2025.08.04-02.26.58:533][843]Writing project files... 100%
+[2025.08.04-02.26.58:533][843]
+[2025.08.04-02.26.58:533][843]Generating QueryTargets data for editor...
+[2025.08.04-02.26.58:533][843]Total execution time: 7.34 seconds
+[2025.08.04-02.26.59:046][843]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-02.26.59:062][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:065][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:065][843]LogSlate: Window 'Add C++ Class' being destroyed
+[2025.08.04-02.26.59:073][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:076][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:103][844]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:107][844]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:435][845]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:438][845]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:768][846]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.26.59:772][846]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:102][847]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:105][847]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:435][848]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:438][848]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:770][849]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.00:774][849]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:103][850]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:105][850]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:437][851]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:442][851]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:770][852]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.01:773][852]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:104][853]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:108][853]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:437][854]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:440][854]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:771][855]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.02:774][855]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:104][856]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:107][856]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:438][857]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:441][857]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:770][858]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.03:773][858]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:103][859]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:107][859]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:438][860]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:442][860]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:771][861]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.04:774][861]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:104][862]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:108][862]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:439][863]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:441][863]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:772][864]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.05:775][864]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.06:105][865]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.06:109][865]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.06:221][866]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_10.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_10.exp
+[2025.08.04-02.27.06:438][866]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.06:441][866]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.06:545][866]LogClass: UPackage /Script/FirstPersonGAM415 Reload.
+[2025.08.04-02.27.06:555][866]LogClass: Could not find existing class ProcMeshFromStatic in package /Script/FirstPersonGAM415 for reload, assuming new or modified class
+[2025.08.04-02.27.06:689][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.04-02.27.07:099][867]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:101][867]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:105][867]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 7 classes unchanged, 7 functions remapped
+[2025.08.04-02.27.07:105][867]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.08.04-02.27.07:128][868]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:130][868]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:461][869]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:464][869]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:794][870]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.07:797][870]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:127][871]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:130][871]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:462][872]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:464][872]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:795][873]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.08:797][873]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:128][874]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:131][874]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:461][875]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:464][875]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:795][876]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.09:798][876]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:128][877]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:131][877]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:461][878]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:464][878]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:795][879]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.10:797][879]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.11:129][880]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.11:132][880]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.11:462][881]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.11:465][881]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.08.04-02.27.14:809][891]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Total job queries 386, among them cache hits 149 (38.60%), DDC hits 201 (52.07%), Duplicates 5 (1.30%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Tracking 232 distinct input hashes that result in 189 distinct outputs (81.47%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: RAM used: 132.44 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Shaders Compiled: 31
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Jobs assigned 31, completed 31 (100%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Average time worker was idle: 296.49 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.12 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Job execution time: average 0.67 s, max 1.44 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Job life time (pending + execution): average 0.72 s, max 1.50
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Shader code size: average 8.171 KiB, min 4.824 KiB, max 12.753 KiB
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.00 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Jobs were issued in 31 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Average processing rate: 6.19 jobs/sec
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Total thread time: 8.926 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Total thread preprocess time: 3.848 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Percentage time preprocessing: 43.11%
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Effective parallelization: 1.78 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.54 sec, max 0.56 sec, min 0.54 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 0.45 sec, max 0.46 sec, min 0.44 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 0.29 sec, max 0.31 sec, min 0.27 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.58% of total time (compiled    6 times, average 0.29 sec, max 0.31 sec, min 0.27 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 18.32% of total time (compiled    3 times, average 0.54 sec, max 0.56 sec, min 0.54 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                             FDebugViewModePS - 13.64% of total time (compiled    2 times, average 0.61 sec, max 0.61 sec, min 0.60 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.48% of total time (compiled    6 times, average 0.19 sec, max 0.19 sec, min 0.18 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 10.10% of total time (compiled    2 times, average 0.45 sec, max 0.46 sec, min 0.44 sec)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: === Material stats ===
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Materials Translated:    181
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Material Total Translate Time: 0.08 s
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Material Translation Only: 0.04 s (49%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: Material Cache Hits: 24 (13%)
+[2025.08.04-02.28.33:815][127]LogShaderCompilers: Display: ================================================
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 0 (Found bundle for host: 0x721d1890b40 [serially])
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 8 (  Trying 52.22.255.78:443...)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.22.255.78) port 443)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.30.27:840][469]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.30.27:840][470]LogHttp: Warning: 000007224DEA7700: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.31.01:845][571]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3935.175293
+[2025.08.04-02.31.02:845][574]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.31.02:845][574]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3935.841553, Update Interval: 351.419403
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 0 (Found bundle for host: 0x721d1890570 [serially])
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 8 (  Trying 52.200.117.64:443...)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.200.117.64) port 443)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.34.27:889][189]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.34.27:889][190]LogHttp: Warning: 000007224DEA8500: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.37.43:583][776]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4336.922852
+[2025.08.04-02.37.44:582][779]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.37.44:582][779]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4337.589844, Update Interval: 343.933838
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 0 (Found bundle for host: 0x721d1890270 [serially])
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 8 (  Trying 34.194.144.135:443...)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (34.194.144.135) port 443)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.39.27:932][ 89]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.39.27:932][ 90]LogHttp: Warning: 000007224B7AC400: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.44.14:307][948]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4727.680664
+[2025.08.04-02.44.15:307][951]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.44.15:307][951]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4728.347168, Update Interval: 303.722656
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 0 (Found bundle for host: 0x721d1890270 [serially])
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 8 (  Trying 54.81.107.227:443...)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (54.81.107.227) port 443)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.44.27:642][988]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.44.27:642][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.44.27:643][989]LogHttp: Warning: 00000722507DCB00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 0 (Found bundle for host: 0x721d18903f0 [serially])
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 8 (  Trying 98.80.158.104:443...)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (98.80.158.104) port 443)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.47.27:676][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.47.27:677][528]LogHttp: Warning: 00000722507DC400: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.47.27:677][529]LogHttp: Warning: 00000722507DC400: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.50.02:032][991]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5075.434082
+[2025.08.04-02.50.03:031][994]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.50.03:031][994]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5076.100586, Update Interval: 304.660187
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 0 (Found bundle for host: 0x721d1890330 [serially])
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 8 (  Trying 54.85.208.153:443...)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (54.85.208.153) port 443)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.52.27:726][428]LogHttp: Warning: 00000722507DA100: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 16 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 18 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 19 (ALPN: server accepted http/1.1)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 20 (Server certificate:)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 21 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 22 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 23 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 24 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 25 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 26 ( SSL certificate verify ok.)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 27 (using HTTP/1.1)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 28 (necessary data rewind wasn't possible)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 29 (Closing connection)
+[2025.08.04-02.52.27:726][429]LogHttp: Warning: 00000722507DA100: libcurl info message cache 30 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 0 (Found bundle for host: 0x721d1890ae0 [serially])
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 5 (Closing connection)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 8 (  Trying 18.235.123.94:443...)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (18.235.123.94) port 443)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-02.55.27:768][968]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 31 (Closing connection)
+[2025.08.04-02.55.27:768][969]LogHttp: Warning: 00000722507D9A00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-02.55.52:772][ 43]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5426.205566
+[2025.08.04-02.55.53:771][ 46]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-02.55.53:772][ 46]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5426.872070, Update Interval: 323.645142
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 0 (Found bundle for host: 0x721d1890ab0 [serially])
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 5 (Closing connection)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9285AC21-442E-B164-89F5-6C9CD569359A%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 8 (  Trying 52.203.46.115:443...)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.203.46.115) port 443)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.04-03.01.27:827][ 48]LogHttp: Warning: 00000722507D7000: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 22 (Server certificate:)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 31 (Closing connection)
+[2025.08.04-03.01.27:827][ 49]LogHttp: Warning: 00000722507D7000: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.04-03.01.46:431][247]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.04-03.01.52:346][950]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5785.803223
+[2025.08.04-03.01.52:422][959]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-03.01.52:422][959]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5785.870605, Update Interval: 336.576447
+[2025.08.04-03.01.53:991][148]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_11.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_11.exp
+[2025.08.04-03.01.54:151][153]LogClass: UPackage /Script/FirstPersonGAM415 Reload.
+[2025.08.04-03.01.54:153][153]LogClass: UClass ProcMeshFromStatic Reload.
+[2025.08.04-03.01.54:165][153]LogClass: Could not find existing class ProcMeshFromStatic in package /Script/FirstPersonGAM415 for reload, assuming new or modified class
+[2025.08.04-03.01.54:183][153]Re-instancing ProcMeshFromStatic after reload.
+[2025.08.04-03.01.54:451][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.08.04-03.01.54:870][154]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 7 classes unchanged, 7 functions remapped
+[2025.08.04-03.01.54:870][154]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.08.04-03.02.01:886][480]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.08.04-03.02.11:266][235]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic
+[2025.08.04-03.02.11:266][235]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.04-03.02.11:339][235]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2025.08.04-03.02.18:035][  1]LogSlate: Window 'Content Browser' being destroyed
+[2025.08.04-03.02.44:620][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.08.04-03.02.44:622][433]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.116
+[2025.08.04-03.02.44:622][433]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/MyProcMeshFromStatic] ([2] browsable assets)...
+[2025.08.04-03.02.44:623][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/MyProcMeshFromStatic]
+[2025.08.04-03.02.44:624][433]LogWorldPartition: Can't find class descriptor '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C' for saving '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C'
+[2025.08.04-03.02.44:624][433]LogWorldPartition: Can't find class descriptor '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C' for saving '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C'
+[2025.08.04-03.02.44:624][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Procedural/MyProcMeshFromStatic_Auto3
+[2025.08.04-03.02.44:624][433]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/MyProcMeshFromStatic_Auto3DA0938D8477B8775D23A44AA653FE359.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Autosaves/Game/Procedural/MyProcMeshFromStatic_Auto3.uasset'
+[2025.08.04-03.02.44:626][433]LogFileHelpers: Auto-saving content packages took 0.003
+[2025.08.04-03.02.58:439][732]LogStreaming: Display: FlushAsyncLoading(556): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.04-03.03.08:259][864]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD.Box_C9E7F3DD
+[2025.08.04-03.03.08:260][864]LogStaticMesh: Display: Building static mesh Box_C9E7F3DD (Required Memory Estimate: 0.027864 MB)...
+[2025.08.04-03.03.08:261][864]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD.Box_C9E7F3DD as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_107C6121B4FED18102_1711608516
+[2025.08.04-03.03.08:264][864]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD.Box_C9E7F3DD
+[2025.08.04-03.03.27:164][ 79]Cmd: DELETE
+[2025.08.04-03.03.27:164][ 79]Cmd: ACTOR DELETE
+[2025.08.04-03.03.27:165][ 79]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.04-03.03.27:219][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2025.08.04-03.03.27:233][ 79]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2025.08.04-03.04.26:434][ 26]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.08.04-03.04.26:464][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.04-03.04.27:516][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-03.04.27:571][138]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Procedural/MyProcMeshFromStatic] ([2] browsable assets)...
+[2025.08.04-03.04.27:571][138]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural/MyProcMeshFromStatic]
+[2025.08.04-03.04.27:571][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Procedural/MyProcMeshFromStatic" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/MyProcMeshFromStatic.uasset" SILENT=true
+[2025.08.04-03.04.27:573][138]LogWorldPartition: Can't find class descriptor '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C' for saving '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C'
+[2025.08.04-03.04.27:573][138]LogWorldPartition: Can't find class descriptor '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C' for saving '/Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C'
+[2025.08.04-03.04.27:574][138]LogSavePackage: Moving output files for package: /Game/Procedural/MyProcMeshFromStatic
+[2025.08.04-03.04.27:574][138]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/MyProcMeshFromStatic39EA329C4001BB9F200B08AD629BD3B1.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Procedural/MyProcMeshFromStatic.uasset'
+[2025.08.04-03.04.27:584][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 67.810 ms (total: 2.18 sec)
+[2025.08.04-03.04.27:639][138]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.04-03.04.27:639][138]LogContentValidation: Enabled validators:
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-03.04.27:639][138]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-03.04.27:639][138]AssetCheck: /Game/Procedural/MyProcMeshFromStatic Validating asset
+[2025.08.04-03.05.18:941][403]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C
+[2025.08.04-03.05.18:941][403]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C
+[2025.08.04-03.05.18:941][403]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.08.04-03.05.18:941][403]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic as actor: MyProcMeshFromStatic_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MyProcMeshFromStatic_C_0
+[2025.08.04-03.05.18:941][403]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic as actor: MyProcMeshFromStatic_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MyProcMeshFromStatic_C_0
+[2025.08.04-03.05.20:473][582]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.04-03.05.20:479][582]LogEditorActor: Deleted 0 Actors (0.024 secs)
+[2025.08.04-03.05.20:484][582]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C
+[2025.08.04-03.05.20:484][582]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic_C
+[2025.08.04-03.05.20:485][582]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.08.04-03.05.20:488][582]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic as actor: MyProcMeshFromStatic_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MyProcMeshFromStatic_C_UAID_107C6121B4FED18102_1843833517
+[2025.08.04-03.05.20:488][582]LogActorFactory: Actor Factory spawned Blueprint /Game/Procedural/MyProcMeshFromStatic.MyProcMeshFromStatic as actor: MyProcMeshFromStatic_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MyProcMeshFromStatic_C_UAID_107C6121B4FED18102_1843833517
+[2025.08.04-03.05.23:063][869]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.04-03.05.24:489][869]LogSlate: Window 'Save Content' being destroyed
+[2025.08.04-03.05.24:513][869]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.04-03.05.24:570][869]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD] ([1] browsable assets)...
+[2025.08.04-03.05.24:621][869]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD.Box_C9E7F3DD]
+[2025.08.04-03.05.24:621][869]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD]
+[2025.08.04-03.05.24:624][869]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD
+[2025.08.04-03.05.24:624][869]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Box_C9E7F3DD9E35E68B4A06372B0EF68F8C738A10A6.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD.uasset'
+[2025.08.04-03.05.24:629][869]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/EF/K9MH3W0JZ281QI45CPWBGM
+[2025.08.04-03.05.24:629][869]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/K9MH3W0JZ281QI45CPWBGME255A8A644623203708C328319B3FD96.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/EF/K9MH3W0JZ281QI45CPWBGM.uasset'
+[2025.08.04-03.05.24:636][869]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.338 ms (total: 2.31 sec)
+[2025.08.04-03.05.24:687][869]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.04-03.05.24:687][869]LogContentValidation: Enabled validators:
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.04-03.05.24:687][869]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.04-03.05.24:687][869]AssetCheck: /Game/FirstPerson/Maps/_GENERATED/scott/Box_C9E7F3DD Validating asset
+[2025.08.04-03.05.24:689][869]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.04-03.07.57:828][659]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.04-03.08.28:606][318]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6182.086426
+[2025.08.04-03.08.28:698][329]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.04-03.08.28:698][329]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6182.169434, Update Interval: 355.641968
+[2025.08.04-03.12.43:284][661]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.04-03.12.43:288][661]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.08.04-03.12.43:288][661]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.08.04-03.12.43:290][661]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.027 ms (total: 5.369 ms)
+[2025.08.04-03.12.43:291][661]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.04-03.12.43:327][661]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.04-03.12.43:331][661]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.08.04-03.12.43:331][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003991s)
+[2025.08.04-03.12.43:331][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004026s)
+[2025.08.04-03.12.43:348][661]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.08.04-03.12.43:352][661]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.08.04-03.12.43:353][661]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.04-03.12.43:353][661]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.04-03.12.43:353][661]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.04-03.12.43:353][661]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.04-03.12.43:355][661]LogWorldPartition: Display: WorldPartition initialize took 1.377 ms (total: 1.64 sec)
+[2025.08.04-03.12.43:355][661]LogPlayLevel: PIE: World Init took: (0.002868s)
+[2025.08.04-03.12.43:355][661]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.04-03.12.43:355][661]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.04-03.12.43:355][661]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.04-03.12.43:355][661]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.04-03.12.43:355][661]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.04-03.12.43:355][661]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.04-03.12.43:357][661]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.04-03.12.43:450][661]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.04-03.12.43:450][661]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.04-03.12.43:450][661]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.04-03.12.43:450][661]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.04-03.12.43:451][661]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.08.04-03.12.43:451][661]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.08.04-03.12.43:453][661]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.08.04-03.12.43:453][661]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.08.04-03.12.43:453][661]LogInit: FAudioDevice initialized with ID 4.
+[2025.08.04-03.12.43:454][661]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.08.04-03.12.43:454][661]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.04-03.12.43:458][661]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.04-03.12.43:460][661]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.08.03-22.12.43
+[2025.08.04-03.12.43:460][661]LogWorld: Bringing up level for play took: 0.001840
+[2025.08.04-03.12.43:462][661]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.08.04-03.12.43:465][661]PIE: Server logged in
+[2025.08.04-03.12.43:467][661]PIE: Play in editor total start time 0.179 seconds.
+[2025.08.04-03.12.55:888][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.04-03.12.55:888][137]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.04-03.12.55:888][137]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.04-03.12.55:889][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.04-03.12.55:889][137]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.08.04-03.12.55:892][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.04-03.12.55:898][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.04-03.12.55:913][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.04-03.12.55:914][137]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.04-03.12.55:914][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.04-03.12.55:916][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.04-03.12.55:922][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.08.04-03.12.56:087][138]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.08.04-03.13.02:963][929]LogSlate: Window 'Message Log' being destroyed
+[2025.08.04-03.13.02:968][929]LogSlate: Window 'Message Log' being destroyed
+[2025.08.04-03.13.05:893][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.04-03.13.05:895][270]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.019
+[2025.08.04-03.13.47:329][339]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/FirstPersonGAM415.uproject" -game -rocket -progress
+[2025.08.04-03.13.47:444][339]Using bundled DotNet SDK version: 8.0.300
+[2025.08.04-03.13.47:444][339]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/FirstPersonGAM415.uproject" -game -rocket -progress
+[2025.08.04-03.13.48:250][339]Log file: C:\Users\scott\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.08.04-03.13.48:451][339]
+[2025.08.04-03.13.48:451][339]Generating VisualStudio2022 project files:
+[2025.08.04-03.13.48:451][339]Discovering modules, targets and source code for project...
+[2025.08.04-03.13.52:975][339]Binding IntelliSense data...

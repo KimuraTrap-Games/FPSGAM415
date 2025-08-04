@@ -79,6 +79,12 @@
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415WeaponComponent.h">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcMeshFromStatic.cpp">
+      <Filter>Source\FirstPersonGAM415</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcMeshFromStatic.h">
+      <Filter>Source\FirstPersonGAM415</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcPlane.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
