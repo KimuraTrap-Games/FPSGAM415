@@ -105,6 +105,10 @@ struct Z_Construct_UClass_AFirstPersonGAM415Character_Statics
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_isTeleporting_MetaData[] = {
+		{ "Category", "FirstPersonGAM415Character" },
+		{ "ModuleRelativePath", "FirstPersonGAM415Character.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FirstPersonCameraComponent;
@@ -112,6 +116,8 @@ struct Z_Construct_UClass_AFirstPersonGAM415Character_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+	static void NewProp_isTeleporting_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_isTeleporting;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -125,6 +131,11 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGA
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Character, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Character, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AFirstPersonGAM415Character, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+void Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_isTeleporting_SetBit(void* Obj)
+{
+	((AFirstPersonGAM415Character*)Obj)->isTeleporting = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_isTeleporting = { "isTeleporting", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(AFirstPersonGAM415Character), &Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_isTeleporting_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_isTeleporting_MetaData), NewProp_isTeleporting_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPersonGAM415Character_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_Mesh1P,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_FirstPersonCameraComponent,
@@ -132,6 +143,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AFirstPer
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_JumpAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_LookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFirstPersonGAM415Character_Statics::NewProp_isTeleporting,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Character_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_AFirstPersonGAM415Character_Statics::DependentSingletons[])() = {
@@ -174,10 +186,10 @@ AFirstPersonGAM415Character::~AFirstPersonGAM415Character() {}
 struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonGAM415Character, AFirstPersonGAM415Character::StaticClass, TEXT("AFirstPersonGAM415Character"), &Z_Registration_Info_UClass_AFirstPersonGAM415Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Character), 3309390957U) },
+		{ Z_Construct_UClass_AFirstPersonGAM415Character, AFirstPersonGAM415Character::StaticClass, TEXT("AFirstPersonGAM415Character"), &Z_Registration_Info_UClass_AFirstPersonGAM415Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Character), 775302850U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_3570274401(TEXT("/Script/FirstPersonGAM415"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_3381545085(TEXT("/Script/FirstPersonGAM415"),
 	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

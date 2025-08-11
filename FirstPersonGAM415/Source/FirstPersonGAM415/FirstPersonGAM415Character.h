@@ -48,6 +48,12 @@ class AFirstPersonGAM415Character : public ACharacter
 public:
 	AFirstPersonGAM415Character();
 
+
+public:
+	UPROPERTY(EditAnywhere)
+	bool isTeleporting;
+
+
 protected:
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
