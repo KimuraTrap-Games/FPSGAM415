@@ -14,10 +14,12 @@ APortal::APortal()
 	mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
 	boxComp = CreateDefaultSubobject<UBoxComponent>("Box Comp");
 	sceneCapture = CreateDefaultSubobject<USceneCaptureComponent2D>("Capture");
+	rootArrow = CreateDefaultSubobject<UArrowComponent>("Root Arrow");
 
 	RootComponent = boxComp;
 	mesh->SetupAttachment(boxComp);
 	sceneCapture->SetupAttachment(mesh);
+	rootArrow->SetupAttachment(RootComponent);
 
 	mesh->SetCollisionResponseToAllChannels(ECR_Ignore);
 
@@ -29,6 +31,9 @@ void APortal::BeginPlay()
 	Super::BeginPlay();
 	boxComp->OnComponentBeginOverlap.AddDynamic(this, &APortal::OnOverlapBegin);
 	mesh->SetHiddenInSceneCapture(true);
+	mesh->bCastStaticShadow = false;
+	mesh->bCastDynamicShadow = false;
+
 
 	if (mat)
 	{
@@ -56,7 +61,7 @@ void APortal::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AA
 			if (!playerChar->isTeleporting)
 			{
 				playerChar->isTeleporting = true;
-				FVector loc = OtherPortal->GetActorLocation();
+				FVector loc = OtherPortal->rootArrow->GetComponentLocation();
 				playerChar->SetActorLocation(loc);
 
 				FTimerHandle TimerHandle;

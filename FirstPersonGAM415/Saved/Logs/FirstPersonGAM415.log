@@ -2031,3 +2031,1275 @@ C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-F
 [2025.08.11-04.47.53:526][ 70]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3480.400635
 [2025.08.11-04.47.54:527][ 73]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.08.11-04.47.54:528][ 74]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3481.067871, Update Interval: 340.443726
+[2025.08.11-04.50.35:741][797]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.08.11-04.50.41:658][473]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Portals/MyPortal.MyPortal
+[2025.08.11-04.50.41:658][473]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.08.11-04.50.41:792][473]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2025.08.11-04.50.41:990][473]LogStreaming: Display: FlushAsyncLoading(557): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.11-04.50.46:926][722]LogSlate: Window 'MyPortal' being destroyed
+[2025.08.11-04.50.51:143][185]LogSlate: Window 'Content Browser' being destroyed
+[2025.08.11-04.51.06:632][470]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-04.51.06:633][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-04.51.06:776][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.08.11-04.51.11:452][983]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.08.11-04.51.29:608][455]LogContentBrowser: Attempting asset rename: MyPortal -> Portal_BP
+[2025.08.11-04.51.29:694][455]LogMetaData: Removing '/Game/Portals/Portal_BP.Portal_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.SKEL_Portal_BP_C:UserConstructionScript' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.SKEL_Portal_BP_C' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.Portal_BP_C' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.Portal_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.Portal_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:695][455]LogMetaData: Removing '/Game/Portals/Portal_BP.Portal_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Portals/MyPortal.PackageMetaData'
+[2025.08.11-04.51.29:704][455]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-04.51.29:704][455]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-04.51.29:704][455]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-04.51.29:704][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-04.51.29:706][455]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-04.51.29:706][455]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-04.51.29:707][455]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-04.51.29:707][455]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BPAF83A67C415A9238CC4100828B8A0BCB.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-04.51.29:710][455]LogFileHelpers: InternalPromptForCheckoutAndSave took 6.604 ms
+[2025.08.11-04.51.29:759][455]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.08.11-04.51.29:788][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.11-04.51.29:805][455]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.11-04.51.29:945][455]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-04.51.29:945][455]LogContentValidation: Enabled validators:
+[2025.08.11-04.51.29:945][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-04.51.29:945][455]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-04.51.29:945][455]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-04.51.29:946][455]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-04.51.29:946][455]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-04.51.29:946][455]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-04.51.29:946][455]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-04.51.31:473][633]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Portals/Portal_BP.Portal_BP
+[2025.08.11-04.51.31:473][633]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.08.11-04.51.33:990][870]LogSlate: Window 'Portal_BP' being destroyed
+[2025.08.11-04.51.34:930][980]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-04.51.34:930][980]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-04.51.34:944][980]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Portals/Portal_BP.Portal_BP
+[2025.08.11-04.51.34:944][980]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.08.11-04.51.35:159][980]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.08.11-04.51.45:072][801]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.11-04.51.52:389][107]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.11-04.52.11:224][168]LogPhysics: Warning: Scale for /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SceneCapture_C_UAID_107C6121B4FE0F8302_1196378472.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.000 Y=0.000 Z=10.000
+[2025.08.11-04.52.11:225][168]LogPhysics: Warning: Scale for /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SceneCapture_C_UAID_107C6121B4FE0F8302_1196378472.StaticMesh has a component set to zero, which will result in a bad body instance. Scale:X=5.000 Y=0.000 Z=10.000
+[2025.08.11-04.52.14:491][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-04.52.14:546][556]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/EG/AH7YPX6JT698PQ9BZLBY3K
+[2025.08.11-04.52.14:546][556]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/AH7YPX6JT698PQ9BZLBY3KD8A9F5E44CA96D36F6773BBB02139FF1.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/EG/AH7YPX6JT698PQ9BZLBY3K.uasset'
+[2025.08.11-04.52.14:554][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 63.219 ms (total: 69.824 ms)
+[2025.08.11-04.52.14:610][556]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-04.52.14:610][556]LogContentValidation: Enabled validators:
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-04.52.14:610][556]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-04.52.14:610][556]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.11-04.52.40:641][275]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/Box_A99206BC.Box_A99206BC
+[2025.08.11-04.52.40:641][275]LogStaticMesh: Display: Building static mesh Box_A99206BC (Required Memory Estimate: 0.027864 MB)...
+[2025.08.11-04.52.40:641][275]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/scott/Box_A99206BC.Box_A99206BC
+[2025.08.11-04.52.40:643][275]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/Box_A99206BC.Box_A99206BC as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_107C6121B4FE0A8402_2124892647
+[2025.08.11-04.52.40:768][276]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.08.11-04.53.26:120][797]LogStreaming: Display: FlushAsyncLoading(560): 1 QueuedPackages, 0 AsyncPackages
+[2025.08.11-04.53.41:206][540]Cmd: TRANSACTION UNDO
+[2025.08.11-04.53.41:206][540]LogEditorTransaction: Undo Transform
+[2025.08.11-04.53.46:895][154]Cmd: TRANSACTION UNDO
+[2025.08.11-04.53.46:895][154]LogEditorTransaction: Undo Transform
+[2025.08.11-04.54.10:396][750]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3857.289062
+[2025.08.11-04.54.13:360][831]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.11-04.54.13:361][832]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3859.920410, Update Interval: 311.017792
+[2025.08.11-04.54.17:366][844]LogStaticMesh: Display: Building static mesh Box_A99206BC (Required Memory Estimate: 0.027864 MB)...
+[2025.08.11-04.54.17:367][844]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/scott/Box_A99206BC.Box_A99206BC
+[2025.08.11-04.55.29:896][346]LogContentBrowser: Attempting asset rename: Box_A99206BC -> PortalMesh
+[2025.08.11-04.55.29:980][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-04.55.29:980][346]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/scott/PortalMesh] ([1] browsable assets)...
+[2025.08.11-04.55.30:032][346]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/scott/PortalMesh.PortalMesh]
+[2025.08.11-04.55.30:033][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/scott/PortalMesh]
+[2025.08.11-04.55.30:034][346]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/scott/PortalMesh
+[2025.08.11-04.55.30:034][346]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/PortalMeshEF14F7724C0BF0F0B7FD67B2B99DB765.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/FirstPerson/Maps/_GENERATED/scott/PortalMesh.uasset'
+[2025.08.11-04.55.30:036][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.213 ms (total: 126.038 ms)
+[2025.08.11-04.55.30:076][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.08.11-04.55.30:100][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.08.11-04.55.30:119][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2025.08.11-04.55.30:186][346]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-04.55.30:186][346]LogContentValidation: Enabled validators:
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-04.55.30:186][346]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-04.55.30:186][346]AssetCheck: /Game/FirstPerson/Maps/_GENERATED/scott/PortalMesh Validating asset
+[2025.08.11-04.55.38:683][647]Cmd: DELETE
+[2025.08.11-04.55.38:683][647]Cmd: ACTOR DELETE
+[2025.08.11-04.55.38:685][647]LogEditorActor: Deleted Actor: StaticMeshActor
+[2025.08.11-04.55.38:702][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.11-04.55.38:704][647]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2025.08.11-04.55.46:728][567]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: ================================================
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Total job queries 244, among them cache hits 45 (18.44%), DDC hits 192 (78.69%), Duplicates 2 (0.82%)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Tracking 197 distinct input hashes that result in 174 distinct outputs (88.32%)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: RAM used: 126.57 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Job execution time: average 1.41 s, max 1.84 s
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Job life time (pending + execution): average 1.46 s, max 1.88
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Shader code size: average 7.181 KiB, min 2.691 KiB, max 12.082 KiB
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.88 s
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Average processing rate: 2.65 jobs/sec
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Total thread time: 1.596 s
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Total thread preprocess time: 3.272 s
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Percentage time preprocessing: 205.00%
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Effective parallelization: 0.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap (compiled    1 times, average 0.08 sec, max 0.08 sec, min 0.08 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 43.96% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2025.08.11-04.55.58:929][604]LogShaderCompilers: Display:                                                  FHitProxyPS - 20.25% of total time (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 15.74% of total time (compiled    1 times, average 0.25 sec, max 0.25 sec, min 0.25 sec)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display:                                                  FHitProxyVS - 14.92% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display:              TShadowDepthPSPixelShadowDepth_VirtualShadowMap - 5.13% of total time (compiled    1 times, average 0.08 sec, max 0.08 sec, min 0.08 sec)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: === Material stats ===
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Materials Translated:    148
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Material Translation Only: 0.03 s (47%)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: Material Cache Hits: 30 (20%)
+[2025.08.11-04.55.58:930][604]LogShaderCompilers: Display: ================================================
+[2025.08.11-05.00.09:765][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.00.09:804][ 91]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-05.00.09:804][ 91]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.08.11-05.00.09:869][ 91]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C]
+[2025.08.11-05.00.09:869][ 91]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.08.11-05.00.09:881][ 91]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Portals/Portal_BP.Portal_BP]
+[2025.08.11-05.00.09:881][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-05.00.09:881][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-05.00.09:884][ 91]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.00.09:885][ 91]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.00.09:885][ 91]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-05.00.09:885][ 91]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BP5DE464CF44D1941357AC7BAD176D2934.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-05.00.09:893][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 128.019 ms (total: 254.058 ms)
+[2025.08.11-05.00.09:955][ 91]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.00.09:955][ 91]LogContentValidation: Enabled validators:
+[2025.08.11-05.00.09:955][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.00.09:955][ 91]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.00.09:956][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.00.09:956][ 91]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.00.09:956][ 91]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.00.09:956][ 91]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.00.09:956][ 91]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-05.00.10:870][189]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.11-05.00.11:849][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.00.11:889][286]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-05.00.11:941][286]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Portals/Portal_BP.Portal_BP]
+[2025.08.11-05.00.11:941][286]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-05.00.11:942][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-05.00.11:944][286]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.00.11:944][286]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.00.11:944][286]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-05.00.11:945][286]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BPA7A249884273D3B55D8D0FAE3ABAF82A.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-05.00.11:952][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.099 ms (total: 357.157 ms)
+[2025.08.11-05.00.12:005][286]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.00.12:005][286]LogContentValidation: Enabled validators:
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.00.12:005][286]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.00.12:005][286]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-05.00.20:131][897]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4227.011719
+[2025.08.11-05.00.21:132][900]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.11-05.00.21:132][901]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4227.678711, Update Interval: 335.214081
+[2025.08.11-05.00.38:180][191]LogContentBrowser: Deferred new asset file creation: NewTextureRenderTarget2D
+[2025.08.11-05.00.38:186][191]LogContentBrowser: Creating deferred item: NewTextureRenderTarget2D
+[2025.08.11-05.00.38:193][192]LogContentBrowser: Renaming the item being created (Deferred Item: NewTextureRenderTarget2D).
+[2025.08.11-05.00.40:894][514]LogContentBrowser: Attempting asset rename: NewTextureRenderTarget2D -> RT1
+[2025.08.11-05.00.40:897][514]LogContentBrowser: End creating deferred item NewTextureRenderTarget2D
+[2025.08.11-05.00.42:628][715]LogAssetEditorSubsystem: Opening Asset editor for TextureRenderTarget2D /Game/Portals/RT1.RT1
+[2025.08.11-05.00.45:861][ 53]LogSlate: Window 'RT1' being destroyed
+[2025.08.11-05.01.07:121][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.01.07:179][921]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT1] ([1] browsable assets)...
+[2025.08.11-05.01.07:181][921]OBJ SavePackage:     Rendered thumbnail for [TextureRenderTarget2D /Game/Portals/RT1.RT1]
+[2025.08.11-05.01.07:181][921]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT1]
+[2025.08.11-05.01.07:181][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT1" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1.uasset" SILENT=true
+[2025.08.11-05.01.07:182][921]LogSavePackage: Moving output files for package: /Game/Portals/RT1
+[2025.08.11-05.01.07:182][921]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT1FB9A362248A37C95AA93999D16DEA5C3.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1.uasset'
+[2025.08.11-05.01.07:191][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 69.682 ms (total: 426.840 ms)
+[2025.08.11-05.01.07:246][921]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.01.07:246][921]LogContentValidation: Enabled validators:
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.01.07:246][921]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.01.07:246][921]AssetCheck: /Game/Portals/RT1 Validating asset
+[2025.08.11-05.01.12:655][442]LogContentBrowser: Deferred new asset file creation: RT2
+[2025.08.11-05.01.12:660][442]LogContentBrowser: Creating deferred item: RT2
+[2025.08.11-05.01.12:670][443]LogContentBrowser: Renaming the item being created (Deferred Item: RT2).
+[2025.08.11-05.01.14:646][681]LogContentBrowser: Attempting asset rename: RT2 -> RT2
+[2025.08.11-05.01.14:648][681]LogContentBrowser: End creating deferred item RT2
+[2025.08.11-05.01.15:871][820]LogAssetEditorSubsystem: Opening Asset editor for TextureRenderTarget2D /Game/Portals/RT2.RT2
+[2025.08.11-05.01.17:629][  4]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.01.17:671][  4]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT2] ([1] browsable assets)...
+[2025.08.11-05.01.17:673][  4]OBJ SavePackage:     Rendered thumbnail for [TextureRenderTarget2D /Game/Portals/RT2.RT2]
+[2025.08.11-05.01.17:673][  4]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT2]
+[2025.08.11-05.01.17:673][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT2" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2.uasset" SILENT=true
+[2025.08.11-05.01.17:674][  4]LogSavePackage: Moving output files for package: /Game/Portals/RT2
+[2025.08.11-05.01.17:674][  4]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT2ED3683ED481568CB1238BC8AF307227F.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2.uasset'
+[2025.08.11-05.01.17:680][  4]LogFileHelpers: InternalPromptForCheckoutAndSave took 50.547 ms (total: 477.387 ms)
+[2025.08.11-05.01.17:720][  4]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.01.17:720][  4]LogContentValidation: Enabled validators:
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.01.17:720][  4]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.01.17:720][  4]AssetCheck: /Game/Portals/RT2 Validating asset
+[2025.08.11-05.01.25:951][434]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.08.11-05.01.27:914][434]LogSlate: Window 'Save Content' being destroyed
+[2025.08.11-05.01.27:941][434]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.01.27:995][434]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/8K/0OLPBOSZCPU1X7E3PCLCGF
+[2025.08.11-05.01.27:995][434]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/0OLPBOSZCPU1X7E3PCLCGF35C377B945ED4BB8214350AE14C455F9.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/8K/0OLPBOSZCPU1X7E3PCLCGF.uasset'
+[2025.08.11-05.01.28:003][434]LogFileHelpers: InternalPromptForCheckoutAndSave took 61.296 ms (total: 538.684 ms)
+[2025.08.11-05.01.28:060][434]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.01.28:061][434]LogContentValidation: Enabled validators:
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.01.28:061][434]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.01.28:061][434]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.11-05.01.40:829][878]LogContentBrowser: Deferred new asset file creation: RT1_Mat
+[2025.08.11-05.01.40:836][878]LogContentBrowser: Creating deferred item: RT1_Mat
+[2025.08.11-05.01.40:845][879]LogContentBrowser: Renaming the item being created (Deferred Item: RT1_Mat).
+[2025.08.11-05.01.46:412][ 45]LogContentBrowser: Attempting asset rename: RT1_Mat -> RT1_Mat
+[2025.08.11-05.01.46:416][ 45]LogContentBrowser: End creating deferred item RT1_Mat
+[2025.08.11-05.01.47:206][105]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Portals/RT1_Mat.RT1_Mat
+[2025.08.11-05.01.47:208][105]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.08.11-05.01.47:400][105]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.01.47:400][105]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.11-05.01.47:400][105]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.11-05.01.47:400][105]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.01.47:400][105]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.01.47:459][107]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.01.47:460][107]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.02.41:489][490]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.02.41:489][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.02.41:489][490]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.02.41:489][490]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.02.42:086][557]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.02.42:087][557]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.02.42:087][557]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.02.42:087][557]MaterialEditorStats: Shader Count: 2
+[2025.08.11-05.02.42:087][557]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.02.42:184][564]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.02.42:184][564]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.02.42:184][564]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.02.42:184][564]MaterialEditorStats: Shader Count: 3
+[2025.08.11-05.02.42:184][564]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Shader Count: 4
+[2025.08.11-05.02.42:290][573]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.02.42:536][592]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.08.11-05.03.02:813][754]LogMaterialEditor: Applying material RT1_Mat
+[2025.08.11-05.03.02:929][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2025.08.11-05.03.04:163][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.08.11-05.03.04:774][820]LogMaterialEditor: Saving and Compiling material RT1_Mat
+[2025.08.11-05.03.04:775][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.03.04:814][820]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT1_Mat] ([1] browsable assets)...
+[2025.08.11-05.03.04:870][820]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Portals/RT1_Mat.RT1_Mat]
+[2025.08.11-05.03.04:871][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT1_Mat]
+[2025.08.11-05.03.04:871][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT1_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1_Mat.uasset" SILENT=true
+[2025.08.11-05.03.04:872][820]LogSavePackage: Moving output files for package: /Game/Portals/RT1_Mat
+[2025.08.11-05.03.04:872][820]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT1_MatE2CD546C411AAE17B2AADD9294FBB83E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1_Mat.uasset'
+[2025.08.11-05.03.04:881][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.369 ms (total: 644.053 ms)
+[2025.08.11-05.03.04:930][820]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.03.04:931][820]LogContentValidation: Enabled validators:
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.03.04:931][820]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.03.04:931][820]AssetCheck: /Game/Portals/RT1_Mat Validating asset
+[2025.08.11-05.03.12:459][677]LogContentBrowser: Deferred new asset file creation: RT2_Mat
+[2025.08.11-05.03.12:466][677]LogContentBrowser: Creating deferred item: RT2_Mat
+[2025.08.11-05.03.12:474][678]LogContentBrowser: Renaming the item being created (Deferred Item: RT2_Mat).
+[2025.08.11-05.03.13:973][851]LogContentBrowser: Attempting asset rename: RT2_Mat -> RT2_Mat
+[2025.08.11-05.03.13:977][851]LogContentBrowser: End creating deferred item RT2_Mat
+[2025.08.11-05.03.14:787][931]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Portals/RT2_Mat.RT2_Mat
+[2025.08.11-05.03.14:789][931]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.08.11-05.03.14:983][931]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.03.14:984][931]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.11-05.03.14:984][931]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.11-05.03.14:984][931]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.03.14:984][931]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Base pass shader: 171 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Base pass vertex shader: 151 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.03.15:060][933]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.03.24:817][ 84]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.03.24:817][ 84]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.03.24:817][ 84]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.03.24:817][ 84]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.03.24:867][ 86]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.03.24:868][ 86]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.03.24:868][ 86]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.03.24:868][ 86]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.03.24:868][ 86]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.03.24:868][ 86]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.03.29:053][571]LogMaterialEditor: Applying material RT2_Mat
+[2025.08.11-05.03.29:127][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.11-05.03.29:303][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.08.11-05.03.30:065][656]LogMaterialEditor: Saving and Compiling material RT2_Mat
+[2025.08.11-05.03.30:067][656]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.03.30:116][656]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT2_Mat] ([1] browsable assets)...
+[2025.08.11-05.03.30:170][656]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Portals/RT2_Mat.RT2_Mat]
+[2025.08.11-05.03.30:171][656]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT2_Mat]
+[2025.08.11-05.03.30:171][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT2_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2_Mat.uasset" SILENT=true
+[2025.08.11-05.03.30:172][656]LogSavePackage: Moving output files for package: /Game/Portals/RT2_Mat
+[2025.08.11-05.03.30:172][656]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT2_Mat1937C9824977BEAD52477694A9ED6D28.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2_Mat.uasset'
+[2025.08.11-05.03.30:179][656]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.722 ms (total: 755.775 ms)
+[2025.08.11-05.03.30:232][656]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.03.30:232][656]LogContentValidation: Enabled validators:
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.03.30:233][656]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.03.30:233][656]AssetCheck: /Game/Portals/RT2_Mat Validating asset
+[2025.08.11-05.04.53:891][253]LogHttp: Warning: 000005C0E371E700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 0 (Found bundle for host: 0x5c049840d80 [serially])
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 5 (Closing connection)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B62B2C7-460F-AD1E-0045-04891621F7F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 8 (  Trying 44.206.218.35:443...)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (44.206.218.35) port 443)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.11-05.04.53:891][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 22 (Server certificate:)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 31 (Closing connection)
+[2025.08.11-05.04.53:892][254]LogHttp: Warning: 000005C0E371E700: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.04.58:957][826]LogShaderCompilers: Display: ================================================
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Total job queries 323, among them cache hits 102 (31.58%), DDC hits 197 (60.99%), Duplicates 2 (0.62%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Tracking 219 distinct input hashes that result in 188 distinct outputs (85.84%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: RAM used: 131.23 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Shaders Compiled: 22
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Jobs assigned 22, completed 22 (100%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Average time worker was idle: 189.96 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Job execution time: average 0.72 s, max 1.84 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Job life time (pending + execution): average 0.78 s, max 1.88
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Shader code size: average 7.716 KiB, min 2.691 KiB, max 12.082 KiB
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.54 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Jobs were issued in 22 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Average processing rate: 4.85 jobs/sec
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Total thread time: 6.687 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Total thread preprocess time: 3.894 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Percentage time preprocessing: 58.24%
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Effective parallelization: 1.47 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    3 times, average 0.60 sec, max 0.70 sec, min 0.54 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.88% of total time (compiled    3 times, average 0.60 sec, max 0.70 sec, min 0.54 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.14% of total time (compiled    3 times, average 0.29 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.80% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.47% of total time (compiled    3 times, average 0.19 sec, max 0.20 sec, min 0.18 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 7.43% of total time (compiled    1 times, average 0.50 sec, max 0.50 sec, min 0.50 sec)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: === Material stats ===
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Materials Translated:    169
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Material Translation Only: 0.03 s (47%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: Material Cache Hits: 30 (18%)
+[2025.08.11-05.04.58:958][826]LogShaderCompilers: Display: ================================================
+[2025.08.11-05.05.07:543][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.08.11-05.05.08:566][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.05.08:621][576]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-05.05.08:677][576]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Portals/Portal_BP.Portal_BP]
+[2025.08.11-05.05.08:678][576]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-05.05.08:678][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-05.05.08:680][576]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.05.08:680][576]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.05.08:680][576]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-05.05.08:681][576]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BP93364DDF4B5BE59FD6D6D294159F7734.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-05.05.08:689][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.684 ms (total: 877.459 ms)
+[2025.08.11-05.05.08:737][576]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.05.08:737][576]LogContentValidation: Enabled validators:
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.05.08:737][576]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.05.08:737][576]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-05.05.21:156][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.05.21:212][ 58]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-05.05.21:212][ 58]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-05.05.21:212][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-05.05.21:214][ 58]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.05.21:214][ 58]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.05.21:215][ 58]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-05.05.21:215][ 58]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BP9B9C32AD4FDE736AE416D4BF23656E85.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-05.05.21:222][ 58]LogFileHelpers: InternalPromptForCheckoutAndSave took 65.712 ms (total: 943.171 ms)
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: Enabled validators:
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.05.21:279][ 58]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.05.21:279][ 58]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-05.05.44:920][767]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.05.44:920][767]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.05.44:921][767]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_0
+[2025.08.11-05.05.44:921][767]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_0
+[2025.08.11-05.05.46:312][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.11-05.05.46:326][921]LogEditorActor: Deleted 0 Actors (0.032 secs)
+[2025.08.11-05.05.46:332][921]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.05.46:332][921]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.05.46:336][921]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_UAID_107C6121B4FE0B8402_1836841824
+[2025.08.11-05.05.46:336][921]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_UAID_107C6121B4FE0B8402_1836841824
+[2025.08.11-05.06.01:425][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.06.01:426][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.06.01:426][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_1
+[2025.08.11-05.06.01:427][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_1
+[2025.08.11-05.06.03:961][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.08.11-05.06.03:963][227]LogEditorActor: Deleted 0 Actors (0.020 secs)
+[2025.08.11-05.06.03:968][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.06.03:968][227]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Portals/Portal_BP.Portal_BP_C
+[2025.08.11-05.06.03:972][227]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_UAID_107C6121B4FE0B8402_1854477825
+[2025.08.11-05.06.03:972][227]LogActorFactory: Actor Factory spawned Blueprint /Game/Portals/Portal_BP.Portal_BP as actor: Portal_BP_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.Portal_BP_C_UAID_107C6121B4FE0B8402_1854477825
+[2025.08.11-05.06.20:380][ 91]Cmd: TRANSACTION UNDO
+[2025.08.11-05.06.20:380][ 91]LogEditorTransaction: Undo Snap Object to View
+[2025.08.11-05.06.47:930][960]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4614.844727
+[2025.08.11-05.06.48:934][963]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.11-05.06.48:935][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4615.511230, Update Interval: 312.896515
+[2025.08.11-05.07.58:193][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.08.11-05.07.59:241][218]LogSlate: Window 'Save Content' being destroyed
+[2025.08.11-05.07.59:267][218]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.07.59:329][218]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/AR/C3HRNRI7VZGKJETCR2HUQB
+[2025.08.11-05.07.59:329][218]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/C3HRNRI7VZGKJETCR2HUQB3599663842D12F2E156F578516A32029.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/AR/C3HRNRI7VZGKJETCR2HUQB.uasset'
+[2025.08.11-05.07.59:331][218]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/45/4AQG0FW714D8P2KSXK3WZ9
+[2025.08.11-05.07.59:332][218]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/4AQG0FW714D8P2KSXK3WZ95B3F773C4D8D44E3B5BF9090CE3A51EE.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/45/4AQG0FW714D8P2KSXK3WZ9.uasset'
+[2025.08.11-05.07.59:339][218]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.426 ms (total: 1.01 sec)
+[2025.08.11-05.07.59:378][218]LogContentValidation: Display: Starting to validate 2 assets
+[2025.08.11-05.07.59:378][218]LogContentValidation: Enabled validators:
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.07.59:379][218]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.07.59:379][218]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.11-05.08.27:223][591]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.11-05.08.27:227][591]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.08.11-05.08.27:228][591]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.08.11-05.08.27:230][591]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.102 ms
+[2025.08.11-05.08.27:230][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.11-05.08.27:235][591]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.08.11-05.08.27:235][591]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.08.11-05.08.27:235][591]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.08.27:240][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004841s)
+[2025.08.11-05.08.27:240][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004872s)
+[2025.08.11-05.08.27:256][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.08.11-05.08.27:264][591]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.08.11-05.08.27:266][591]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.11-05.08.27:266][591]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.11-05.08.27:266][591]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.11-05.08.27:266][591]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.11-05.08.27:267][591]LogWorldPartition: Display: WorldPartition initialize took 1.433 ms (total: 1.32 sec)
+[2025.08.11-05.08.27:267][591]LogPlayLevel: PIE: World Init took: (0.002957s)
+[2025.08.11-05.08.27:268][591]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.11-05.08.27:268][591]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.11-05.08.27:268][591]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.11-05.08.27:268][591]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.11-05.08.27:268][591]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.11-05.08.27:268][591]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.11-05.08.27:270][591]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.11-05.08.27:363][591]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.11-05.08.27:363][591]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.11-05.08.27:364][591]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.11-05.08.27:364][591]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.11-05.08.27:364][591]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.08.11-05.08.27:364][591]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.08.11-05.08.27:366][591]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.08.11-05.08.27:366][591]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.08.11-05.08.27:366][591]LogInit: FAudioDevice initialized with ID 2.
+[2025.08.11-05.08.27:366][591]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2025.08.11-05.08.27:366][591]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.08.11-05.08.27:370][591]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.11-05.08.27:372][591]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.08.11-00.08.27
+[2025.08.11-05.08.27:372][591]LogWorld: Bringing up level for play took: 0.001986
+[2025.08.11-05.08.27:374][591]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2025.08.11-05.08.27:379][591]PIE: Server logged in
+[2025.08.11-05.08.27:379][591]PIE: Play in editor total start time 0.153 seconds.
+[2025.08.11-05.08.28:795][707]LogScript: Warning: Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.08.28:796][707]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.08.28:796][707]LogScript: Warning: Accessed None trying to read property Mesh1P
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.08.28:796][707]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Mesh1P". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.08.49:064][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.08.49:065][495]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.08.49:065][495]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-05.08.49:065][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.08.49:065][495]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.08.11-05.08.49:069][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.11-05.08.49:074][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.08.49:092][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.08.49:093][495]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.08.11-05.08.49:093][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.08.11-05.08.49:094][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.08.11-05.08.49:100][495]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.08.11-05.08.49:238][496]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2025.08.11-05.08.53:469][820]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.08.53:491][820]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.09.29:009][411]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.29:010][411]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.11-05.09.29:010][411]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.29:010][411]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.09.29:113][413]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.34:362][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.34:362][ 32]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.34:362][ 32]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.34:362][ 32]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.34:972][ 95]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.34:972][ 95]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.34:972][ 95]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.34:972][ 95]MaterialEditorStats: Shader Count: 2
+[2025.08.11-05.09.34:972][ 95]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.35:082][104]MaterialEditorStats: Base pass shader: 175 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.09.35:082][104]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.35:082][104]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.09.35:082][104]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.35:083][104]MaterialEditorStats: Shader Count: 4
+[2025.08.11-05.09.35:083][104]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.43:334][ 49]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.43:334][ 49]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.43:334][ 49]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.43:334][ 49]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.43:579][ 74]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.43:579][ 74]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.43:579][ 74]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.43:579][ 74]MaterialEditorStats: Shader Count: 2
+[2025.08.11-05.09.43:579][ 74]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.43:681][ 82]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.43:681][ 82]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.43:681][ 82]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.43:681][ 82]MaterialEditorStats: Shader Count: 3
+[2025.08.11-05.09.43:681][ 82]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.43:786][ 91]MaterialEditorStats: Base pass shader without light map: 94 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.11-05.09.43:787][ 91]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.43:787][ 91]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.43:787][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.43:787][ 91]MaterialEditorStats: Shader Count: 4
+[2025.08.11-05.09.43:787][ 91]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.44:996][224]LogMaterialEditor: Applying material RT1_Mat
+[2025.08.11-05.09.45:058][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.08.11-05.09.46:003][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.08.11-05.09.46:630][292]LogMaterialEditor: Saving and Compiling material RT1_Mat
+[2025.08.11-05.09.46:632][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.09.46:688][292]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT1_Mat] ([1] browsable assets)...
+[2025.08.11-05.09.46:744][292]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Portals/RT1_Mat.RT1_Mat]
+[2025.08.11-05.09.46:744][292]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT1_Mat]
+[2025.08.11-05.09.46:744][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT1_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1_Mat.uasset" SILENT=true
+[2025.08.11-05.09.46:746][292]LogSavePackage: Moving output files for package: /Game/Portals/RT1_Mat
+[2025.08.11-05.09.46:746][292]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT1_Mat725E537D4A69B64A55C390A47671E72E.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT1_Mat.uasset'
+[2025.08.11-05.09.46:753][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.382 ms (total: 1.13 sec)
+[2025.08.11-05.09.46:806][292]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.09.46:806][292]LogContentValidation: Enabled validators:
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.09.46:806][292]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.09.46:806][292]AssetCheck: /Game/Portals/RT1_Mat Validating asset
+[2025.08.11-05.09.50:845][759]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.50:845][759]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.11-05.09.50:846][759]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.50:846][759]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.50:945][762]MaterialEditorStats: Base pass shader: 166 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.11-05.09.50:945][762]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.50:945][762]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.50:945][762]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.08.11-05.09.50:945][762]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.09.50:946][762]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.52:676][959]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.52:677][959]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.52:677][959]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.52:677][959]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.52:729][961]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.52:730][961]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.52:730][961]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.52:730][961]MaterialEditorStats: Shader Count: 4
+[2025.08.11-05.09.52:730][961]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.52:737][962]MaterialEditorStats: Base pass shader: 175 instructions
+Stats: Resources Used: 5
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.08.11-05.09.52:738][962]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.52:738][962]MaterialEditorStats: Texture samplers: 2/16
+[2025.08.11-05.09.52:738][962]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.52:738][962]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.09.52:738][962]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.54:977][223]MaterialEditorStats: Texture samplers: 0/16
+[2025.08.11-05.09.54:977][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.54:977][223]MaterialEditorStats: Shader Count: 0
+[2025.08.11-05.09.54:977][223]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.55:002][224]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.55:002][224]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.55:002][224]MaterialEditorStats: Shader Count: 2
+[2025.08.11-05.09.55:002][224]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.55:028][225]MaterialEditorStats: Base pass shader without light map: 94 instructions
+Stats: Resources Used: 2
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2025.08.11-05.09.55:029][225]MaterialEditorStats: Base pass vertex shader: 145 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2025.08.11-05.09.55:029][225]MaterialEditorStats: Texture samplers: 1/16
+[2025.08.11-05.09.55:029][225]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(4)
+[2025.08.11-05.09.55:029][225]MaterialEditorStats: Shader Count: 5
+[2025.08.11-05.09.55:029][225]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.08.11-05.09.56:035][344]LogMaterialEditor: Applying material RT2_Mat
+[2025.08.11-05.09.56:097][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.08.11-05.09.56:284][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.08.11-05.09.57:192][442]LogMaterialEditor: Saving and Compiling material RT2_Mat
+[2025.08.11-05.09.57:193][442]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.09.57:247][442]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/RT2_Mat] ([1] browsable assets)...
+[2025.08.11-05.09.57:302][442]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Portals/RT2_Mat.RT2_Mat]
+[2025.08.11-05.09.57:302][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/RT2_Mat]
+[2025.08.11-05.09.57:302][442]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/RT2_Mat" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2_Mat.uasset" SILENT=true
+[2025.08.11-05.09.57:304][442]LogSavePackage: Moving output files for package: /Game/Portals/RT2_Mat
+[2025.08.11-05.09.57:304][442]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/RT2_Mat5F66A8CB4215D42B54B0048671B4FB68.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/RT2_Mat.uasset'
+[2025.08.11-05.09.57:311][442]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.140 ms (total: 1.25 sec)
+[2025.08.11-05.09.57:362][442]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.09.57:362][442]LogContentValidation: Enabled validators:
+[2025.08.11-05.09.57:362][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.09.57:364][442]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.09.57:364][442]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.09.57:364][442]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.09.57:364][442]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.09.57:364][442]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.09.57:364][442]AssetCheck: /Game/Portals/RT2_Mat Validating asset
+[2025.08.11-05.10.00:264][731]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.11-05.10.00:269][731]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.08.11-05.10.00:270][731]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.08.11-05.10.00:272][731]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.095 ms (total: 4.197 ms)
+[2025.08.11-05.10.00:272][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.11-05.10.00:315][731]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.10.00:319][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003642s)
+[2025.08.11-05.10.00:319][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003684s)
+[2025.08.11-05.10.00:335][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.08.11-05.10.00:337][731]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.08.11-05.10.00:338][731]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.11-05.10.00:338][731]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.11-05.10.00:338][731]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.11-05.10.00:338][731]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.11-05.10.00:340][731]LogWorldPartition: Display: WorldPartition initialize took 1.788 ms (total: 1.32 sec)
+[2025.08.11-05.10.00:340][731]LogPlayLevel: PIE: World Init took: (0.003360s)
+[2025.08.11-05.10.00:341][731]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.11-05.10.00:341][731]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.11-05.10.00:341][731]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.11-05.10.00:341][731]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.11-05.10.00:341][731]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.11-05.10.00:341][731]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.11-05.10.00:344][731]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.11-05.10.00:446][731]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.11-05.10.00:446][731]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.11-05.10.00:446][731]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.11-05.10.00:446][731]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.11-05.10.00:446][731]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.08.11-05.10.00:446][731]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.08.11-05.10.00:449][731]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.08.11-05.10.00:449][731]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.08.11-05.10.00:449][731]LogInit: FAudioDevice initialized with ID 3.
+[2025.08.11-05.10.00:449][731]LogAudio: Display: Audio Device (ID: 3) registered with world 'FirstPersonMap'.
+[2025.08.11-05.10.00:449][731]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.11-05.10.00:452][731]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.11-05.10.00:455][731]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.08.11-00.10.00
+[2025.08.11-05.10.00:455][731]LogWorld: Bringing up level for play took: 0.001970
+[2025.08.11-05.10.00:457][731]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2025.08.11-05.10.00:459][731]PIE: Server logged in
+[2025.08.11-05.10.00:460][731]PIE: Play in editor total start time 0.191 seconds.
+[2025.08.11-05.10.13:751][928]LogScript: Warning: Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.10.13:752][928]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.10.13:752][928]LogScript: Warning: Accessed None trying to read property Mesh1P
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.10.13:752][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Mesh1P". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.10.14:205][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.10.14:206][968]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.10.14:206][968]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-05.10.14:206][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.10.14:206][968]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.08.11-05.10.14:210][968]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.11-05.10.14:214][968]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.10.14:231][968]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.10.14:232][968]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.08.11-05.10.14:232][968]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.08.11-05.10.14:234][968]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.08.11-05.10.14:242][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.08.11-05.10.14:373][969]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2025.08.11-05.10.18:609][168]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.10.18:630][168]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: ================================================
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Total job queries 420, among them cache hits 158 (37.62%), DDC hits 224 (53.33%), Duplicates 2 (0.48%)
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Tracking 260 distinct input hashes that result in 215 distinct outputs (82.69%)
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: RAM used: 140.31 KiB of 3.20 GiB budget. Usage: 0.00%
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Shaders Compiled: 36
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Jobs assigned 36, completed 36 (100%)
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Average time worker was idle: 167.27 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 1.84 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Job life time (pending + execution): average 0.68 s, max 1.88
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Shader code size: average 7.819 KiB, min 2.691 KiB, max 12.082 KiB
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.95 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Jobs were issued in 36 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Average processing rate: 5.18 jobs/sec
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Total thread time: 11.001 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Total thread preprocess time: 4.682 s
+[2025.08.11-05.10.59:475][203]LogShaderCompilers: Display: Percentage time preprocessing: 42.56%
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Effective parallelization: 1.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 0.65 sec, max 0.66 sec, min 0.64 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 0.58 sec, max 0.70 sec, min 0.54 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    2 times, average 0.48 sec, max 0.50 sec, min 0.47 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.32 sec, max 0.32 sec, min 0.32 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    5 times, average 0.30 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 26.49% of total time (compiled    5 times, average 0.58 sec, max 0.70 sec, min 0.54 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.48% of total time (compiled    5 times, average 0.30 sec, max 0.31 sec, min 0.28 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                             FDebugViewModePS - 11.79% of total time (compiled    2 times, average 0.65 sec, max 0.66 sec, min 0.64 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 8.80% of total time (compiled    2 times, average 0.48 sec, max 0.50 sec, min 0.47 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.42% of total time (compiled    5 times, average 0.19 sec, max 0.20 sec, min 0.17 sec)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: === Material stats ===
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Materials Translated:    185
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Material Translation Only: 0.03 s (47%)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (2%)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: Material Cache Hits: 30 (16%)
+[2025.08.11-05.10.59:476][203]LogShaderCompilers: Display: ================================================
+[2025.08.11-05.12.54:160][547]LogHttp: Warning: 000005C0E9266900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 0 (Found bundle for host: 0x5c0498407b0 [serially])
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 5 (Closing connection)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B62B2C7-460F-AD1E-0045-04891621F7F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 8 (  Trying 50.19.125.65:443...)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (50.19.125.65) port 443)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 22 (Server certificate:)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 31 (Closing connection)
+[2025.08.11-05.12.54:161][548]LogHttp: Warning: 000005C0E9266900: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.13.00:827][567]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4987.757324
+[2025.08.11-05.13.01:829][570]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.11-05.13.01:830][571]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4988.423828, Update Interval: 355.955078
+[2025.08.11-05.15.25:419][ 72]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.11-05.15.32:796][337]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_2.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_2.exp
+[2025.08.11-05.15.33:192][337]LogClass: UPackage /Script/FirstPersonGAM415 Reload.
+[2025.08.11-05.15.33:194][337]LogClass: UClass Portal Reload.
+[2025.08.11-05.15.33:208][337]LogClass: Could not find existing class Portal in package /Script/FirstPersonGAM415 for reload, assuming new or modified class
+[2025.08.11-05.15.33:208][337]LogClass: Function OnOverlapBegin is new or belongs to a modified class.
+[2025.08.11-05.15.33:208][337]LogClass: Function SetBool is new or belongs to a modified class.
+[2025.08.11-05.15.33:208][337]LogClass: Function UpdatePortal is new or belongs to a modified class.
+[2025.08.11-05.15.33:222][337]Re-instancing Portal after reload.
+[2025.08.11-05.15.33:394][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.08.11-05.15.33:832][338]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 9 classes unchanged, 8 functions remapped
+[2025.08.11-05.15.33:832][338]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.08.11-05.16.21:434][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.08.11-05.16.22:267][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.16.22:326][ 57]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Portals/Portal_BP] ([2] browsable assets)...
+[2025.08.11-05.16.22:331][ 57]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Portals/Portal_BP.Portal_BP]
+[2025.08.11-05.16.22:331][ 57]OBJ SavePackage: Finished generating thumbnails for package [/Game/Portals/Portal_BP]
+[2025.08.11-05.16.22:331][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Portals/Portal_BP" FILE="../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset" SILENT=true
+[2025.08.11-05.16.22:334][ 57]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.16.22:334][ 57]LogWorldPartition: Can't find class descriptor '/Game/Portals/Portal_BP.Portal_BP_C' for saving '/Game/Portals/Portal_BP.Portal_BP_C'
+[2025.08.11-05.16.22:335][ 57]LogSavePackage: Moving output files for package: /Game/Portals/Portal_BP
+[2025.08.11-05.16.22:336][ 57]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Portal_BP20EA36094D25949F1999FC9FE9524DE6.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Portals/Portal_BP.uasset'
+[2025.08.11-05.16.22:342][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.403 ms (total: 1.32 sec)
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: Enabled validators:
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.16.22:391][ 57]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.16.22:391][ 57]AssetCheck: /Game/Portals/Portal_BP Validating asset
+[2025.08.11-05.16.24:490][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.08.11-05.16.26:011][257]LogSlate: Window 'Save Content' being destroyed
+[2025.08.11-05.16.26:034][257]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.16.26:078][257]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/AR/C3HRNRI7VZGKJETCR2HUQB
+[2025.08.11-05.16.26:079][257]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/C3HRNRI7VZGKJETCR2HUQBAD7102F34F8668CE4EDEA4901788BFC3.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/AR/C3HRNRI7VZGKJETCR2HUQB.uasset'
+[2025.08.11-05.16.26:081][257]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/45/4AQG0FW714D8P2KSXK3WZ9
+[2025.08.11-05.16.26:082][257]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/4AQG0FW714D8P2KSXK3WZ9179C2E6A4677E3EC3C2FE290B2F1B825.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/45/4AQG0FW714D8P2KSXK3WZ9.uasset'
+[2025.08.11-05.16.26:089][257]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.809 ms (total: 1.38 sec)
+[2025.08.11-05.16.26:143][257]LogContentValidation: Display: Starting to validate 4 assets
+[2025.08.11-05.16.26:144][257]LogContentValidation: Enabled validators:
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.16.26:144][257]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.16.26:144][257]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset
+[2025.08.11-05.17.54:129][613]LogHttp: Warning: 000005C0CA12D900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 0 (Found bundle for host: 0x5c049840900 [serially])
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 5 (Closing connection)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B62B2C7-460F-AD1E-0045-04891621F7F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 8 (  Trying 54.147.8.52:443...)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (54.147.8.52) port 443)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 22 (Server certificate:)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 31 (Closing connection)
+[2025.08.11-05.17.54:130][614]LogHttp: Warning: 000005C0CA12D900: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.19.30:977][ 13]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.08.11-05.19.36:887][148]LogLiveCoding: Display:    Creating library C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_3.lib and object C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Binaries\Win64\UnrealEditor-FirstPersonGAM415.patch_3.exp
+[2025.08.11-05.19.37:240][148]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.08.11-05.19.37:673][149]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5384.620117
+[2025.08.11-05.19.37:674][149]Display: Reload/Re-instancing Complete: 1 package changed, 10 classes unchanged, 11 functions remapped
+[2025.08.11-05.19.37:674][149]LogLiveCoding: Display: Live coding succeeded
+[2025.08.11-05.19.39:365][155]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.08.11-05.19.39:366][156]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5385.978516, Update Interval: 301.955627
+[2025.08.11-05.19.54:333][321]LogHttp: Warning: 000005C0CB577700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 0 (Found bundle for host: 0x5c049840840 [serially])
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 5 (Closing connection)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B62B2C7-460F-AD1E-0045-04891621F7F2%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.4-40574608%2B%2B%2BUE5%2BRelease-5.5&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 8 (  Trying 52.54.129.186:443...)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.54.129.186) port 443)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 11 (SSL reusing session ID)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 22 (Server certificate:)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 24 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 25 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2025.08.11-05.19.54:334][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 29 (using HTTP/1.1)
+[2025.08.11-05.19.54:335][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2025.08.11-05.19.54:335][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 31 (Closing connection)
+[2025.08.11-05.19.54:335][322]LogHttp: Warning: 000005C0CB577700: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.08.11-05.19.56:258][506]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.11-05.19.56:262][506]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.08.11-05.19.56:263][506]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.08.11-05.19.56:266][506]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3.396 ms (total: 7.594 ms)
+[2025.08.11-05.19.56:267][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.11-05.19.56:267][506]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.19.56:273][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005553s)
+[2025.08.11-05.19.56:273][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005580s)
+[2025.08.11-05.19.56:341][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.08.11-05.19.56:350][506]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.08.11-05.19.56:351][506]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.11-05.19.56:351][506]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.11-05.19.56:351][506]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.11-05.19.56:351][506]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.11-05.19.56:352][506]LogWorldPartition: Display: WorldPartition initialize took 1.349 ms (total: 1.32 sec)
+[2025.08.11-05.19.56:352][506]LogPlayLevel: PIE: World Init took: (0.002872s)
+[2025.08.11-05.19.56:353][506]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.11-05.19.56:353][506]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.11-05.19.56:353][506]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.11-05.19.56:353][506]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.11-05.19.56:353][506]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.11-05.19.56:353][506]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.11-05.19.56:355][506]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.11-05.19.56:447][506]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.11-05.19.56:447][506]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.11-05.19.56:448][506]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.11-05.19.56:448][506]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.11-05.19.56:448][506]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.08.11-05.19.56:448][506]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.08.11-05.19.56:450][506]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.08.11-05.19.56:450][506]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.08.11-05.19.56:450][506]LogInit: FAudioDevice initialized with ID 4.
+[2025.08.11-05.19.56:450][506]LogAudio: Display: Audio Device (ID: 4) registered with world 'FirstPersonMap'.
+[2025.08.11-05.19.56:450][506]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.11-05.19.56:453][506]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.11-05.19.56:455][506]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.08.11-00.19.56
+[2025.08.11-05.19.56:456][506]LogWorld: Bringing up level for play took: 0.001936
+[2025.08.11-05.19.56:457][506]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.08.11-05.19.56:460][506]PIE: Server logged in
+[2025.08.11-05.19.56:461][506]PIE: Play in editor total start time 0.198 seconds.
+[2025.08.11-05.19.58:717][700]LogScript: Warning: Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.19.58:717][700]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.19.58:717][700]LogScript: Warning: Accessed None trying to read property Mesh1P
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.19.58:717][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Mesh1P". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.20.06:496][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.20.06:497][390]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.20.06:497][390]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-05.20.06:497][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.20.06:497][390]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.08.11-05.20.06:501][390]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.11-05.20.06:506][390]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.20.06:521][390]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.11-05.20.06:531][390]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.08.11-05.20.06:531][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.11-05.20.06:533][390]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.08.11-05.20.06:537][390]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.20.06:551][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2025.08.11-05.20.06:687][391]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.08.11-05.20.08:877][551]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.20.08:898][551]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.20.23:007][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.08.11-05.20.23:013][738]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.08.11-05.20.23:013][738]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.08.11-05.20.23:015][738]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2.328 ms (total: 9.923 ms)
+[2025.08.11-05.20.23:015][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.08.11-05.20.23:036][738]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.20.23:039][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003690s)
+[2025.08.11-05.20.23:040][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.003725s)
+[2025.08.11-05.20.23:055][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.08.11-05.20.23:060][738]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.08.11-05.20.23:061][738]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.08.11-05.20.23:061][738]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.11-05.20.23:061][738]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.11-05.20.23:061][738]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.08.11-05.20.23:063][738]LogWorldPartition: Display: WorldPartition initialize took 1.428 ms (total: 1.32 sec)
+[2025.08.11-05.20.23:064][738]LogPlayLevel: PIE: World Init took: (0.002797s)
+[2025.08.11-05.20.23:064][738]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.11-05.20.23:064][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.11-05.20.23:064][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.11-05.20.23:064][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.11-05.20.23:064][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.11-05.20.23:064][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.11-05.20.23:066][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.11-05.20.23:160][738]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.11-05.20.23:160][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.11-05.20.23:160][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.11-05.20.23:160][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.11-05.20.23:160][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.08.11-05.20.23:160][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.08.11-05.20.23:163][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.08.11-05.20.23:164][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.08.11-05.20.23:164][738]LogInit: FAudioDevice initialized with ID 5.
+[2025.08.11-05.20.23:164][738]LogAudio: Display: Audio Device (ID: 5) registered with world 'FirstPersonMap'.
+[2025.08.11-05.20.23:164][738]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.08.11-05.20.23:167][738]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.08.11-05.20.23:169][738]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.08.11-00.20.23
+[2025.08.11-05.20.23:169][738]LogWorld: Bringing up level for play took: 0.001923
+[2025.08.11-05.20.23:171][738]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2025.08.11-05.20.23:174][738]PIE: Server logged in
+[2025.08.11-05.20.23:174][738]PIE: Play in editor total start time 0.162 seconds.
+[2025.08.11-05.20.24:487][846]LogScript: Warning: Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.20.24:488][846]PIE: Error: Blueprint Runtime Error: "Attempted to access missing property 'Mesh1P'. If this is a packaged/cooked build, are you attempting to use an editor-only property?". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.20.24:488][846]LogScript: Warning: Accessed None trying to read property Mesh1P
+	BP_PickUp_Rifle_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_UAID_B42E9936F5422D3B01_1556789383
+	Function /Game/FirstPerson/Blueprints/BP_PickUp_Rifle.BP_PickUp_Rifle_C:ExecuteUbergraph_BP_PickUp_Rifle:007C
+[2025.08.11-05.20.24:488][846]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Mesh1P". Node:  Cast To FirstPerson_AnimBP Graph:  EventGraph Function:  Execute Ubergraph BP Pick Up Rifle Blueprint:  BP_PickUp_Rifle
+[2025.08.11-05.20.51:047][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.20.51:048][144]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.08.11-05.20.51:048][144]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.08.11-05.20.51:048][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.20.51:048][144]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.08.11-05.20.51:051][144]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.08.11-05.20.51:057][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.11-05.20.51:074][144]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.11-05.20.51:074][144]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.08.11-05.20.51:074][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.08.11-05.20.51:077][144]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.08.11-05.20.51:083][144]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.08.11-05.20.51:241][145]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2025.08.11-05.20.54:201][361]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.20.54:223][361]LogSlate: Window 'Message Log' being destroyed
+[2025.08.11-05.20.59:602][801]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2025.08.11-05.21.00:688][801]LogSlate: Window 'Save Content' being destroyed
+[2025.08.11-05.21.00:722][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.08.11-05.21.00:779][801]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/RH/E1YBRJXGZQ9B8SXL974YGS
+[2025.08.11-05.21.00:780][801]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/E1YBRJXGZQ9B8SXL974YGSB6067E1846F7B76F894607967F23BFF4.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/RH/E1YBRJXGZQ9B8SXL974YGS.uasset'
+[2025.08.11-05.21.00:789][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 66.327 ms (total: 1.45 sec)
+[2025.08.11-05.21.00:842][801]LogContentValidation: Display: Starting to validate 1 assets
+[2025.08.11-05.21.00:842][801]LogContentValidation: Enabled validators:
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.08.11-05.21.00:842][801]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.08.11-05.21.00:842][801]AssetCheck: /Game/FirstPerson/Maps/FirstPersonMap Validating asset

@@ -18,13 +18,13 @@ struct FHitResult;
 #endif
 #define FIRSTPERSONGAM415_Portal_generated_h
 
-#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execUpdatePortal); \
 	DECLARE_FUNCTION(execSetBool); \
 	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
-#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPortal(); \
 	friend struct Z_Construct_UClass_APortal_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(APortal)
 
 
-#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	APortal(APortal&&); \
@@ -45,13 +45,13 @@ public: \
 	NO_API virtual ~APortal();
 
 
-#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_14_PROLOG
-#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_GENERATED_BODY \
+#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_15_PROLOG
+#define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_17_ENHANCED_CONSTRUCTORS \
+	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_INCLASS_NO_PURE_DECLS \
+	FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
