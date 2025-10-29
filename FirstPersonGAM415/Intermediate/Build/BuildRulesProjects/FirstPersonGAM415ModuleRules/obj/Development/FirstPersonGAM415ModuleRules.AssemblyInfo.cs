@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstPersonGAM415ModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8390c441966c8f1fa13e30fb31563767c4f577e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad70349bec17946071718222996474d5bc795bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstPersonGAM415ModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstPersonGAM415ModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
