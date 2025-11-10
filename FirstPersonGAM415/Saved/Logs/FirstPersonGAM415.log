@@ -2050,3 +2050,310 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.11.10-20.27.00:079][579]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Content/Developers/scott/Collections/' because it could not be accessed. Aborting watch request...
 [2025.11.10-20.27.00:202][587]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
 [2025.11.10-20.27.00:202][587]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/82a8b003-9073-48e5-8749-fe9879c5a5b0.
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 0 (Connection 7 seems to be dead)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 1 (shutting down connection #7)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 2 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 3 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 4 (upload completely sent off: 444 bytes)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 6 (shutting down connection #6)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 8 (necessary data rewind was not possible)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 9 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 10 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9741F9CD-41A1-D1CF-E0B3-3781F589830B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 11 (necessary data rewind was not possible)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 12 (rewind of client reader 'cr-in' failed: 65)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 13 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 14 (IPv6: (none))
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 15 (IPv4: 52.70.146.66, 3.216.159.215, 54.162.51.105, 44.216.68.58, 54.221.131.30, 52.44.18.232, 54.82.110.102, 52.207.167.194)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 16 (  Trying 52.70.146.66:443...)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 17 (SSL reusing session)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 18 (ALPN: curl offers http/1.1)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 22 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 23 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 24 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.11.10-20.28.23:216][957]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 25 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 26 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 27 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 28 (ALPN: server accepted http/1.1)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 29 (Server certificate:)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 30 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 31 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 32 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 33 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 34 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 35 ( SSL certificate verify ok.)
+[2025.11.10-20.28.23:216][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 36 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 37 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 38 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 39 (Connected to datarouter.ol.epicgames.com (52.70.146.66) port 443)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 40 (using HTTP/1.x)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 41 (client read function EOF fail, only 0/444 of needed bytes read)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000: libcurl info message cache 42 (closing connection #8)
+[2025.11.10-20.28.23:217][958]LogHttp: Warning: 0000022F21BD0000 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9741F9CD-41A1-D1CF-E0B3-3781F589830B%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=2652c8604ecb676b59b09e928055b164%7Cc0fff04288d44e35aa990f8c65a564d8%7C7767d1cd-20cc-4fd8-9019-32f1b449ca90&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 0.30s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: ================================================
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Total job queries 18,445, among them cache hits 1,810 (9.81%), DDC hits 12,366 (67.04%), Duplicates 3,623 (19.64%)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Tracking 13,012 distinct input hashes that result in 11,908 distinct outputs (91.52%)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: RAM used: 158.73 MiB of 3.20 GiB budget. Usage: 4.84%
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Shaders Compiled: 646
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Jobs assigned 646, completed 646 (100%)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Average time worker was idle: 22.50 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Time job spent in pending queue: average 2.32 s, longest 17.18 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Job execution time: average 3.68 s, max 17.21 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Job life time (pending + execution): average 5.99 s, max 20.15
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Shader code size: total 9.943 MiB, numShaders 673, average 15.13 KiB, min 1.727 KiB, max 55.505 KiB
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 55.97 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Jobs were issued in 286 batches (only local compilation was used), average 2.26 jobs/batch
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Average processing rate: 11.54 jobs/sec
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Total thread time: 606.017 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Total thread preprocess time: 170.143 s
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Percentage time preprocessing: 28.08%
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Effective parallelization: 10.83 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.676779
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 3.05 sec, max 3.63 sec, min 1.76 sec)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 3.04 sec, max 4.25 sec, min 2.66 sec)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled   80 times, average 2.78 sec, max 3.69 sec, min 2.07 sec)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 2.76 sec, max 3.74 sec, min 2.29 sec)
+[2025.11.10-20.28.33:213][987]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 36.66% of total time (compiled   80 times, average 2.78 sec, max 3.69 sec, min 2.07 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 8.06% of total time (compiled   16 times, average 3.05 sec, max 3.63 sec, min 1.76 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.59% of total time (compiled   32 times, average 1.06 sec, max 2.60 sec, min 0.64 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.39% of total time (compiled   59 times, average 0.55 sec, max 1.87 sec, min 0.21 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 4.01% of total time (compiled    8 times, average 3.04 sec, max 4.25 sec, min 2.66 sec)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: === Material stats ===
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Materials Translated:    159
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Material Translation Only: 0.06 s (52%)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.10-20.28.33:214][987]LogShaderCompilers: Display: ================================================
+[2025.11.10-20.29.14:887][112]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1672.868164
+[2025.11.10-20.29.15:887][115]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.10-20.29.15:888][115]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1673.534790, Update Interval: 305.074005
+[2025.11.10-20.30.40:881][859]LogStreaming: Display: FlushAsyncLoading(415): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.10-20.30.40:941][859]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Metallic.T_Robot3_Body_Metallic (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.40:943][859]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Roughness.T_Robot3_Body_Roughness (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:174][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Mixed_AO.T_Robot3_Body_Mixed_AO (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1104.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:181][861]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/Robot3/Mesh_UE5/Full/PA_Robot_PhysicsAsset.PA_Robot_PhysicsAsset as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.11.10-20.30.41:197][861]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SKM_Robot3_Full) ...
+[2025.11.10-20.30.41:197][861]LogSkeletalMesh: Building Skeletal Mesh SKM_Robot3_Full...
+[2025.11.10-20.30.41:388][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Mask.T_Robot3_Body_Mask (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:390][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Emissive.T_Robot3_Body_Emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:473][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Normal_DirectX.T_Robot3_Body_Normal_DirectX (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1234.499988 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:475][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Mask2.T_Robot3_Body_Mask2 (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:479][861]LogTexture: Display: Building textures: /Game/Robot3/Textures/T_Robot3_Body_Base_color.T_Robot3_Body_Base_color (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2025.11.10-20.30.41:824][861]LogSkeletalMesh: Built Skeletal Mesh [0.63s] /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full
+[2025.11.10-20.30.41:826][861]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_0. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.11.10-20.30.41:830][861]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/Robot3/Mesh_UE5/Full/PA_Robot_PhysicsAsset.PA_Robot_PhysicsAsset as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_0
+[2025.11.10-20.30.41:834][861]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.11.10-20.30.42:833][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2025.11.10-20.30.42:838][945]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2025.11.10-20.30.42:847][945]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/Robot3/Mesh_UE5/Full/PA_Robot_PhysicsAsset.PA_Robot_PhysicsAsset as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_107C6121B4FED6A002_1582370119
+[2025.11.10-20.30.42:847][945]LogActor: Warning: SetReplicates called on non-initialized actor SkeletalMeshActor_UAID_107C6121B4FED6A002_1582370119. Directly setting bReplicates is the correct procedure for pre-init actors.
+[2025.11.10-20.30.42:848][945]LogActorFactory: Actor Factory spawned PhysicsAsset /Game/Robot3/Mesh_UE5/Full/PA_Robot_PhysicsAsset.PA_Robot_PhysicsAsset as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_107C6121B4FED6A002_1582370119
+[2025.11.10-20.30.43:159][951]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.11.10-20.30.46:704][320]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.10-20.30.46:709][320]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.10-20.30.46:709][320]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.11.10-20.30.46:711][320]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 1.871 ms (total: 5.839 ms)
+[2025.11.10-20.30.46:711][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.10-20.30.46:754][320]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.11.10-20.30.46:759][320]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.11.10-20.30.46:759][320]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.10-20.30.46:760][320]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.013 ms (total: 5.163 ms)
+[2025.11.10-20.30.46:760][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006529s)
+[2025.11.10-20.30.46:760][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006565s)
+[2025.11.10-20.30.46:776][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.11.10-20.30.46:780][320]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.11.10-20.30.46:781][320]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.10-20.30.46:781][320]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.10-20.30.46:781][320]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.10-20.30.46:781][320]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.10-20.30.46:782][320]LogWorldPartition: Display: WorldPartition initialize took 1.502 ms (total: 1.70 sec)
+[2025.11.10-20.30.46:782][320]LogPlayLevel: PIE: World Init took: (0.002951s)
+[2025.11.10-20.30.46:783][320]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.10-20.30.46:783][320]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.10-20.30.46:783][320]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.10-20.30.46:783][320]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.10-20.30.46:783][320]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.10-20.30.46:783][320]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.10-20.30.46:785][320]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.10-20.30.46:803][320]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.10-20.30.46:803][320]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.10-20.30.46:803][320]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.10-20.30.46:803][320]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.10-20.30.46:804][320]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.11.10-20.30.46:804][320]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.11.10-20.30.46:806][320]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.11.10-20.30.46:806][320]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.11.10-20.30.46:806][320]LogInit: FAudioDevice initialized with ID 6.
+[2025.11.10-20.30.46:806][320]LogAudio: Display: Audio Device (ID: 6) registered with world 'FirstPersonMap'.
+[2025.11.10-20.30.46:806][320]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.10-20.30.46:810][320]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.11.10-20.30.46:811][320]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.11.10-14.30.46
+[2025.11.10-20.30.46:813][320]LogWorld: Bringing up level for play took: 0.002303
+[2025.11.10-20.30.46:815][320]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2025.11.10-20.30.46:817][320]PIE: Server logged in
+[2025.11.10-20.30.46:819][320]PIE: Play in editor total start time 0.11 seconds.
+[2025.11.10-20.30.46:910][321]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.10-20.30.54:345][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-20.30.54:345][ 80]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.11.10-20.30.54:345][ 80]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.10-20.30.54:346][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-20.30.54:346][ 80]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.11.10-20.30.54:347][ 80]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.10-20.30.54:350][ 80]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-20.30.54:365][ 80]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.10-20.30.54:365][ 80]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.11.10-20.30.54:365][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2025.11.10-20.30.54:367][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2025.11.10-20.30.54:370][ 80]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-20.30.54:372][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.11.10-20.30.54:562][ 81]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2025.11.10-20.30.56:902][273]LogSlate: Window 'Message Log' being destroyed
+[2025.11.10-20.30.56:928][273]LogSlate: Window 'Message Log' being destroyed
+[2025.11.10-20.31.00:019][547]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full
+[2025.11.10-20.31.00:019][547]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full
+[2025.11.10-20.31.00:020][547]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2025.11.10-20.31.00:020][547]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_1
+[2025.11.10-20.31.01:139][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.10-20.31.01:141][636]LogEditorActor: Deleted 0 Actors (0.017 secs)
+[2025.11.10-20.31.01:147][636]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full
+[2025.11.10-20.31.01:147][636]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full
+[2025.11.10-20.31.01:149][636]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_107C6121B4FED6A002_1600672120
+[2025.11.10-20.31.01:150][636]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/Robot3/Mesh_UE5/Full/SKM_Robot3_Full.SKM_Robot3_Full as actor: SkeletalMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.SkeletalMeshActor_UAID_107C6121B4FED6A002_1600672120
+[2025.11.10-20.31.02:824][791]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.10-20.31.02:829][791]LogContentBundle: [FirstPersonMap(Editor)] Generating Streaming for 0 Content Bundles.
+[2025.11.10-20.31.02:829][791]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2025.11.10-20.31.02:830][791]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 757 us (total: 6.597 ms)
+[2025.11.10-20.31.02:830][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.10-20.31.02:854][791]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.11.10-20.31.02:859][791]PIE: Warning: Calling GetSectionFromStaticMesh on Box_C9E7F3DD but 'Allow CPU Access' is not enabled. This is required for converting StaticMesh to ProceduralMeshComponent in cooked builds.
+[2025.11.10-20.31.02:859][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2025.11.10-20.31.02:860][791]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.021 ms (total: 6.185 ms)
+[2025.11.10-20.31.02:860][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006512s)
+[2025.11.10-20.31.02:860][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006547s)
+[2025.11.10-20.31.02:876][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2025.11.10-20.31.02:879][791]LogChaosDD: Creating Chaos Debug Draw Scene for world FirstPersonMap
+[2025.11.10-20.31.02:880][791]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.11.10-20.31.02:880][791]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.11.10-20.31.02:880][791]LogWorldPartition: UWorldPartition::Initialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.11.10-20.31.02:880][791]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.11.10-20.31.02:882][791]LogWorldPartition: Display: WorldPartition initialize took 1.526 ms (total: 1.71 sec)
+[2025.11.10-20.31.02:882][791]LogPlayLevel: PIE: World Init took: (0.003025s)
+[2025.11.10-20.31.02:882][791]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.10-20.31.02:882][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.10-20.31.02:882][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.10-20.31.02:882][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.10-20.31.02:882][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.10-20.31.02:882][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.10-20.31.02:884][791]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.10-20.31.02:902][791]LogAudioMixer: Display: Using Audio Hardware Device Speakers (2- SOMIC STINCOO GS401 WIRELESS)
+[2025.11.10-20.31.02:902][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.10-20.31.02:902][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.10-20.31.02:902][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.10-20.31.02:902][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.11.10-20.31.02:902][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.11.10-20.31.02:906][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.11.10-20.31.02:906][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.11.10-20.31.02:906][791]LogInit: FAudioDevice initialized with ID 7.
+[2025.11.10-20.31.02:906][791]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2025.11.10-20.31.02:906][791]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.10-20.31.02:909][791]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2025.11.10-20.31.02:912][791]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2025.11.10-14.31.02
+[2025.11.10-20.31.02:912][791]LogWorld: Bringing up level for play took: 0.003050
+[2025.11.10-20.31.02:915][791]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.11.10-20.31.02:918][791]PIE: Server logged in
+[2025.11.10-20.31.02:920][791]PIE: Play in editor total start time 0.09 seconds.
+[2025.11.10-20.31.03:011][792]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.10-20.31.08:174][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-20.31.08:174][267]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2025.11.10-20.31.08:174][267]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.11.10-20.31.08:175][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-20.31.08:175][267]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap
+[2025.11.10-20.31.08:177][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.10-20.31.08:179][267]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.10-20.31.08:194][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.10-20.31.08:194][267]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.11.10-20.31.08:194][267]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.11.10-20.31.08:196][267]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.11.10-20.31.08:202][267]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2025.11.10-20.31.08:385][268]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.11.10-20.31.10:062][401]LogSlate: Window 'Message Log' being destroyed
+[2025.11.10-20.31.10:089][401]LogSlate: Window 'Message Log' being destroyed
+[2025.11.10-20.31.15:202][889]Cmd: DELETE
+[2025.11.10-20.31.15:202][889]Cmd: ACTOR DELETE
+[2025.11.10-20.31.15:213][889]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2025.11.10-20.31.15:229][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.11.10-20.31.15:231][889]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: ================================================
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Total job queries 18,454, among them cache hits 1,811 (9.81%), DDC hits 12,366 (67.01%), Duplicates 3,623 (19.63%)
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Tracking 13,020 distinct input hashes that result in 11,911 distinct outputs (91.48%)
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: RAM used: 158.76 MiB of 3.20 GiB budget. Usage: 4.84%
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Shaders Compiled: 654
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Jobs assigned 654, completed 654 (100%)
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Average time worker was idle: 51.51 s
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Time job spent in pending queue: average 2.29 s, longest 17.18 s
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Job execution time: average 3.64 s, max 17.21 s
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Job life time (pending + execution): average 5.93 s, max 20.15
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Shader code size: total 10.01 MiB, numShaders 682, average 15.029 KiB, min 1.727 KiB, max 55.505 KiB
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 57.07 s
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.24%
+[2025.11.10-20.31.33:218][507]LogShaderCompilers: Display: Jobs were issued in 294 batches (only local compilation was used), average 2.22 jobs/batch
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Average processing rate: 11.46 jobs/sec
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Total thread time: 609.324 s
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Total thread preprocess time: 170.241 s
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Percentage time preprocessing: 27.94%
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Effective parallelization: 10.68 (times faster than compiling all shaders on one thread). Compare with number of workers: 16 - 0.667267
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 3.05 sec, max 3.63 sec, min 1.76 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 3.04 sec, max 4.25 sec, min 2.66 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled   80 times, average 2.78 sec, max 3.69 sec, min 2.07 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 2.76 sec, max 3.74 sec, min 2.29 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 36.46% of total time (compiled   80 times, average 2.78 sec, max 3.69 sec, min 2.07 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 8.02% of total time (compiled   16 times, average 3.05 sec, max 3.63 sec, min 1.76 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 5.68% of total time (compiled   33 times, average 1.05 sec, max 2.60 sec, min 0.64 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 5.43% of total time (compiled   60 times, average 0.55 sec, max 1.87 sec, min 0.21 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 3.99% of total time (compiled    8 times, average 3.04 sec, max 4.25 sec, min 2.66 sec)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: === Material stats ===
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Materials Translated:    160
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Material Translation Only: 0.06 s (52%)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.11.10-20.31.33:219][507]LogShaderCompilers: Display: ================================================
+[2025.11.10-20.32.06:896][794]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2025.11.10-20.32.06:911][794]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/0C/U1WLPB15JNVXKSDIL8HVRV_Auto1
+[2025.11.10-20.32.06:911][794]LogSavePackage: Moving '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/U1WLPB15JNVXKSDIL8HVRV_Auto1D9CBA6FD4912793A44B037875ECAD0C3.tmp' to '../../../../../../Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/0C/U1WLPB15JNVXKSDIL8HVRV_Auto1.uasset'
+[2025.11.10-20.32.06:911][794]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.030
+[2025.11.10-20.32.06:911][794]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
