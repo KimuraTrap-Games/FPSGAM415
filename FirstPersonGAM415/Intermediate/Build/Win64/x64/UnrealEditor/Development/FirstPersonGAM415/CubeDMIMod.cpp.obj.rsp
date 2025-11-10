@@ -1,17 +1,18 @@
-"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Source\FirstPersonGAM415\CubeDMIMod.cpp"
-/FI"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\FirstPersonGAM415Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPersonGAM415\Definitions.FirstPersonGAM415.h"
-/Yu"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\FirstPersonGAM415Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\FirstPersonGAM415Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPersonGAM415\CubeDMIMod.cpp.obj"
-/experimental:log "C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPersonGAM415\CubeDMIMod.cpp.sarif"
-/sourceDependencies "C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPersonGAM415\CubeDMIMod.cpp.dep.json"
-@"C:\Users\scott\Desktop\FPSGAM415\FirstPersonGAM415\Intermediate\Build\Win64\x64\UnrealEditor\Development\FirstPersonGAM415\FirstPersonGAM415.Shared.rsp"
+"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Source/FirstPersonGAM415/CubeDMIMod.cpp"
+@"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/UnrealEditor/Development/FirstPersonGAM415/FirstPersonGAM415.Shared.rsp"
+/FI"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/FirstPersonGAM415Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/FI"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/UnrealEditor/Development/FirstPersonGAM415/Definitions.FirstPersonGAM415.h"
+/Yu"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/FirstPersonGAM415Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h"
+/Fp"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/FirstPersonGAM415Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.pch"
+/Fo"C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/UnrealEditor/Development/FirstPersonGAM415/CubeDMIMod.cpp.obj"
+/experimental:log "C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/UnrealEditor/Development/FirstPersonGAM415/CubeDMIMod.cpp.sarif"
+/sourceDependencies "C:/Users/scott/Desktop/FPSGAM415/FirstPersonGAM415/Intermediate/Build/Win64/x64/UnrealEditor/Development/FirstPersonGAM415/CubeDMIMod.cpp.dep.json"
 /d2ssa-cfg-question-
 /Zc:inline
 /nologo
 /Oi
 /FC
+/diagnostics:caret
 /c
 /Gw
 /Gy
@@ -39,15 +40,14 @@
 /fp:fast
 /Zo
 /Zp8
+/W4
 /we4456
 /we4458
 /we4459
-/we4668
 /wd4244
 /wd4838
 /TP
 /GR-
-/W4
 /std:c++20
 /Zc:preprocessor
 /wd5054

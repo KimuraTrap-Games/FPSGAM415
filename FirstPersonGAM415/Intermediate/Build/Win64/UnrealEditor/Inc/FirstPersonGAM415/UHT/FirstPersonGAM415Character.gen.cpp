@@ -6,10 +6,12 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/FirstPersonGAM415Character.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeFirstPersonGAM415Character() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
@@ -18,16 +20,40 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Character();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Character_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AFirstPersonGAM415Character
+// ********** Begin Class AFirstPersonGAM415Character **********************************************
 void AFirstPersonGAM415Character::StaticRegisterNativesAFirstPersonGAM415Character()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AFirstPersonGAM415Character);
+FClassRegistrationInfo Z_Registration_Info_UClass_AFirstPersonGAM415Character;
+UClass* AFirstPersonGAM415Character::GetPrivateStaticClass()
+{
+	using TClass = AFirstPersonGAM415Character;
+	if (!Z_Registration_Info_UClass_AFirstPersonGAM415Character.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("FirstPersonGAM415Character"),
+			Z_Registration_Info_UClass_AFirstPersonGAM415Character.InnerSingleton,
+			StaticRegisterNativesAFirstPersonGAM415Character,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AFirstPersonGAM415Character.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AFirstPersonGAM415Character_NoRegister()
 {
-	return AFirstPersonGAM415Character::StaticClass();
+	return AFirstPersonGAM415Character::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AFirstPersonGAM415Character_Statics
 {
@@ -163,7 +189,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AFirstPersonGAM415Chara
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Character_Statics::PropPointers),
 	0,
-	0x008000A4u,
+	0x008001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Character_Statics::Class_MetaDataParams), Z_Construct_UClass_AFirstPersonGAM415Character_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AFirstPersonGAM415Character()
@@ -174,24 +200,21 @@ UClass* Z_Construct_UClass_AFirstPersonGAM415Character()
 	}
 	return Z_Registration_Info_UClass_AFirstPersonGAM415Character.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<AFirstPersonGAM415Character>()
-{
-	return AFirstPersonGAM415Character::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AFirstPersonGAM415Character);
 AFirstPersonGAM415Character::~AFirstPersonGAM415Character() {}
-// End Class AFirstPersonGAM415Character
+// ********** End Class AFirstPersonGAM415Character ************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonGAM415Character, AFirstPersonGAM415Character::StaticClass, TEXT("AFirstPersonGAM415Character"), &Z_Registration_Info_UClass_AFirstPersonGAM415Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Character), 775302850U) },
+		{ Z_Construct_UClass_AFirstPersonGAM415Character, AFirstPersonGAM415Character::StaticClass, TEXT("AFirstPersonGAM415Character"), &Z_Registration_Info_UClass_AFirstPersonGAM415Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Character), 4196837567U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_3381545085(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h__Script_FirstPersonGAM415_2591581512(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Character_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

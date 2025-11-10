@@ -36,71 +36,71 @@
     <ClCompile Include="..\..\Source\FirstPersonGAM415\CubeDMIMod.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\CubeDMIMod.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\CubeDMIMod.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <None Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415.Build.cs">
       <Filter>Source\FirstPersonGAM415</Filter>
     </None>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Character.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Character.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Character.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415GameMode.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415GameMode.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415GameMode.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415PickUpComponent.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415PickUpComponent.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415PickUpComponent.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Projectile.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Projectile.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415Projectile.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415WeaponComponent.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415WeaponComponent.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\FirstPersonGAM415WeaponComponent.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\PerlinProcTerrain.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\PerlinProcTerrain.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\PerlinProcTerrain.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\Portal.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\Portal.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\Portal.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcMeshFromStatic.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcMeshFromStatic.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\ProcMeshFromStatic.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
     <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcPlane.cpp">
       <Filter>Source\FirstPersonGAM415</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\FirstPersonGAM415\ProcPlane.h">
+    <ClInclude Include="..\..\Source\FirstPersonGAM415\ProcPlane.h">
       <Filter>Source\FirstPersonGAM415</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

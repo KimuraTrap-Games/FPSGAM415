@@ -6,19 +6,21 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/PerlinProcTerrain.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodePerlinProcTerrain() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_APerlinProcTerrain();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_APerlinProcTerrain_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class APerlinProcTerrain Function AlterMesh
+// ********** Begin Class APerlinProcTerrain Function AlterMesh ************************************
 struct Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics
 {
 	struct PerlinProcTerrain_eventAlterMesh_Parms
@@ -39,7 +41,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APerli
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::NewProp_impactPoint,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APerlinProcTerrain, nullptr, "AlterMesh", nullptr, nullptr, Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PerlinProcTerrain_eventAlterMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_APerlinProcTerrain, nullptr, "AlterMesh", Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PropPointers), sizeof(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PerlinProcTerrain_eventAlterMesh_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_APerlinProcTerrain_AlterMesh_Statics::PerlinProcTerrain_eventAlterMesh_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_APerlinProcTerrain_AlterMesh()
 {
@@ -58,9 +60,9 @@ DEFINE_FUNCTION(APerlinProcTerrain::execAlterMesh)
 	P_THIS->AlterMesh(Z_Param_impactPoint);
 	P_NATIVE_END;
 }
-// End Class APerlinProcTerrain Function AlterMesh
+// ********** End Class APerlinProcTerrain Function AlterMesh **************************************
 
-// Begin Class APerlinProcTerrain
+// ********** Begin Class APerlinProcTerrain *******************************************************
 void APerlinProcTerrain::StaticRegisterNativesAPerlinProcTerrain()
 {
 	UClass* Class = APerlinProcTerrain::StaticClass();
@@ -69,10 +71,34 @@ void APerlinProcTerrain::StaticRegisterNativesAPerlinProcTerrain()
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APerlinProcTerrain);
+FClassRegistrationInfo Z_Registration_Info_UClass_APerlinProcTerrain;
+UClass* APerlinProcTerrain::GetPrivateStaticClass()
+{
+	using TClass = APerlinProcTerrain;
+	if (!Z_Registration_Info_UClass_APerlinProcTerrain.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("PerlinProcTerrain"),
+			Z_Registration_Info_UClass_APerlinProcTerrain.InnerSingleton,
+			StaticRegisterNativesAPerlinProcTerrain,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_APerlinProcTerrain.InnerSingleton;
+}
 UClass* Z_Construct_UClass_APerlinProcTerrain_NoRegister()
 {
-	return APerlinProcTerrain::StaticClass();
+	return APerlinProcTerrain::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_APerlinProcTerrain_Statics
 {
@@ -136,7 +162,7 @@ struct Z_Construct_UClass_APerlinProcTerrain_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_APerlinProcTerrain_AlterMesh, "AlterMesh" }, // 4156420800
+		{ &Z_Construct_UFunction_APerlinProcTerrain_AlterMesh, "AlterMesh" }, // 1743749024
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -182,7 +208,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_APerlinProcTerrain_Stat
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_APerlinProcTerrain_Statics::PropPointers),
 	0,
-	0x009000A4u,
+	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APerlinProcTerrain_Statics::Class_MetaDataParams), Z_Construct_UClass_APerlinProcTerrain_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_APerlinProcTerrain()
@@ -193,24 +219,21 @@ UClass* Z_Construct_UClass_APerlinProcTerrain()
 	}
 	return Z_Registration_Info_UClass_APerlinProcTerrain.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<APerlinProcTerrain>()
-{
-	return APerlinProcTerrain::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(APerlinProcTerrain);
 APerlinProcTerrain::~APerlinProcTerrain() {}
-// End Class APerlinProcTerrain
+// ********** End Class APerlinProcTerrain *********************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APerlinProcTerrain, APerlinProcTerrain::StaticClass, TEXT("APerlinProcTerrain"), &Z_Registration_Info_UClass_APerlinProcTerrain, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APerlinProcTerrain), 2245774347U) },
+		{ Z_Construct_UClass_APerlinProcTerrain, APerlinProcTerrain::StaticClass, TEXT("APerlinProcTerrain"), &Z_Registration_Info_UClass_APerlinProcTerrain, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APerlinProcTerrain), 2269110041U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h_4215648261(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h__Script_FirstPersonGAM415_2983458280(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_PerlinProcTerrain_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

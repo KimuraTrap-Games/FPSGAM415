@@ -6,11 +6,13 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/Portal.h"
-#include "Runtime/Engine/Classes/Engine/HitResult.h"
+#include "Engine/HitResult.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodePortal() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UArrowComponent_NoRegister();
@@ -25,9 +27,9 @@ FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Character_NoR
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_APortal();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_APortal_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class APortal Function OnOverlapBegin
+// ********** Begin Class APortal Function OnOverlapBegin ******************************************
 struct Z_Construct_UFunction_APortal_OnOverlapBegin_Statics
 {
 	struct Portal_eventOnOverlapBegin_Parms
@@ -72,7 +74,7 @@ void Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_bFromSweep_Se
 	((Portal_eventOnOverlapBegin_Parms*)Obj)->bFromSweep = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(Portal_eventOnOverlapBegin_Parms), &Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventOnOverlapBegin_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 4100991306
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Portal_eventOnOverlapBegin_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 267591329
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_OverlappedComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_OtherActor,
@@ -82,7 +84,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APorta
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::NewProp_SweepResult,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "OnOverlapBegin", nullptr, nullptr, Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Portal_eventOnOverlapBegin_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "OnOverlapBegin", Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Portal_eventOnOverlapBegin_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00420401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_APortal_OnOverlapBegin_Statics::Portal_eventOnOverlapBegin_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_APortal_OnOverlapBegin()
 {
@@ -106,9 +108,9 @@ DEFINE_FUNCTION(APortal::execOnOverlapBegin)
 	P_THIS->OnOverlapBegin(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
 	P_NATIVE_END;
 }
-// End Class APortal Function OnOverlapBegin
+// ********** End Class APortal Function OnOverlapBegin ********************************************
 
-// Begin Class APortal Function SetBool
+// ********** Begin Class APortal Function SetBool *************************************************
 struct Z_Construct_UFunction_APortal_SetBool_Statics
 {
 	struct Portal_eventSetBool_Parms
@@ -129,7 +131,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APorta
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APortal_SetBool_Statics::NewProp_playerChar,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_SetBool_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_SetBool_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "SetBool", nullptr, nullptr, Z_Construct_UFunction_APortal_SetBool_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_SetBool_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_SetBool_Statics::Portal_eventSetBool_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_SetBool_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_SetBool_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_SetBool_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "SetBool", Z_Construct_UFunction_APortal_SetBool_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_SetBool_Statics::PropPointers), sizeof(Z_Construct_UFunction_APortal_SetBool_Statics::Portal_eventSetBool_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_SetBool_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_SetBool_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_APortal_SetBool_Statics::Portal_eventSetBool_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_APortal_SetBool()
 {
@@ -148,9 +150,9 @@ DEFINE_FUNCTION(APortal::execSetBool)
 	P_THIS->SetBool(Z_Param_playerChar);
 	P_NATIVE_END;
 }
-// End Class APortal Function SetBool
+// ********** End Class APortal Function SetBool ***************************************************
 
-// Begin Class APortal Function UpdatePortal
+// ********** Begin Class APortal Function UpdatePortal ********************************************
 struct Z_Construct_UFunction_APortal_UpdatePortal_Statics
 {
 #if WITH_METADATA
@@ -160,7 +162,7 @@ struct Z_Construct_UFunction_APortal_UpdatePortal_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_UpdatePortal_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "UpdatePortal", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_UpdatePortal_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_UpdatePortal_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_APortal_UpdatePortal_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_APortal, nullptr, "UpdatePortal", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_APortal_UpdatePortal_Statics::Function_MetaDataParams), Z_Construct_UFunction_APortal_UpdatePortal_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_APortal_UpdatePortal()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -177,9 +179,9 @@ DEFINE_FUNCTION(APortal::execUpdatePortal)
 	P_THIS->UpdatePortal();
 	P_NATIVE_END;
 }
-// End Class APortal Function UpdatePortal
+// ********** End Class APortal Function UpdatePortal **********************************************
 
-// Begin Class APortal
+// ********** Begin Class APortal ******************************************************************
 void APortal::StaticRegisterNativesAPortal()
 {
 	UClass* Class = APortal::StaticClass();
@@ -190,10 +192,34 @@ void APortal::StaticRegisterNativesAPortal()
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(APortal);
+FClassRegistrationInfo Z_Registration_Info_UClass_APortal;
+UClass* APortal::GetPrivateStaticClass()
+{
+	using TClass = APortal;
+	if (!Z_Registration_Info_UClass_APortal.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("Portal"),
+			Z_Registration_Info_UClass_APortal.InnerSingleton,
+			StaticRegisterNativesAPortal,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_APortal.InnerSingleton;
+}
 UClass* Z_Construct_UClass_APortal_NoRegister()
 {
-	return APortal::StaticClass();
+	return APortal::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_APortal_Statics
 {
@@ -245,9 +271,9 @@ struct Z_Construct_UClass_APortal_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_APortal_OnOverlapBegin, "OnOverlapBegin" }, // 1891310109
-		{ &Z_Construct_UFunction_APortal_SetBool, "SetBool" }, // 1444752793
-		{ &Z_Construct_UFunction_APortal_UpdatePortal, "UpdatePortal" }, // 4260999253
+		{ &Z_Construct_UFunction_APortal_OnOverlapBegin, "OnOverlapBegin" }, // 3002705252
+		{ &Z_Construct_UFunction_APortal_SetBool, "SetBool" }, // 1065392043
+		{ &Z_Construct_UFunction_APortal_UpdatePortal, "UpdatePortal" }, // 931380545
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -289,7 +315,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_APortal_Statics::ClassP
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_APortal_Statics::PropPointers),
 	0,
-	0x009000A4u,
+	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_APortal_Statics::Class_MetaDataParams), Z_Construct_UClass_APortal_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_APortal()
@@ -300,24 +326,21 @@ UClass* Z_Construct_UClass_APortal()
 	}
 	return Z_Registration_Info_UClass_APortal.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<APortal>()
-{
-	return APortal::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(APortal);
 APortal::~APortal() {}
-// End Class APortal
+// ********** End Class APortal ********************************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_APortal, APortal::StaticClass, TEXT("APortal"), &Z_Registration_Info_UClass_APortal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APortal), 3838258529U) },
+		{ Z_Construct_UClass_APortal, APortal::StaticClass, TEXT("APortal"), &Z_Registration_Info_UClass_APortal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(APortal), 2026393064U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_3757046200(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h__Script_FirstPersonGAM415_3988361142(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_Portal_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,5 +1,18 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.FirstPersonGAM415.gen.cpp.obj": [
+			"CubeDMIMod.gen.cpp.obj",
+			"FirstPersonGAM415.init.gen.cpp.obj",
+			"FirstPersonGAM415Character.gen.cpp.obj",
+			"FirstPersonGAM415GameMode.gen.cpp.obj",
+			"FirstPersonGAM415PickUpComponent.gen.cpp.obj",
+			"FirstPersonGAM415Projectile.gen.cpp.obj",
+			"FirstPersonGAM415WeaponComponent.gen.cpp.obj",
+			"PerlinProcTerrain.gen.cpp.obj",
+			"Portal.gen.cpp.obj",
+			"ProcMeshFromStatic.gen.cpp.obj",
+			"ProcPlane.gen.cpp.obj"
+		]
 	}
 }

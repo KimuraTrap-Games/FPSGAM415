@@ -6,10 +6,12 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/ProcMeshFromStatic.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeProcMeshFromStatic() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -17,16 +19,40 @@ ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcMeshFromStatic();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcMeshFromStatic_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AProcMeshFromStatic
+// ********** Begin Class AProcMeshFromStatic ******************************************************
 void AProcMeshFromStatic::StaticRegisterNativesAProcMeshFromStatic()
 {
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AProcMeshFromStatic);
+FClassRegistrationInfo Z_Registration_Info_UClass_AProcMeshFromStatic;
+UClass* AProcMeshFromStatic::GetPrivateStaticClass()
+{
+	using TClass = AProcMeshFromStatic;
+	if (!Z_Registration_Info_UClass_AProcMeshFromStatic.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("ProcMeshFromStatic"),
+			Z_Registration_Info_UClass_AProcMeshFromStatic.InnerSingleton,
+			StaticRegisterNativesAProcMeshFromStatic,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AProcMeshFromStatic.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AProcMeshFromStatic_NoRegister()
 {
-	return AProcMeshFromStatic::StaticClass();
+	return AProcMeshFromStatic::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AProcMeshFromStatic_Statics
 {
@@ -107,7 +133,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AProcMeshFromStatic_Sta
 	0,
 	UE_ARRAY_COUNT(Z_Construct_UClass_AProcMeshFromStatic_Statics::PropPointers),
 	0,
-	0x009000A4u,
+	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AProcMeshFromStatic_Statics::Class_MetaDataParams), Z_Construct_UClass_AProcMeshFromStatic_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AProcMeshFromStatic()
@@ -118,24 +144,21 @@ UClass* Z_Construct_UClass_AProcMeshFromStatic()
 	}
 	return Z_Registration_Info_UClass_AProcMeshFromStatic.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<AProcMeshFromStatic>()
-{
-	return AProcMeshFromStatic::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AProcMeshFromStatic);
 AProcMeshFromStatic::~AProcMeshFromStatic() {}
-// End Class AProcMeshFromStatic
+// ********** End Class AProcMeshFromStatic ********************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProcMeshFromStatic, AProcMeshFromStatic::StaticClass, TEXT("AProcMeshFromStatic"), &Z_Registration_Info_UClass_AProcMeshFromStatic, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcMeshFromStatic), 2082727458U) },
+		{ Z_Construct_UClass_AProcMeshFromStatic, AProcMeshFromStatic::StaticClass, TEXT("AProcMeshFromStatic"), &Z_Registration_Info_UClass_AProcMeshFromStatic, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcMeshFromStatic), 3305162049U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_3468713761(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h__Script_FirstPersonGAM415_3892294936(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

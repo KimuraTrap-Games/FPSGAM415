@@ -6,11 +6,13 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/FirstPersonGAM415PickUpComponent.h"
-#include "Runtime/Engine/Classes/Engine/HitResult.h"
+#include "Engine/HitResult.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeFirstPersonGAM415PickUpComponent() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USphereComponent();
@@ -20,9 +22,9 @@ FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpCompone
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_NoRegister();
 FIRSTPERSONGAM415_API UFunction* Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Delegate FOnPickUp
+// ********** Begin Delegate FOnPickUp *************************************************************
 struct Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics
 {
 	struct _Script_FirstPersonGAM415_eventOnPickUp_Parms
@@ -42,21 +44,21 @@ struct Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignatu
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_PickUpCharacter;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-	static const UECodeGen_Private::FFunctionParams FuncParams;
+	static const UECodeGen_Private::FDelegateFunctionParams FuncParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::NewProp_PickUpCharacter = { "PickUpCharacter", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(_Script_FirstPersonGAM415_eventOnPickUp_Parms, PickUpCharacter), Z_Construct_UClass_AFirstPersonGAM415Character_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::NewProp_PickUpCharacter,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_FirstPersonGAM415, nullptr, "OnPickUp__DelegateSignature", nullptr, nullptr, Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::_Script_FirstPersonGAM415_eventOnPickUp_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FDelegateFunctionParams Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UPackage__Script_FirstPersonGAM415, nullptr, "OnPickUp__DelegateSignature", Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::PropPointers), sizeof(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::_Script_FirstPersonGAM415_eventOnPickUp_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::_Script_FirstPersonGAM415_eventOnPickUp_Parms) < MAX_uint16);
 UFunction* Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature()
 {
 	static UFunction* ReturnFunction = nullptr;
 	if (!ReturnFunction)
 	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::FuncParams);
+		UECodeGen_Private::ConstructUDelegateFunction(&ReturnFunction, Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature_Statics::FuncParams);
 	}
 	return ReturnFunction;
 }
@@ -70,9 +72,9 @@ void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, AFirstP
 	Parms.PickUpCharacter=PickUpCharacter;
 	OnPickUp.ProcessMulticastDelegate<UObject>(&Parms);
 }
-// End Delegate FOnPickUp
+// ********** End Delegate FOnPickUp ***************************************************************
 
-// Begin Class UFirstPersonGAM415PickUpComponent Function OnSphereBeginOverlap
+// ********** Begin Class UFirstPersonGAM415PickUpComponent Function OnSphereBeginOverlap **********
 struct Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics
 {
 	struct FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms
@@ -123,7 +125,7 @@ void Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverla
 	((FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms*)Obj)->bFromSweep = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_bFromSweep = { "bFromSweep", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms), &Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_bFromSweep_SetBit, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 4100991306
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_SweepResult = { "SweepResult", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms, SweepResult), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SweepResult_MetaData), NewProp_SweepResult_MetaData) }; // 267591329
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_OverlappedComponent,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_OtherActor,
@@ -133,7 +135,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFirst
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::NewProp_SweepResult,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415PickUpComponent, nullptr, "OnSphereBeginOverlap", nullptr, nullptr, Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415PickUpComponent, nullptr, "OnSphereBeginOverlap", Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00480401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap_Statics::FirstPersonGAM415PickUpComponent_eventOnSphereBeginOverlap_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap()
 {
@@ -157,9 +159,9 @@ DEFINE_FUNCTION(UFirstPersonGAM415PickUpComponent::execOnSphereBeginOverlap)
 	P_THIS->OnSphereBeginOverlap(Z_Param_OverlappedComponent,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
 	P_NATIVE_END;
 }
-// End Class UFirstPersonGAM415PickUpComponent Function OnSphereBeginOverlap
+// ********** End Class UFirstPersonGAM415PickUpComponent Function OnSphereBeginOverlap ************
 
-// Begin Class UFirstPersonGAM415PickUpComponent
+// ********** Begin Class UFirstPersonGAM415PickUpComponent ****************************************
 void UFirstPersonGAM415PickUpComponent::StaticRegisterNativesUFirstPersonGAM415PickUpComponent()
 {
 	UClass* Class = UFirstPersonGAM415PickUpComponent::StaticClass();
@@ -168,10 +170,34 @@ void UFirstPersonGAM415PickUpComponent::StaticRegisterNativesUFirstPersonGAM415P
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UFirstPersonGAM415PickUpComponent);
+FClassRegistrationInfo Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent;
+UClass* UFirstPersonGAM415PickUpComponent::GetPrivateStaticClass()
+{
+	using TClass = UFirstPersonGAM415PickUpComponent;
+	if (!Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("FirstPersonGAM415PickUpComponent"),
+			Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent.InnerSingleton,
+			StaticRegisterNativesUFirstPersonGAM415PickUpComponent,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_NoRegister()
 {
-	return UFirstPersonGAM415PickUpComponent::StaticClass();
+	return UFirstPersonGAM415PickUpComponent::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics
 {
@@ -200,7 +226,7 @@ struct Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 373861886
+		{ &Z_Construct_UFunction_UFirstPersonGAM415PickUpComponent_OnSphereBeginOverlap, "OnSphereBeginOverlap" }, // 1810253100
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -208,7 +234,7 @@ struct Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics
 	};
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
-const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics::NewProp_OnPickUp = { "OnPickUp", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonGAM415PickUpComponent, OnPickUp), Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnPickUp_MetaData), NewProp_OnPickUp_MetaData) }; // 3636028329
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics::NewProp_OnPickUp = { "OnPickUp", nullptr, (EPropertyFlags)0x0010000010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UFirstPersonGAM415PickUpComponent, OnPickUp), Z_Construct_UDelegateFunction_FirstPersonGAM415_OnPickUp__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnPickUp_MetaData), NewProp_OnPickUp_MetaData) }; // 167979214
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics::NewProp_OnPickUp,
 };
@@ -241,24 +267,21 @@ UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpComponent()
 	}
 	return Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<UFirstPersonGAM415PickUpComponent>()
-{
-	return UFirstPersonGAM415PickUpComponent::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UFirstPersonGAM415PickUpComponent);
 UFirstPersonGAM415PickUpComponent::~UFirstPersonGAM415PickUpComponent() {}
-// End Class UFirstPersonGAM415PickUpComponent
+// ********** End Class UFirstPersonGAM415PickUpComponent ******************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFirstPersonGAM415PickUpComponent, UFirstPersonGAM415PickUpComponent::StaticClass, TEXT("UFirstPersonGAM415PickUpComponent"), &Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonGAM415PickUpComponent), 1283984396U) },
+		{ Z_Construct_UClass_UFirstPersonGAM415PickUpComponent, UFirstPersonGAM415PickUpComponent::StaticClass, TEXT("UFirstPersonGAM415PickUpComponent"), &Z_Registration_Info_UClass_UFirstPersonGAM415PickUpComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonGAM415PickUpComponent), 2425333045U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_1897080833(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h__Script_FirstPersonGAM415_1502332032(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

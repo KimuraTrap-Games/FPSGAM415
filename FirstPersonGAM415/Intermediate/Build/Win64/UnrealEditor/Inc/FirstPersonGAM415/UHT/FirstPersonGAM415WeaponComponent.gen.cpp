@@ -6,10 +6,12 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/FirstPersonGAM415WeaponComponent.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeFirstPersonGAM415WeaponComponent() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
@@ -23,9 +25,9 @@ FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile_No
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415WeaponComponent();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415WeaponComponent_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class UFirstPersonGAM415WeaponComponent Function AttachWeapon
+// ********** Begin Class UFirstPersonGAM415WeaponComponent Function AttachWeapon ******************
 struct Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics
 {
 	struct FirstPersonGAM415WeaponComponent_eventAttachWeapon_Parms
@@ -62,7 +64,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFirst
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "AttachWeapon", nullptr, nullptr, Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::FirstPersonGAM415WeaponComponent_eventAttachWeapon_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "AttachWeapon", Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::FirstPersonGAM415WeaponComponent_eventAttachWeapon_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon_Statics::FirstPersonGAM415WeaponComponent_eventAttachWeapon_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon()
 {
@@ -81,9 +83,9 @@ DEFINE_FUNCTION(UFirstPersonGAM415WeaponComponent::execAttachWeapon)
 	*(bool*)Z_Param__Result=P_THIS->AttachWeapon(Z_Param_TargetCharacter);
 	P_NATIVE_END;
 }
-// End Class UFirstPersonGAM415WeaponComponent Function AttachWeapon
+// ********** End Class UFirstPersonGAM415WeaponComponent Function AttachWeapon ********************
 
-// Begin Class UFirstPersonGAM415WeaponComponent Function EndPlay
+// ********** Begin Class UFirstPersonGAM415WeaponComponent Function EndPlay ***********************
 struct Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics
 {
 	struct FirstPersonGAM415WeaponComponent_eventEndPlay_Parms
@@ -113,7 +115,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UFirst
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::NewProp_EndPlayReason,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "EndPlay", nullptr, nullptr, Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::FirstPersonGAM415WeaponComponent_eventEndPlay_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "EndPlay", Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::PropPointers), sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::FirstPersonGAM415WeaponComponent_eventEndPlay_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay_Statics::FirstPersonGAM415WeaponComponent_eventEndPlay_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay()
 {
@@ -132,9 +134,9 @@ DEFINE_FUNCTION(UFirstPersonGAM415WeaponComponent::execEndPlay)
 	P_THIS->EndPlay(EEndPlayReason::Type(Z_Param_EndPlayReason));
 	P_NATIVE_END;
 }
-// End Class UFirstPersonGAM415WeaponComponent Function EndPlay
+// ********** End Class UFirstPersonGAM415WeaponComponent Function EndPlay *************************
 
-// Begin Class UFirstPersonGAM415WeaponComponent Function Fire
+// ********** Begin Class UFirstPersonGAM415WeaponComponent Function Fire **************************
 struct Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics
 {
 #if WITH_METADATA
@@ -151,7 +153,7 @@ struct Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "Fire", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, nullptr, "Fire", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::Function_MetaDataParams), Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -168,9 +170,9 @@ DEFINE_FUNCTION(UFirstPersonGAM415WeaponComponent::execFire)
 	P_THIS->Fire();
 	P_NATIVE_END;
 }
-// End Class UFirstPersonGAM415WeaponComponent Function Fire
+// ********** End Class UFirstPersonGAM415WeaponComponent Function Fire ****************************
 
-// Begin Class UFirstPersonGAM415WeaponComponent
+// ********** Begin Class UFirstPersonGAM415WeaponComponent ****************************************
 void UFirstPersonGAM415WeaponComponent::StaticRegisterNativesUFirstPersonGAM415WeaponComponent()
 {
 	UClass* Class = UFirstPersonGAM415WeaponComponent::StaticClass();
@@ -181,10 +183,34 @@ void UFirstPersonGAM415WeaponComponent::StaticRegisterNativesUFirstPersonGAM415W
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(UFirstPersonGAM415WeaponComponent);
+FClassRegistrationInfo Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent;
+UClass* UFirstPersonGAM415WeaponComponent::GetPrivateStaticClass()
+{
+	using TClass = UFirstPersonGAM415WeaponComponent;
+	if (!Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("FirstPersonGAM415WeaponComponent"),
+			Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent.InnerSingleton,
+			StaticRegisterNativesUFirstPersonGAM415WeaponComponent,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent.InnerSingleton;
+}
 UClass* Z_Construct_UClass_UFirstPersonGAM415WeaponComponent_NoRegister()
 {
-	return UFirstPersonGAM415WeaponComponent::StaticClass();
+	return UFirstPersonGAM415WeaponComponent::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_UFirstPersonGAM415WeaponComponent_Statics
 {
@@ -270,9 +296,9 @@ struct Z_Construct_UClass_UFirstPersonGAM415WeaponComponent_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon, "AttachWeapon" }, // 763887338
-		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay, "EndPlay" }, // 2299880528
-		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire, "Fire" }, // 959263415
+		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_AttachWeapon, "AttachWeapon" }, // 4176338034
+		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_EndPlay, "EndPlay" }, // 2553251949
+		{ &Z_Construct_UFunction_UFirstPersonGAM415WeaponComponent_Fire, "Fire" }, // 1284744225
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -323,24 +349,21 @@ UClass* Z_Construct_UClass_UFirstPersonGAM415WeaponComponent()
 	}
 	return Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<UFirstPersonGAM415WeaponComponent>()
-{
-	return UFirstPersonGAM415WeaponComponent::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(UFirstPersonGAM415WeaponComponent);
 UFirstPersonGAM415WeaponComponent::~UFirstPersonGAM415WeaponComponent() {}
-// End Class UFirstPersonGAM415WeaponComponent
+// ********** End Class UFirstPersonGAM415WeaponComponent ******************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, UFirstPersonGAM415WeaponComponent::StaticClass, TEXT("UFirstPersonGAM415WeaponComponent"), &Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonGAM415WeaponComponent), 159406607U) },
+		{ Z_Construct_UClass_UFirstPersonGAM415WeaponComponent, UFirstPersonGAM415WeaponComponent::StaticClass, TEXT("UFirstPersonGAM415WeaponComponent"), &Z_Registration_Info_UClass_UFirstPersonGAM415WeaponComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UFirstPersonGAM415WeaponComponent), 37728444U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h_81676423(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h__Script_FirstPersonGAM415_3194490956(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415WeaponComponent_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

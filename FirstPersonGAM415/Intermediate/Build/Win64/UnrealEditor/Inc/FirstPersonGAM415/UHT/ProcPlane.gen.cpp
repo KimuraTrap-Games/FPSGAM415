@@ -6,10 +6,12 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/ProcPlane.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeProcPlane() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -17,9 +19,9 @@ ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcPlane();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcPlane_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AProcPlane Function CreateMesh
+// ********** Begin Class AProcPlane Function CreateMesh *******************************************
 struct Z_Construct_UFunction_AProcPlane_CreateMesh_Statics
 {
 #if WITH_METADATA
@@ -29,7 +31,7 @@ struct Z_Construct_UFunction_AProcPlane_CreateMesh_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AProcPlane, nullptr, "CreateMesh", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AProcPlane, nullptr, "CreateMesh", nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::Function_MetaDataParams), Z_Construct_UFunction_AProcPlane_CreateMesh_Statics::Function_MetaDataParams)},  };
 UFunction* Z_Construct_UFunction_AProcPlane_CreateMesh()
 {
 	static UFunction* ReturnFunction = nullptr;
@@ -46,9 +48,9 @@ DEFINE_FUNCTION(AProcPlane::execCreateMesh)
 	P_THIS->CreateMesh();
 	P_NATIVE_END;
 }
-// End Class AProcPlane Function CreateMesh
+// ********** End Class AProcPlane Function CreateMesh *********************************************
 
-// Begin Class AProcPlane
+// ********** Begin Class AProcPlane ***************************************************************
 void AProcPlane::StaticRegisterNativesAProcPlane()
 {
 	UClass* Class = AProcPlane::StaticClass();
@@ -57,10 +59,34 @@ void AProcPlane::StaticRegisterNativesAProcPlane()
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AProcPlane);
+FClassRegistrationInfo Z_Registration_Info_UClass_AProcPlane;
+UClass* AProcPlane::GetPrivateStaticClass()
+{
+	using TClass = AProcPlane;
+	if (!Z_Registration_Info_UClass_AProcPlane.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("ProcPlane"),
+			Z_Registration_Info_UClass_AProcPlane.InnerSingleton,
+			StaticRegisterNativesAProcPlane,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AProcPlane.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AProcPlane_NoRegister()
 {
-	return AProcPlane::StaticClass();
+	return AProcPlane::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AProcPlane_Statics
 {
@@ -102,7 +128,7 @@ struct Z_Construct_UClass_AProcPlane_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AProcPlane_CreateMesh, "CreateMesh" }, // 57776731
+		{ &Z_Construct_UFunction_AProcPlane_CreateMesh, "CreateMesh" }, // 289894251
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -144,7 +170,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AProcPlane_Statics::Cla
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_AProcPlane_Statics::PropPointers),
 	0,
-	0x009000A4u,
+	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AProcPlane_Statics::Class_MetaDataParams), Z_Construct_UClass_AProcPlane_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AProcPlane()
@@ -155,24 +181,21 @@ UClass* Z_Construct_UClass_AProcPlane()
 	}
 	return Z_Registration_Info_UClass_AProcPlane.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<AProcPlane>()
-{
-	return AProcPlane::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AProcPlane);
 AProcPlane::~AProcPlane() {}
-// End Class AProcPlane
+// ********** End Class AProcPlane *****************************************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AProcPlane, AProcPlane::StaticClass, TEXT("AProcPlane"), &Z_Registration_Info_UClass_AProcPlane, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcPlane), 973133246U) },
+		{ Z_Construct_UClass_AProcPlane, AProcPlane::StaticClass, TEXT("AProcPlane"), &Z_Registration_Info_UClass_AProcPlane, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AProcPlane), 3098044599U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_2585562313(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h__Script_FirstPersonGAM415_2423474382(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcPlane_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

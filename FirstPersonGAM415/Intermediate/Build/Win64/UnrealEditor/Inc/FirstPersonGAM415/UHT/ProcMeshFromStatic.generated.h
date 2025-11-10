@@ -5,30 +5,35 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "ProcMeshFromStatic.h"
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #ifdef FIRSTPERSONGAM415_ProcMeshFromStatic_generated_h
 #error "ProcMeshFromStatic.generated.h already included, missing '#pragma once' in ProcMeshFromStatic.h"
 #endif
 #define FIRSTPERSONGAM415_ProcMeshFromStatic_generated_h
 
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+// ********** Begin Class AProcMeshFromStatic ******************************************************
+FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcMeshFromStatic_NoRegister();
+
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAProcMeshFromStatic(); \
 	friend struct Z_Construct_UClass_AProcMeshFromStatic_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AProcMeshFromStatic_NoRegister(); \
 public: \
-	DECLARE_CLASS(AProcMeshFromStatic, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonGAM415"), NO_API) \
+	DECLARE_CLASS2(AProcMeshFromStatic, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonGAM415"), Z_Construct_UClass_AProcMeshFromStatic_NoRegister) \
 	DECLARE_SERIALIZER(AProcMeshFromStatic)
 
 
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h_13_ENHANCED_CONSTRUCTORS \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	AProcMeshFromStatic(AProcMeshFromStatic&&); \
-	AProcMeshFromStatic(const AProcMeshFromStatic&); \
-public: \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	AProcMeshFromStatic(AProcMeshFromStatic&&) = delete; \
+	AProcMeshFromStatic(const AProcMeshFromStatic&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AProcMeshFromStatic); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProcMeshFromStatic); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AProcMeshFromStatic) \
@@ -45,10 +50,11 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<class AProcMeshFromStatic>();
+class AProcMeshFromStatic;
+
+// ********** End Class AProcMeshFromStatic ********************************************************
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_ProcMeshFromStatic_h
-
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

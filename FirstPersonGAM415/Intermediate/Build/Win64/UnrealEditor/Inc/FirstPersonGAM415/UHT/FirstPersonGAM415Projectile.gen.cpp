@@ -6,11 +6,13 @@
 
 #include "UObject/GeneratedCppIncludes.h"
 #include "FirstPersonGAM415/FirstPersonGAM415Projectile.h"
-#include "Runtime/Engine/Classes/Engine/HitResult.h"
+#include "Engine/HitResult.h"
+
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
 void EmptyLinkFunctionForGeneratedCodeFirstPersonGAM415Projectile() {}
 
-// Begin Cross Module References
+// ********** Begin Cross Module References ********************************************************
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FLinearColor();
 COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 ENGINE_API UClass* Z_Construct_UClass_AActor();
@@ -27,9 +29,9 @@ FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile();
 FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile_NoRegister();
 NIAGARA_API UClass* Z_Construct_UClass_UNiagaraSystem_NoRegister();
 UPackage* Z_Construct_UPackage__Script_FirstPersonGAM415();
-// End Cross Module References
+// ********** End Cross Module References **********************************************************
 
-// Begin Class AFirstPersonGAM415Projectile Function OnHit
+// ********** Begin Class AFirstPersonGAM415Projectile Function OnHit ******************************
 struct Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics
 {
 	struct FirstPersonGAM415Projectile_eventOnHit_Parms
@@ -72,7 +74,7 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPerso
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_OtherActor = { "OtherActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415Projectile_eventOnHit_Parms, OtherActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_OtherComp = { "OtherComp", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415Projectile_eventOnHit_Parms, OtherComp), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OtherComp_MetaData), NewProp_OtherComp_MetaData) };
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_NormalImpulse = { "NormalImpulse", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415Projectile_eventOnHit_Parms, NormalImpulse), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415Projectile_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hit_MetaData), NewProp_Hit_MetaData) }; // 4100991306
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_Hit = { "Hit", nullptr, (EPropertyFlags)0x0010008008000182, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FirstPersonGAM415Projectile_eventOnHit_Parms, Hit), Z_Construct_UScriptStruct_FHitResult, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hit_MetaData), NewProp_Hit_MetaData) }; // 267591329
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_HitComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_OtherActor,
@@ -81,7 +83,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AFirst
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::NewProp_Hit,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AFirstPersonGAM415Projectile, nullptr, "OnHit", nullptr, nullptr, Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers), sizeof(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::FirstPersonGAM415Projectile_eventOnHit_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::FuncParams = { { (UObject*(*)())Z_Construct_UClass_AFirstPersonGAM415Projectile, nullptr, "OnHit", Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::PropPointers), sizeof(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::FirstPersonGAM415Projectile_eventOnHit_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00C20401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::Function_MetaDataParams), Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::Function_MetaDataParams)},  };
 static_assert(sizeof(Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit_Statics::FirstPersonGAM415Projectile_eventOnHit_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit()
 {
@@ -104,9 +106,9 @@ DEFINE_FUNCTION(AFirstPersonGAM415Projectile::execOnHit)
 	P_THIS->OnHit(Z_Param_HitComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_NormalImpulse,Z_Param_Out_Hit);
 	P_NATIVE_END;
 }
-// End Class AFirstPersonGAM415Projectile Function OnHit
+// ********** End Class AFirstPersonGAM415Projectile Function OnHit ********************************
 
-// Begin Class AFirstPersonGAM415Projectile
+// ********** Begin Class AFirstPersonGAM415Projectile *********************************************
 void AFirstPersonGAM415Projectile::StaticRegisterNativesAFirstPersonGAM415Projectile()
 {
 	UClass* Class = AFirstPersonGAM415Projectile::StaticClass();
@@ -115,10 +117,34 @@ void AFirstPersonGAM415Projectile::StaticRegisterNativesAFirstPersonGAM415Projec
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
-IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AFirstPersonGAM415Projectile);
+FClassRegistrationInfo Z_Registration_Info_UClass_AFirstPersonGAM415Projectile;
+UClass* AFirstPersonGAM415Projectile::GetPrivateStaticClass()
+{
+	using TClass = AFirstPersonGAM415Projectile;
+	if (!Z_Registration_Info_UClass_AFirstPersonGAM415Projectile.InnerSingleton)
+	{
+		GetPrivateStaticClassBody(
+			StaticPackage(),
+			TEXT("FirstPersonGAM415Projectile"),
+			Z_Registration_Info_UClass_AFirstPersonGAM415Projectile.InnerSingleton,
+			StaticRegisterNativesAFirstPersonGAM415Projectile,
+			sizeof(TClass),
+			alignof(TClass),
+			TClass::StaticClassFlags,
+			TClass::StaticClassCastFlags(),
+			TClass::StaticConfigName(),
+			(UClass::ClassConstructorType)InternalConstructor<TClass>,
+			(UClass::ClassVTableHelperCtorCallerType)InternalVTableHelperCtorCaller<TClass>,
+			UOBJECT_CPPCLASS_STATICFUNCTIONS_FORCLASS(TClass),
+			&TClass::Super::StaticClass,
+			&TClass::WithinClass::StaticClass
+		);
+	}
+	return Z_Registration_Info_UClass_AFirstPersonGAM415Projectile.InnerSingleton;
+}
 UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile_NoRegister()
 {
-	return AFirstPersonGAM415Projectile::StaticClass();
+	return AFirstPersonGAM415Projectile::GetPrivateStaticClass();
 }
 struct Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics
 {
@@ -185,7 +211,7 @@ struct Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit, "OnHit" }, // 4202320473
+		{ &Z_Construct_UFunction_AFirstPersonGAM415Projectile_OnHit, "OnHit" }, // 1976931031
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -229,7 +255,7 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_AFirstPersonGAM415Proje
 	UE_ARRAY_COUNT(FuncInfo),
 	UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::PropPointers),
 	0,
-	0x008000A4u,
+	0x008001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::Class_MetaDataParams), Z_Construct_UClass_AFirstPersonGAM415Projectile_Statics::Class_MetaDataParams)
 };
 UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile()
@@ -240,24 +266,21 @@ UClass* Z_Construct_UClass_AFirstPersonGAM415Projectile()
 	}
 	return Z_Registration_Info_UClass_AFirstPersonGAM415Projectile.OuterSingleton;
 }
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<AFirstPersonGAM415Projectile>()
-{
-	return AFirstPersonGAM415Projectile::StaticClass();
-}
 DEFINE_VTABLE_PTR_HELPER_CTOR(AFirstPersonGAM415Projectile);
 AFirstPersonGAM415Projectile::~AFirstPersonGAM415Projectile() {}
-// End Class AFirstPersonGAM415Projectile
+// ********** End Class AFirstPersonGAM415Projectile ***********************************************
 
-// Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics
+// ********** Begin Registration *******************************************************************
+struct Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h__Script_FirstPersonGAM415_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AFirstPersonGAM415Projectile, AFirstPersonGAM415Projectile::StaticClass, TEXT("AFirstPersonGAM415Projectile"), &Z_Registration_Info_UClass_AFirstPersonGAM415Projectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Projectile), 3189585893U) },
+		{ Z_Construct_UClass_AFirstPersonGAM415Projectile, AFirstPersonGAM415Projectile::StaticClass, TEXT("AFirstPersonGAM415Projectile"), &Z_Registration_Info_UClass_AFirstPersonGAM415Projectile, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AFirstPersonGAM415Projectile), 4232394922U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_2704618706(TEXT("/Script/FirstPersonGAM415"),
-	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h__Script_FirstPersonGAM415_1437301659(TEXT("/Script/FirstPersonGAM415"),
+	Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h__Script_FirstPersonGAM415_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415Projectile_h__Script_FirstPersonGAM415_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
-// End Registration
+// ********** End Registration *********************************************************************
+
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

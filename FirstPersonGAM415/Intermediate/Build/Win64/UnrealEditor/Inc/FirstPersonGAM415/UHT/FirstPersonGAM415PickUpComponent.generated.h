@@ -5,42 +5,51 @@
 ===========================================================================*/
 
 // IWYU pragma: private, include "FirstPersonGAM415PickUpComponent.h"
-#include "UObject/ObjectMacros.h"
-#include "UObject/ScriptMacros.h"
 
-PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class AActor;
-class AFirstPersonGAM415Character;
-class UPrimitiveComponent;
-struct FHitResult;
 #ifdef FIRSTPERSONGAM415_FirstPersonGAM415PickUpComponent_generated_h
 #error "FirstPersonGAM415PickUpComponent.generated.h already included, missing '#pragma once' in FirstPersonGAM415PickUpComponent.h"
 #endif
 #define FIRSTPERSONGAM415_FirstPersonGAM415PickUpComponent_generated_h
 
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+
+class AActor;
+class AFirstPersonGAM415Character;
+class UPrimitiveComponent;
+struct FHitResult;
+
+// ********** Begin Delegate FOnPickUp *************************************************************
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_12_DELEGATE \
 FIRSTPERSONGAM415_API void FOnPickUp_DelegateWrapper(const FMulticastScriptDelegate& OnPickUp, AFirstPersonGAM415Character* PickUpCharacter);
 
 
+// ********** End Delegate FOnPickUp ***************************************************************
+
+// ********** Begin Class UFirstPersonGAM415PickUpComponent ****************************************
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execOnSphereBeginOverlap);
 
+
+FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_NoRegister();
 
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUFirstPersonGAM415PickUpComponent(); \
 	friend struct Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_Statics; \
+	static UClass* GetPrivateStaticClass(); \
+	friend FIRSTPERSONGAM415_API UClass* Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_NoRegister(); \
 public: \
-	DECLARE_CLASS(UFirstPersonGAM415PickUpComponent, USphereComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonGAM415"), NO_API) \
+	DECLARE_CLASS2(UFirstPersonGAM415PickUpComponent, USphereComponent, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/FirstPersonGAM415"), Z_Construct_UClass_UFirstPersonGAM415PickUpComponent_NoRegister) \
 	DECLARE_SERIALIZER(UFirstPersonGAM415PickUpComponent)
 
 
 #define FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h_17_ENHANCED_CONSTRUCTORS \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	UFirstPersonGAM415PickUpComponent(UFirstPersonGAM415PickUpComponent&&); \
-	UFirstPersonGAM415PickUpComponent(const UFirstPersonGAM415PickUpComponent&); \
-public: \
+	/** Deleted move- and copy-constructors, should never be used */ \
+	UFirstPersonGAM415PickUpComponent(UFirstPersonGAM415PickUpComponent&&) = delete; \
+	UFirstPersonGAM415PickUpComponent(const UFirstPersonGAM415PickUpComponent&) = delete; \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UFirstPersonGAM415PickUpComponent); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UFirstPersonGAM415PickUpComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UFirstPersonGAM415PickUpComponent) \
@@ -58,10 +67,11 @@ private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-template<> FIRSTPERSONGAM415_API UClass* StaticClass<class UFirstPersonGAM415PickUpComponent>();
+class UFirstPersonGAM415PickUpComponent;
+
+// ********** End Class UFirstPersonGAM415PickUpComponent ******************************************
 
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID FID_Users_scott_Desktop_FPSGAM415_FirstPersonGAM415_Source_FirstPersonGAM415_FirstPersonGAM415PickUpComponent_h
-
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
